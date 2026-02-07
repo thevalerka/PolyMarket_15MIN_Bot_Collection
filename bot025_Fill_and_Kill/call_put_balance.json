@@ -1,0 +1,20 @@
+{
+  "CALL": {
+    "timestamp": "2026-01-22T11:14:10.188702",
+    "usdc_balance": 1.550004,
+    "call_balance": 0,
+    "call_positions": 0,
+    "in_sleep_mode": true,
+    "trading_enabled": false,
+    "max_positions": 5
+  },
+  "PUT": {
+    "timestamp": "2026-01-22T11:14:09.938751",
+    "usdc_balance": 6.01,
+    "put_balance": 0,
+    "put_positions": 0,
+    "in_sleep_mode": false,
+    "trading_enabled": true,
+    "max_positions": 5
+  }
+}

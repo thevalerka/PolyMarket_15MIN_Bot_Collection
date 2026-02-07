@@ -1,0 +1,60 @@
+{
+  "period_start": "2026-01-13T08:30:00+00:00",
+  "period_end": "2026-01-13T08:45:01.921584+00:00",
+  "strike_price": 91954.69,
+  "final_price": 92131.62,
+  "price_movement": 176.92999999999302,
+  "calls_won": true,
+  "puts_won": false,
+  "retracements": {
+    "call_bid": {
+      "count": 0,
+      "total_width": 0.0,
+      "avg_width": 0.0,
+      "max_width": 0.0,
+      "min_width": 0.0,
+      "up_count": 0,
+      "down_count": 0,
+      "retracements": []
+    },
+    "call_ask": {
+      "count": 0,
+      "total_width": 0.0,
+      "avg_width": 0.0,
+      "max_width": 0.0,
+      "min_width": 0.0,
+      "up_count": 0,
+      "down_count": 0,
+      "retracements": []
+    },
+    "put_bid": {
+      "count": 0,
+      "total_width": 0.0,
+      "avg_width": 0.0,
+      "max_width": 0.0,
+      "min_width": 0.0,
+      "up_count": 0,
+      "down_count": 0,
+      "retracements": []
+    },
+    "put_ask": {
+      "count": 0,
+      "total_width": 0.0,
+      "avg_width": 0.0,
+      "max_width": 0.0,
+      "min_width": 0.0,
+      "up_count": 0,
+      "down_count": 0,
+      "retracements": []
+    }
+  },
+  "trades": [],
+  "summary": {
+    "total_trades": 0,
+    "call_trades": 0,
+    "put_trades": 0,
+    "total_pnl": 0.0,
+    "call_pnl": 0.0,
+    "put_pnl": 0.0
+  }
+}

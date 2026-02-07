@@ -1,0 +1,16 @@
+{
+  "timestamp": 1767888750709,
+  "datetime": "2026-01-08T16:12:30.709000",
+  "current_price": 90727.73,
+  "strike_price": 90781.57,
+  "period_start_price": 90781.57,
+  "price_change_pct": -0.059307191977414644,
+  "time_to_expiry_minutes": 2.4864802646589093,
+  "volatility": 0.5486714795027255,
+  "volatility_method": "ewma",
+  "call_probability": 0.30941265496047266,
+  "put_probability": 0.6905873450395273,
+  "moneyness": 0.9994069280802258,
+  "minute_data_age_seconds": 2.0043067932128906,
+  "minute_data_last_fetch": "2026-01-08T16:12:30.198699"
+}

@@ -1,0 +1,500 @@
+{
+  "period_start": "2026-01-10T14:15:00+00:00",
+  "period_end": "2026-01-10T14:30:02.362987+00:00",
+  "strike_price": 90609.32,
+  "final_price": 90619.52,
+  "price_movement": 10.19999999999709,
+  "calls_won": true,
+  "puts_won": false,
+  "retracements": {
+    "call_bid": {
+      "count": 12,
+      "total_width": 1.55,
+      "avg_width": 0.12916666666666668,
+      "max_width": 0.2899999999999999,
+      "min_width": 0.040000000000000036,
+      "up_count": 7,
+      "down_count": 5,
+      "retracements": [
+        {
+          "direction": "down",
+          "from": 0.53,
+          "to": 0.41,
+          "width": 0.12000000000000005,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:16:18.310528+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.4,
+          "to": 0.69,
+          "width": 0.2899999999999999,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:19:41.384454+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.68,
+          "to": 0.75,
+          "width": 0.06999999999999995,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:20:16.244286+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.74,
+          "to": 0.8,
+          "width": 0.06000000000000005,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:22:58.687484+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.8,
+          "to": 0.68,
+          "width": 0.12,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:24:48.871197+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.68,
+          "to": 0.75,
+          "width": 0.06999999999999995,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:25:06.145570+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.75,
+          "to": 0.71,
+          "width": 0.040000000000000036,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:25:23.505643+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.71,
+          "to": 0.86,
+          "width": 0.15000000000000002,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:26:15.701789+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.86,
+          "to": 0.69,
+          "width": 0.17000000000000004,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:26:33.030119+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.69,
+          "to": 0.84,
+          "width": 0.15000000000000002,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:28:17.370948+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.84,
+          "to": 0.6,
+          "width": 0.24,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:28:52.062128+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.6,
+          "to": 0.67,
+          "width": 0.07000000000000006,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-10T14:30:01.883726+00:00"
+        }
+      ]
+    },
+    "call_ask": {
+      "count": 10,
+      "total_width": 1.4900000000000002,
+      "avg_width": 0.14900000000000002,
+      "max_width": 0.35000000000000003,
+      "min_width": 0.06000000000000005,
+      "up_count": 6,
+      "down_count": 4,
+      "retracements": [
+        {
+          "direction": "down",
+          "from": 0.54,
+          "to": 0.42,
+          "width": 0.12000000000000005,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:16:18.310544+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.41,
+          "to": 0.76,
+          "width": 0.35000000000000003,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:20:33.552241+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.75,
+          "to": 0.81,
+          "width": 0.06000000000000005,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:22:58.687497+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.81,
+          "to": 0.69,
+          "width": 0.1200000000000001,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:24:48.871210+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.69,
+          "to": 0.76,
+          "width": 0.07000000000000006,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:25:06.145587+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.73,
+          "to": 0.87,
+          "width": 0.14,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:26:15.701808+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.87,
+          "to": 0.71,
+          "width": 0.16000000000000003,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:26:50.281779+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.71,
+          "to": 0.86,
+          "width": 0.15000000000000002,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:28:17.370966+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.86,
+          "to": 0.62,
+          "width": 0.24,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:29:26.570225+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.62,
+          "to": 0.7,
+          "width": 0.07999999999999996,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-10T14:30:01.883750+00:00"
+        }
+      ]
+    },
+    "put_bid": {
+      "count": 10,
+      "total_width": 1.4899999999999998,
+      "avg_width": 0.14899999999999997,
+      "max_width": 0.35,
+      "min_width": 0.06,
+      "up_count": 4,
+      "down_count": 6,
+      "retracements": [
+        {
+          "direction": "up",
+          "from": 0.46,
+          "to": 0.58,
+          "width": 0.11999999999999994,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:16:18.310548+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.59,
+          "to": 0.24,
+          "width": 0.35,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:20:33.552252+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.25,
+          "to": 0.19,
+          "width": 0.06,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:22:58.687500+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.19,
+          "to": 0.31,
+          "width": 0.12,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:24:48.871214+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.31,
+          "to": 0.24,
+          "width": 0.07,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:25:06.145591+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.27,
+          "to": 0.13,
+          "width": 0.14,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:26:15.701812+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.13,
+          "to": 0.29,
+          "width": 0.15999999999999998,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:26:50.281790+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.29,
+          "to": 0.14,
+          "width": 0.14999999999999997,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:28:17.370971+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.14,
+          "to": 0.38,
+          "width": 0.24,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:29:26.570235+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.38,
+          "to": 0.3,
+          "width": 0.08000000000000002,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-10T14:30:01.883756+00:00"
+        }
+      ]
+    },
+    "put_ask": {
+      "count": 11,
+      "total_width": 1.51,
+      "avg_width": 0.13727272727272727,
+      "max_width": 0.29,
+      "min_width": 0.06,
+      "up_count": 4,
+      "down_count": 7,
+      "retracements": [
+        {
+          "direction": "up",
+          "from": 0.47,
+          "to": 0.59,
+          "width": 0.12,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:16:18.310551+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.6,
+          "to": 0.31,
+          "width": 0.29,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:19:41.384494+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.32,
+          "to": 0.25,
+          "width": 0.07,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:20:16.244302+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.26,
+          "to": 0.2,
+          "width": 0.06,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:22:58.687503+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.2,
+          "to": 0.32,
+          "width": 0.12,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:24:48.871216+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.32,
+          "to": 0.25,
+          "width": 0.07,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:25:06.145593+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.29,
+          "to": 0.14,
+          "width": 0.14999999999999997,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:26:15.701816+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.14,
+          "to": 0.31,
+          "width": 0.16999999999999998,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:26:33.030138+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.31,
+          "to": 0.16,
+          "width": 0.15,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:28:17.370975+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.16,
+          "to": 0.4,
+          "width": 0.24000000000000002,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:28:52.062144+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.4,
+          "to": 0.33,
+          "width": 0.07,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-10T14:30:01.883761+00:00"
+        }
+      ]
+    }
+  },
+  "trades": [
+    {
+      "entry_time": "2026-01-10T14:15:37.373112+00:00",
+      "side": "CALL",
+      "entry_price": 0.44,
+      "size": 5.0,
+      "choppiness": 26.481795891356075,
+      "time_to_expiry_seconds": 862,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 1.0,
+      "pnl": 2.8000000000000003,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T14:19:11.279024+00:00",
+      "side": "PUT",
+      "entry_price": 0.34,
+      "size": 5.0,
+      "choppiness": 32.30053253806521,
+      "time_to_expiry_seconds": 648,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 0.0,
+      "pnl": -1.7000000000000002,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T14:22:46.041944+00:00",
+      "side": "PUT",
+      "entry_price": 0.19,
+      "size": 5.0,
+      "choppiness": 33.78033856453568,
+      "time_to_expiry_seconds": 433,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 0.0,
+      "pnl": -0.95,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T14:24:36.239047+00:00",
+      "side": "CALL",
+      "entry_price": 0.68,
+      "size": 5.0,
+      "choppiness": 24.247956844134375,
+      "time_to_expiry_seconds": 323,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 1.0,
+      "pnl": 1.5999999999999996,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T14:27:53.015853+00:00",
+      "side": "PUT",
+      "entry_price": 0.16,
+      "size": 5.0,
+      "choppiness": 23.551935934478124,
+      "time_to_expiry_seconds": 126,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 0.0,
+      "pnl": -0.8,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T14:28:28.242648+00:00",
+      "side": "CALL",
+      "entry_price": 0.63,
+      "size": 5.0,
+      "choppiness": 21.174864989560533,
+      "time_to_expiry_seconds": 91,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 1.0,
+      "pnl": 1.85,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T14:29:54.769966+00:00",
+      "side": "PUT",
+      "entry_price": 0.3,
+      "size": 5.0,
+      "choppiness": 21.174864989560533,
+      "time_to_expiry_seconds": 5,
+      "strike_price": 90609.32,
+      "final_price": 90619.52,
+      "final_value": 0.0,
+      "pnl": -1.5,
+      "won": false
+    }
+  ],
+  "summary": {
+    "total_trades": 7,
+    "call_trades": 3,
+    "put_trades": 4,
+    "total_pnl": 1.2999999999999998,
+    "call_pnl": 6.25,
+    "put_pnl": -4.95
+  }
+}

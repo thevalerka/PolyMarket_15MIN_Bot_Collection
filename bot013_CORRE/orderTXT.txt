@@ -1,0 +1,135 @@
+======================================================================
+🎯 EXECUTING PAIR TRADE x2
+======================================================================
+📊 Pair: ETH PUT + SOL CALL
+💰 PUT ask: $0.2700
+💰 CALL ask: $0.4600
+💵 Total cost: $0.7300 x 2 = $1.46
+📦 Position size: 10.00 per leg
+🎯 Auto-sell price: $0.99
+======================================================================
+
+🔵 LEG 1: Buying PUT...
+   Attempt 1/3
+   ℹ️  Position check: 0.00 tokens (expected 10.00)
+✅ BUY order placed: 10 tokens @ $0.2700 = $2.70
+   Order ID: 0xf476fd713564645c0fdb5901838902d883ad8fac08d66647fd78ae3248f194d5
+   ✅ Order filled (status: MATCHED)
+✅ LEG 1 confirmed: ETH PUT
+📤 Placing sell order for PUT @ $0.99...
+❌ Insufficient balance: 0.00 < 10.00
+⚠️  PUT sell order failed - position still held
+
+🔵 LEG 2: Buying CALL (MANDATORY)...
+   Attempt 1/3
+   ℹ️  Position check: 0.00 tokens (expected 10.00)
+✅ BUY order placed: 10 tokens @ $0.4600 = $4.60
+   Order ID: 0x3ef63709299bc8217b89f94f4512dd80acea5b4622b9bf4df4d7598ac5cfeef5
+   ✅ Order filled (status: MATCHED)
+✅ LEG 2 confirmed: SOL CALL
+📤 Placing sell order for CALL @ $0.99...
+❌ Insufficient balance: 0.00 < 10.00
+⚠️  CALL sell order failed - position still held
+
+======================================================================
+🎉 PAIR TRADE COMPLETED WITH AUTO-SELL ORDERS
+======================================================================
+
+
+
+
+
+======================================================================
+🔍 VERIFYING POSITIONS AND SELL ORDERS
+======================================================================
+
+📊 Checking BTC PUT:
+   Balance: 15.00 tokens
+❌ Error getting open orders: 'list' object has no attribute 'get'
+   ⚠️  No sell order found - placing now...
+📤 Placing sell order for BTC PUT @ $0.99...
+❌ Error getting open orders: 'list' object has no attribute 'get'
+❌ Error placing SELL order: PolyApiException[status_code=400, error_message={'error': 'not enough balance / allowance'}]
+   ❌ Sell order failed
+   ❌ Failed to place sell order
+
+📊 Checking XRP CALL:
+   Balance: 15.00 tokens
+❌ Error getting open orders: 'list' object has no attribute 'get'
+   ⚠️  No sell order found - placing now...
+📤 Placing sell order for XRP CALL @ $0.99...
+❌ Error getting open orders: 'list' object has no attribute 'get'
+❌ Error placing SELL order: PolyApiException[status_code=400, error_message={'error': 'not enough balance / allowance'}]
+   ❌ Sell order failed
+   ❌ Failed to place sell order
+
+
+
+
+
+   EG 1: Buying PUT...
+   Attempt 1/3
+   🔍 DEBUG: Checking balance for token 4073836994544391...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=4073836994544391...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '0', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=0, balance_tokens=0.000000
+   🔍 DEBUG: Raw balance: 0, Tokens: 0.000000
+   🔍 DEBUG: Expected: 5.000000, Threshold (95%): 4.750000
+   ℹ️  Position check: 0.00 tokens (expected 5.00)
+✅ BUY order placed: 5 tokens @ $0.4500 = $2.25
+   Order ID: 0x10e06813a0503ebfda83a1d60adc0060d658f85675d2b69f267644733f306de7
+
+
+
+   ce: balance_raw=5000000, balance_tokens=5.000000
+   🔍 DEBUG check_token_balanc
+
+
+
+
+
+🔵 LEG 1: Buying PUT...
+   Attempt 1/3
+   🔍 DEBUG: Checking balance for token 4073836994544391...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=4073836994544391...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '0', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=0, balance_tokens=0.000000
+   🔍 DEBUG: Raw balance: 0, Tokens: 0.000000
+   🔍 DEBUG: Expected: 5.000000, Threshold (95%): 4.750000
+   ℹ️  Position check: 0.00 tokens (expected 5.00)
+✅ BUY order placed: 5 tokens @ $0.4500 = $2.25
+   Order ID: 0x10e06813a0503ebfda83a1d60adc0060d658f85675d2b69f267644733f306de7
+   ✅ Order filled (status: MATCHED)
+✅ LEG 1 confirmed: XRP PUT
+📤 Placing sell order for XRP PUT @ $0.99...
+❌ Error getting open orders: 'list' object has no attribute 'get'
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=4073836994544391...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '5000000', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=5000000, balance_tokens=5.000000
+✅ SELL order placed: 5 tokens @ $0.9900 = $4.95
+   Order ID: 0x998c2497d5e44e554ebd010e579bd56db6aff33a57454a8d55380dad5653f796
+❌ Error getting open orders: 'list' object has no attribute 'get'
+   ⚠️  Sell order not found in open orders
+
+🔵 LEG 2: Buying CALL (MANDATORY)...
+   Attempt 1/3
+   🔍 DEBUG: Checking balance for token 5955702536168367...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=5955702536168367...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '0', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=0, balance_tokens=0.000000
+   🔍 DEBUG: Raw balance: 0, Tokens: 0.000000
+   🔍 DEBUG: Expected: 5.000000, Threshold (95%): 4.750000
+   ℹ️  Position check: 0.00 tokens (expected 5.00)
+✅ BUY order placed: 5 tokens @ $0.3000 = $1.50
+   Order ID: 0x8e1018e24206adb3dfcd28e58644a3d8774e033dc4e5fd7cb6bc64b77f6f2b4e
+   ✅ Order filled (status: MATCHED)
+✅ LEG 2 confirmed: ETH CALL
+📤 Placing sell order for ETH CALL @ $0.99...
+❌ Error getting open orders: 'list' object has no attribute 'get'
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=5955702536168367...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '0', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067

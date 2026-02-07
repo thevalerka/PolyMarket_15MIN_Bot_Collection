@@ -1,0 +1,84 @@
+{
+  "period_start": "2026-01-10T06:00:00+00:00",
+  "period_end": "2026-01-10T06:15:00.904408+00:00",
+  "strike_price": 90603.52,
+  "final_price": 90580.01,
+  "price_movement": -23.510000000009313,
+  "calls_won": false,
+  "puts_won": true,
+  "trades": [
+    {
+      "entry_time": "2026-01-10T05:54:25.925676+00:00",
+      "side": "CALL",
+      "entry_price": 0.52,
+      "size": 5.0,
+      "choppiness": 21.321703013899086,
+      "time_to_expiry_seconds": 334,
+      "strike_price": 90603.52,
+      "final_price": 90580.01,
+      "final_value": 0.0,
+      "pnl": -2.6,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T05:55:18.322217+00:00",
+      "side": "PUT",
+      "entry_price": 0.5,
+      "size": 5.0,
+      "choppiness": 23.810836234646775,
+      "time_to_expiry_seconds": 281,
+      "strike_price": 90603.52,
+      "final_price": 90580.01,
+      "final_value": 1.0,
+      "pnl": 2.5,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T05:57:20.789636+00:00",
+      "side": "PUT",
+      "entry_price": 0.2,
+      "size": 5.0,
+      "choppiness": 26.37403109808435,
+      "time_to_expiry_seconds": 159,
+      "strike_price": 90603.52,
+      "final_price": 90580.01,
+      "final_value": 1.0,
+      "pnl": 4.0,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T05:59:28.380954+00:00",
+      "side": "CALL",
+      "entry_price": 0.38,
+      "size": 5.0,
+      "choppiness": 41.67945582523952,
+      "time_to_expiry_seconds": 31,
+      "strike_price": 90603.52,
+      "final_price": 90580.01,
+      "final_value": 0.0,
+      "pnl": -1.9,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T06:01:04.628963+00:00",
+      "side": "PUT",
+      "entry_price": 0.49,
+      "size": 5.0,
+      "choppiness": 45.85552764689337,
+      "time_to_expiry_seconds": 835,
+      "strike_price": 90603.52,
+      "final_price": 90580.01,
+      "final_value": 1.0,
+      "pnl": 2.55,
+      "won": true
+    }
+  ],
+  "summary": {
+    "total_trades": 5,
+    "call_trades": 2,
+    "put_trades": 3,
+    "total_pnl": 4.55,
+    "call_pnl": -4.5,
+    "put_pnl": 9.05
+  }
+}

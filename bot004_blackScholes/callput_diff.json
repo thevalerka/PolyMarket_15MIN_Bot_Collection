@@ -1,0 +1,77 @@
+{
+  "analysis_timestamp": "2025-08-15T15:24:26.934555+00:00",
+  "data_timestamps": {
+    "probabilities": 1755271466451,
+    "call_market": "1755271455266",
+    "put_market": "1755271455250"
+  },
+  "theoretical_probabilities": {
+    "call_probability": 0.42854002,
+    "put_probability": 0.57145998,
+    "probability_sum": 1.0
+  },
+  "market_prices": {
+    "call": {
+      "best_bid": 0.43,
+      "best_ask": 0.47,
+      "mid_price": 0.45,
+      "spread": 0.04
+    },
+    "put": {
+      "best_bid": 0.53,
+      "best_ask": 0.57,
+      "mid_price": 0.55,
+      "spread": 0.04
+    }
+  },
+  "differences": {
+    "call": {
+      "vs_bid": {
+        "dollars": -0.00145998,
+        "percent": -0.3395
+      },
+      "vs_ask": {
+        "dollars": -0.04145998,
+        "percent": -8.8213
+      },
+      "vs_mid": {
+        "dollars": -0.02145998,
+        "percent": -4.7689
+      }
+    },
+    "put": {
+      "vs_bid": {
+        "dollars": 0.04145998,
+        "percent": 7.8226
+      },
+      "vs_ask": {
+        "dollars": 0.00145998,
+        "percent": 0.2561
+      },
+      "vs_mid": {
+        "dollars": 0.02145998,
+        "percent": 3.9018
+      }
+    }
+  },
+  "market_analysis": {
+    "call_overpriced_vs_theory": true,
+    "put_overpriced_vs_theory": false,
+    "total_market_price_sum": 1.0,
+    "arbitrage_opportunity": false,
+    "market_vs_theory_divergence": {
+      "call_divergence_abs": 0.021459983056166476,
+      "put_divergence_abs": 0.021459983056166476,
+      "total_divergence": 0.04291996611233295
+    },
+    "market_bias_analysis": {
+      "market_favors_call": true,
+      "market_favors_put": false,
+      "market_confidence_vs_theory": {
+        "call_market_confidence": -0.1,
+        "call_theory_confidence": -0.1429,
+        "confidence_gap": 0.0429
+      }
+    }
+  }
+}

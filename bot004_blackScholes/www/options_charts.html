@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call/Put Options Real-time Charts</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        .chart-section {
+            margin-bottom: 40px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        .histogram-container {
+            position: relative;
+            height: 150px;
+        }
+        h1 {
+            text-align: center;
+            color: #00ff88;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #ffaa00;
+            margin-bottom: 15px;
+        }
+        .status {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Call/Put Options Real-time Analysis</h1>
+        <div class="status" id="status">Loading data...</div>
+
+        <div class="chart-section">
+            <h2>CALL Options</h2>
+            <div class="chart-container">
+                <canvas id="callChart"></canvas>
+            </div>
+            <div class="histogram-container">
+                <canvas id="callHistogram"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <h2>PUT Options</h2>
+            <div class="chart-container">
+                <canvas id="putChart"></canvas>
+            </div>
+            <div class="histogram-container">
+                <canvas id="putHistogram"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data storage with sliding window
+        const maxPoints = 250;
+        let dataPoints = [];
+        let labels = [];
+
+        // Initialize charts
+        let callChart, putChart, callHistogram, putHistogram;
+
+        // Read data from callput_diff.json file
+        async function readDataFromFile() {
+            try {
+                const response = await fetch('callput_diff.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+
+                return {
+                    timestamp: new Date(),
+                    call: {
+                        probability: data.theoretical_probabilities.call_probability,
+                        best_bid: data.market_prices.call.best_bid,
+                        best_ask: data.market_prices.call.best_ask,
+                        mid_price: data.market_prices.call.mid_price
+                    },
+                    put: {
+                        probability: data.theoretical_probabilities.put_probability,
+                        best_bid: data.market_prices.put.best_bid,
+                        best_ask: data.market_prices.put.best_ask,
+                        mid_price: data.market_prices.put.mid_price
+                    }
+                };
+            } catch (error) {
+                console.error('Error reading data file:', error);
+                document.getElementById('status').textContent = `Error: ${error.message}`;
+                // Return fallback data if file read fails
+                return {
+                    timestamp: new Date(),
+                    call: {
+                        probability: 0.42854002,
+                        best_bid: 0.43,
+                        best_ask: 0.47,
+                        mid_price: 0.45
+                    },
+                    put: {
+                        probability: 0.57145998,
+                        best_bid: 0.53,
+                        best_ask: 0.57,
+                        mid_price: 0.55
+                    }
+                };
+            }
+        }
+
+        // Initialize charts
+        function initCharts() {
+            const chartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        type: 'linear',
+                        position: 'bottom',
+                        ticks: {
+                            color: '#ffffff',
+                            maxTicksLimit: 10
+                        },
+                        grid: {
+                            color: '#444444'
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#ffffff'
+                        },
+                        grid: {
+                            color: '#444444'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#ffffff'
+                        }
+                    }
+                },
+                elements: {
+                    point: {
+                        radius: 0
+                    }
+                }
+            };
+
+            // Call Chart
+            const callCtx = document.getElementById('callChart').getContext('2d');
+            callChart = new Chart(callCtx, {
+                type: 'line',
+                data: {
+                    datasets: [
+                        {
+                            label: 'Call Probability',
+                            data: [],
+                            borderColor: '#00ff88',
+                            backgroundColor: 'rgba(0, 255, 136, 0.1)',
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Best Bid',
+                            data: [],
+                            borderColor: '#0088ff',
+                            backgroundColor: 'rgba(0, 136, 255, 0.1)',
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Best Ask',
+                            data: [],
+                            borderColor: '#ff4444',
+                            backgroundColor: 'rgba(255, 68, 68, 0.1)',
+                            borderWidth: 2
+                        }
+                    ]
+                },
+                options: chartOptions
+            });
+
+            // Put Chart
+            const putCtx = document.getElementById('putChart').getContext('2d');
+            putChart = new Chart(putCtx, {
+                type: 'line',
+                data: {
+                    datasets: [
+                        {
+                            label: 'Put Probability',
+                            data: [],
+                            borderColor: '#00ff88',
+                            backgroundColor: 'rgba(0, 255, 136, 0.1)',
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Best Bid',
+                            data: [],
+                            borderColor: '#0088ff',
+                            backgroundColor: 'rgba(0, 136, 255, 0.1)',
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Best Ask',
+                            data: [],
+                            borderColor: '#ff4444',
+                            backgroundColor: 'rgba(255, 68, 68, 0.1)',
+                            borderWidth: 2
+                        }
+                    ]
+                },
+                options: chartOptions
+            });
+
+            // Histogram options
+            const histogramOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        type: 'linear',
+                        position: 'bottom',
+                        ticks: {
+                            color: '#ffffff',
+                            maxTicksLimit: 10
+                        },
+                        grid: {
+                            color: '#444444'
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#ffffff'
+                        },
+                        grid: {
+                            color: '#444444'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#ffffff'
+                        }
+                    }
+                }
+            };
+
+            // Call Histogram
+            const callHistCtx = document.getElementById('callHistogram').getContext('2d');
+            callHistogram = new Chart(callHistCtx, {
+                type: 'bar',
+                data: {
+                    datasets: [{
+                        label: 'Mid Price vs Probability Diff',
+                        data: [],
+                        backgroundColor: []
+                    }]
+                },
+                options: histogramOptions
+            });
+
+            // Put Histogram
+            const putHistCtx = document.getElementById('putHistogram').getContext('2d');
+            putHistogram = new Chart(putHistCtx, {
+                type: 'bar',
+                data: {
+                    datasets: [{
+                        label: 'Mid Price vs Probability Diff',
+                        data: [],
+                        backgroundColor: []
+                    }]
+                },
+                options: histogramOptions
+            });
+        }
+
+        // Update charts with new data
+        async function updateCharts() {
+            const newPoint = await readDataFromFile();
+
+            if (!newPoint) {
+                return; // Skip update if there was an error reading the file
+            }
+
+            const currentTime = dataPoints.length;
+
+            // Add new data point
+            dataPoints.push(newPoint);
+            labels.push(currentTime);
+
+            // Remove old data points if exceeding max
+            if (dataPoints.length > maxPoints) {
+                dataPoints.shift();
+                labels.shift();
+                // Adjust all labels to maintain sliding window
+                labels = labels.map((_, index) => index);
+            }
+
+            // Update Call Chart
+            const callData = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.call.probability
+            }));
+            const callBidData = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.call.best_bid
+            }));
+            const callAskData = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.call.best_ask
+            }));
+
+            callChart.data.datasets[0].data = callData;
+            callChart.data.datasets[1].data = callBidData;
+            callChart.data.datasets[2].data = callAskData;
+            callChart.update('none');
+
+            // Update Put Chart
+            const putData = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.put.probability
+            }));
+            const putBidData = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.put.best_bid
+            }));
+            const putAskData = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.put.best_ask
+            }));
+
+            putChart.data.datasets[0].data = putData;
+            putChart.data.datasets[1].data = putBidData;
+            putChart.data.datasets[2].data = putAskData;
+            putChart.update('none');
+
+            // Update Call Histogram
+            const latestCallPoint = dataPoints[dataPoints.length - 1];
+            const callDiff = latestCallPoint.call.mid_price - latestCallPoint.call.probability;
+
+            callHistogram.data.datasets[0].data = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.call.mid_price - point.call.probability
+            }));
+            callHistogram.data.datasets[0].backgroundColor = dataPoints.map(point => {
+                const diff = point.call.mid_price - point.call.probability;
+                return diff >= 0 ? '#00ff88' : '#ff4444';
+            });
+            callHistogram.update('none');
+
+            // Update Put Histogram
+            const latestPutPoint = dataPoints[dataPoints.length - 1];
+            const putDiff = latestPutPoint.put.mid_price - latestPutPoint.put.probability;
+
+            putHistogram.data.datasets[0].data = dataPoints.map((point, index) => ({
+                x: labels[index],
+                y: point.put.mid_price - point.put.probability
+            }));
+            putHistogram.data.datasets[0].backgroundColor = dataPoints.map(point => {
+                const diff = point.put.mid_price - point.put.probability;
+                return diff >= 0 ? '#00ff88' : '#ff4444';
+            });
+            putHistogram.update('none');
+
+            // Update status
+            document.getElementById('status').textContent =
+                `Last update: ${newPoint.timestamp.toLocaleTimeString()} | Points: ${dataPoints.length}/${maxPoints} | Reading from callput_diff.json`;
+        }
+
+        // Initialize everything
+        document.addEventListener('DOMContentLoaded', async function() {
+            initCharts();
+            await updateCharts(); // Initial data point
+
+            // Set up 5-second refresh
+            setInterval(updateCharts, 5000);
+        });
+    </script>
+</body>
+</html>

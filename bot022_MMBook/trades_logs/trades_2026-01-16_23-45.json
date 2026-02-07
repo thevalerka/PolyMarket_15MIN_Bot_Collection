@@ -1,0 +1,13 @@
+{
+  "period_id": "2026-01-16_23:45",
+  "start_time": "2026-01-16T23:45:00",
+  "end_time": "2026-01-17T00:00:02.233000",
+  "summary": {
+    "total_trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "pnl": 0.0,
+    "win_rate": 0
+  },
+  "trades": []
+}

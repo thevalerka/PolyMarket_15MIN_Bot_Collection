@@ -1,0 +1,95 @@
+{
+  "strategy": "strategy5C",
+  "strategy_config": {
+    "tp": 0.15,
+    "sl": null,
+    "max_buy_price": 0.99,
+    "double_down_drop": 0.25,
+    "max_positions_per_side": 2,
+    "open_at_start": true,
+    "description": "Open both sides at start, double down at -$0.25 from last entry"
+  },
+  "period_start": "2026-02-02T16:45:00",
+  "period_end": "2026-02-02T17:00:00",
+  "saved_at": "2026-02-02T17:00:00.026289",
+  "period_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.30000000000000004,
+    "TOTAL": 0.30000000000000004
+  },
+  "overall_pnl": {
+    "CALL": 2.2799999999999994,
+    "PUT": 1.6899999999999995,
+    "TOTAL": 3.9699999999999984
+  },
+  "statistics": {
+    "total_trades": 2,
+    "tp_trades": 2,
+    "sl_trades": 0,
+    "expiry_trades": 0,
+    "winning_trades": 2,
+    "losing_trades": 0,
+    "win_rate": 1.0,
+    "avg_win": 0.15000000000000002,
+    "avg_loss": 0
+  },
+  "trades": [
+    {
+      "timestamp": "2026-02-02T16:45:10.415290",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:45:10.415340",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:46:10.458297",
+      "option_type": "PUT",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.58,
+      "close_price": 0.73,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 829.541699
+    },
+    {
+      "timestamp": "2026-02-02T16:46:10.458344",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:49:40.603641",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.17,
+      "reason": "DOUBLE_DOWN"
+    },
+    {
+      "timestamp": "2026-02-02T16:50:09.123659",
+      "option_type": "PUT",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.74,
+      "close_price": 0.89,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 590.876337
+    },
+    {
+      "timestamp": "2026-02-02T16:50:09.123699",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.9,
+      "reason": "OPEN"
+    }
+  ]
+}

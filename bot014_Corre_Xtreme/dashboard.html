@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Pair Trading - Entry Prices</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0f1419;
+            color: #e1e8ed;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .period-info {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .volatility-info {
+            font-size: 1.1em;
+            margin-top: 10px;
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .timer {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .chart-wrapper {
+            background: #192734;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            height: calc(100vh - 350px);
+            min-height: 400px;
+            margin-bottom: 20px;
+        }
+
+        .chart-title {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+
+        .chart-canvas {
+            width: 100% !important;
+            height: calc(100% - 60px) !important;
+        }
+
+        .correlations-panel {
+            background: #192734;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+        }
+
+        .correlations-title {
+            text-align: center;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+
+        .correlations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .correlation-item {
+            background: #0f1419;
+            padding: 12px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .correlation-name {
+            font-weight: 500;
+            color: #94a3b8;
+        }
+
+        .correlation-value {
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .corr-high {
+            color: #10b981;
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .corr-medium {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        .corr-low {
+            color: #ef4444;
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        .status {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #192734;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            font-size: 0.9em;
+            z-index: 1000;
+        }
+
+        .status-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+
+        .status-active {
+            background: #10b981;
+        }
+
+        .status-error {
+            background: #ef4444;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📈 Polymarket Pair Trading - Entry Prices</h1>
+        <div class="period-info">
+            <div>Period: <span id="periodStart">--:--</span> to <span id="periodEnd">--:--</span></div>
+            <div class="timer">⏱️ <span id="timeRemaining">--:--</span></div>
+            <div class="volatility-info">📊 BTC Volatility: <span id="btcVolatility">--</span></div>
+        </div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-title">Entry Prices (Ask + Ask) - All 12 Pairs</div>
+        <canvas id="entryChart" class="chart-canvas"></canvas>
+    </div>
+
+    <div class="correlations-panel">
+        <div class="correlations-title">Asset Pair Correlations</div>
+        <div class="correlations-grid" id="correlationsGrid">
+            <!-- Correlation items will be added here -->
+        </div>
+    </div>
+
+    <div class="status">
+        <span class="status-dot status-active" id="statusDot"></span>
+        <span id="statusText">Loading...</span>
+    </div>
+
+    <script>
+        let entryChart;
+        let entryDatasets = {};
+        let timeLabels = [];
+        let currentPeriodStart = null;
+        let fetchAttempts = 0;
+        let lastSuccessTime = null;
+
+        // Fixed predefined styles for each specific pair
+        const pairStyles = {
+            'BTC_CALL+ETH_PUT': { color: '#ffffff', dash: [], width: 2 },          // White solid
+            'ETH_CALL+BTC_PUT': { color: '#ffffff', dash: [5, 5], width: 2 },      // White dashed
+
+            'BTC_CALL+SOL_PUT': { color: '#ffcc00', dash: [], width: 2 },          // Green solid
+            'SOL_CALL+BTC_PUT': { color: '#ffcc00', dash: [5, 5], width: 2 },      // Green dashed
+
+            'BTC_CALL+XRP_PUT': { color: '#ec4899', dash: [], width: 2 },          // Pink solid
+            'XRP_CALL+BTC_PUT': { color: '#ec4899', dash: [5, 5], width: 2 },      // Pink dashed
+
+            'ETH_CALL+SOL_PUT': { color: '#06b6d4', dash: [], width: 2 },          // Cyan solid
+            'SOL_CALL+ETH_PUT': { color: '#06b6d4', dash: [5, 5], width: 2 },      // Cyan dashed
+
+            'ETH_CALL+XRP_PUT': { color: '#a855f7', dash: [], width: 2 },          // Purple solid
+            'XRP_CALL+ETH_PUT': { color: '#a855f7', dash: [5, 5], width: 2 },      // Purple dashed
+
+            'SOL_CALL+XRP_PUT': { color: '#6b7280', dash: [], width: 2 },          // Grey solid
+            'XRP_CALL+SOL_PUT': { color: '#6b7280', dash: [5, 5], width: 2 }       // Grey dashed
+        };
+
+        const dataFilePath = './data/live_pairs_data.json';
+
+        function initChart() {
+            const ctx = document.getElementById('entryChart').getContext('2d');
+
+            entryChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: []
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'right',
+                            labels: {
+                                color: '#e1e8ed',
+                                font: { size: 11 },
+                                boxWidth: 20,
+                                padding: 10
+                            }
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                            titleColor: '#ffd700',
+                            bodyColor: '#e1e8ed',
+                            borderColor: '#667eea',
+                            borderWidth: 1,
+                            padding: 12,
+                            titleFont: { size: 14 },
+                            bodyFont: { size: 12 },
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed.y !== null) {
+                                        label += context.parsed.y.toFixed(2);
+                                    }
+                                    // Add correlation if available
+                                    if (context.dataset.correlation !== undefined && context.dataset.correlation !== null) {
+                                        label += ' (Corr: ' + context.dataset.correlation.toFixed(3) + ')';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                color: '#2d3748',
+                                drawBorder: false
+                            },
+                            ticks: {
+                                color: '#94a3b8',
+                                maxRotation: 45,
+                                minRotation: 45,
+                                font: { size: 11 }
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: '#2d3748',
+                                drawBorder: false
+                            },
+                            ticks: {
+                                color: '#94a3b8',
+                                font: { size: 11 }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Entry Price (Ask + Ask)',
+                                color: '#ffd700',
+                                font: { size: 14 }
+                            }
+                        }
+                    },
+                    interaction: {
+                        mode: 'nearest',
+                        axis: 'x',
+                        intersect: false
+                    }
+                }
+            });
+        }
+
+        function updateCorrelations(pairs) {
+            const grid = document.getElementById('correlationsGrid');
+
+            // Extract unique correlations
+            const uniqueCorrelations = {};
+            pairs.forEach(pair => {
+                if (pair.correlation !== null && pair.correlation !== undefined) {
+                    // Extract asset names from pair name
+                    const match = pair.name.match(/(\w+)_CALL\+(\w+)_PUT/);
+                    if (match) {
+                        const asset1 = match[1];
+                        const asset2 = match[2];
+                        const key = [asset1, asset2].sort().join('_');
+                        uniqueCorrelations[key] = {
+                            name: `${asset1}-${asset2}`,
+                            value: pair.correlation
+                        };
+                    }
+                }
+            });
+
+            // Check if we need to rebuild the grid (first load or structure changed)
+            const existingItems = grid.querySelectorAll('.correlation-item');
+            const needsRebuild = existingItems.length !== Object.keys(uniqueCorrelations).length;
+
+            if (needsRebuild) {
+                // Full rebuild
+                grid.innerHTML = '';
+
+                Object.values(uniqueCorrelations).forEach(corr => {
+                    const item = document.createElement('div');
+                    item.className = 'correlation-item';
+                    item.dataset.key = corr.name;
+
+                    const name = document.createElement('span');
+                    name.className = 'correlation-name';
+                    name.textContent = corr.name;
+
+                    const value = document.createElement('span');
+                    value.className = 'correlation-value';
+
+                    // Color code based on correlation strength
+                    const absCorr = Math.abs(corr.value);
+                    if (absCorr >= 0.7) {
+                        value.classList.add('corr-high');
+                    } else if (absCorr >= 0.5) {
+                        value.classList.add('corr-medium');
+                    } else {
+                        value.classList.add('corr-low');
+                    }
+
+                    value.textContent = corr.value.toFixed(3);
+
+                    item.appendChild(name);
+                    item.appendChild(value);
+                    grid.appendChild(item);
+                });
+            } else {
+                // Update existing values (correlations refreshed every 10s)
+                Object.values(uniqueCorrelations).forEach(corr => {
+                    const item = grid.querySelector(`[data-key="${corr.name}"]`);
+                    if (item) {
+                        const valueElement = item.querySelector('.correlation-value');
+                        const oldValue = valueElement.textContent;
+                        const newValue = corr.value.toFixed(3);
+
+                        // Update value
+                        valueElement.textContent = newValue;
+
+                        // Update color coding
+                        valueElement.className = 'correlation-value';
+                        const absCorr = Math.abs(corr.value);
+                        if (absCorr >= 0.7) {
+                            valueElement.classList.add('corr-high');
+                        } else if (absCorr >= 0.5) {
+                            valueElement.classList.add('corr-medium');
+                        } else {
+                            valueElement.classList.add('corr-low');
+                        }
+
+                        // Highlight if changed
+                        if (oldValue !== newValue) {
+                            valueElement.style.transition = 'transform 0.3s, box-shadow 0.3s';
+                            valueElement.style.transform = 'scale(1.1)';
+                            valueElement.style.boxShadow = '0 0 10px rgba(255, 215, 0, 0.5)';
+                            setTimeout(() => {
+                                valueElement.style.transform = 'scale(1)';
+                                valueElement.style.boxShadow = 'none';
+                            }, 300);
+                        }
+                    }
+                });
+            }
+        }
+
+        function updateChart(data) {
+            const timestamp = new Date(data.timestamp).toLocaleTimeString();
+
+            // Check if we need to reset (new period)
+            if (currentPeriodStart !== data.period_start) {
+                console.log('New period detected, resetting chart');
+                currentPeriodStart = data.period_start;
+                timeLabels = [];
+                entryDatasets = {};
+            }
+
+            // Add timestamp
+            timeLabels.push(timestamp);
+
+            // Limit to last 900 points (15 minutes at 1 second intervals)
+            if (timeLabels.length > 900) {
+                timeLabels.shift();
+            }
+
+            // Update datasets for each pair
+            data.pairs.forEach((pair, index) => {
+                // Get the predefined style for this pair
+                const style = pairStyles[pair.name] || { color: '#667eea', dash: [], width: 2 };
+
+                // Initialize dataset if needed
+                if (!entryDatasets[pair.name]) {
+                    entryDatasets[pair.name] = {
+                        label: pair.name,
+                        data: [],
+                        borderColor: style.color,
+                        backgroundColor: style.color + '20',
+                        borderWidth: style.width,
+                        borderDash: style.dash,
+                        tension: 0.4,
+                        pointRadius: 0,
+                        pointHoverRadius: 5,
+                        pointHoverBorderWidth: 2,
+                        correlation: pair.correlation
+                    };
+                }
+
+                // Update correlation
+                entryDatasets[pair.name].correlation = pair.correlation;
+
+                // Add data point
+                entryDatasets[pair.name].data.push(pair.entry_price);
+
+                // Limit data points
+                if (entryDatasets[pair.name].data.length > 900) {
+                    entryDatasets[pair.name].data.shift();
+                }
+            });
+
+            // Update chart
+            entryChart.data.labels = timeLabels;
+            entryChart.data.datasets = Object.values(entryDatasets);
+            entryChart.update('none');
+
+            // Update correlations panel
+            updateCorrelations(data.pairs);
+        }
+
+        function updateTimer(data) {
+            const seconds = Math.max(0, Math.floor(data.seconds_remaining));
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+
+            document.getElementById('timeRemaining').textContent =
+                `${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+
+            document.getElementById('periodStart').textContent =
+                new Date(data.period_start).toLocaleTimeString();
+            document.getElementById('periodEnd').textContent =
+                new Date(data.period_end).toLocaleTimeString();
+
+            // Update BTC volatility every time (data is refreshed every 10 seconds from monitor)
+            if (data.btc_volatility !== null && data.btc_volatility !== undefined) {
+                const volElement = document.getElementById('btcVolatility');
+                const newVol = (data.btc_volatility * 100).toFixed(2) + '%';
+
+                // Highlight if volatility changed
+                if (volElement.textContent !== newVol && volElement.textContent !== '--') {
+                    volElement.style.transition = 'color 0.3s';
+                    volElement.style.color = '#43e97b';
+                    setTimeout(() => {
+                        volElement.style.color = '#ffd700';
+                    }, 300);
+                }
+
+                volElement.textContent = newVol;
+            } else {
+                document.getElementById('btcVolatility').textContent = 'N/A';
+            }
+        }
+
+        function updateStatus(success, message = '') {
+            const dot = document.getElementById('statusDot');
+            const text = document.getElementById('statusText');
+
+            if (success) {
+                dot.className = 'status-dot status-active';
+                const timeSince = lastSuccessTime ?
+                    Math.floor((Date.now() - lastSuccessTime) / 1000) : 0;
+                text.textContent = `Live (${timeSince}s ago)`;
+                lastSuccessTime = Date.now();
+            } else {
+                dot.className = 'status-dot status-error';
+                text.textContent = message || `Error (${fetchAttempts} attempts)`;
+            }
+        }
+
+        async function fetchData() {
+            try {
+                const cacheBuster = new Date().getTime();
+                const response = await fetch(dataFilePath + '?t=' + cacheBuster);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                updateChart(data);
+                updateTimer(data);
+                updateStatus(true);
+                fetchAttempts = 0;
+
+            } catch (error) {
+                fetchAttempts++;
+                console.error('Error fetching data:', error);
+
+                if (fetchAttempts === 1) {
+                    updateStatus(false, 'Waiting for data...');
+                } else if (fetchAttempts < 10) {
+                    updateStatus(false, `Connecting... (${fetchAttempts})`);
+                } else {
+                    updateStatus(false, 'No data available');
+                }
+            }
+        }
+
+        // Initialize
+        console.log('Initializing dashboard...');
+        console.log('Data file path:', dataFilePath);
+        initChart();
+
+        // Fetch data every second
+        setInterval(fetchData, 1000);
+
+        // Initial fetch
+        fetchData();
+    </script>
+</body>
+</html>

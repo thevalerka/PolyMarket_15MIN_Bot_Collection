@@ -1,0 +1,2 @@
+13:55:12 [ERROR] ❌ Could not load asset IDs from files
+13:55:12 [ERROR] ❌ Failed to load initial asset IDs

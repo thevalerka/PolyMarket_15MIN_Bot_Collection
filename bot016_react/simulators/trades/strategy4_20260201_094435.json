@@ -1,0 +1,21 @@
+{
+  "strategy": "strategy4",
+  "strategy_config": {
+    "tp": null,
+    "sl": null,
+    "tp_type": "half_distance",
+    "sl_type": "half_distance"
+  },
+  "timestamp": "2026-02-01T09:44:35.900517",
+  "pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "total_trades": 0,
+  "trades": [],
+  "current_positions": {
+    "CALL": null,
+    "PUT": null
+  }
+}

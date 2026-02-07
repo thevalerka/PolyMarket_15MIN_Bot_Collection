@@ -1,0 +1,87 @@
+{
+  "strategy": "strategy5E",
+  "strategy_config": {
+    "tp": 0.15,
+    "sl": null,
+    "max_buy_price": 0.99,
+    "min_entry_price": 0.6,
+    "retrace_amount": 0.05,
+    "max_imbalance": 1,
+    "description": "Enter when >$0.60, balanced positions, wait $0.05 retrace to reopen"
+  },
+  "period_start": "2026-02-02T16:30:00",
+  "period_end": "2026-02-02T16:45:00",
+  "saved_at": "2026-02-02T16:45:00.239145",
+  "period_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.30999999999999994,
+    "TOTAL": 0.30999999999999994
+  },
+  "overall_pnl": {
+    "CALL": 4.029999999999999,
+    "PUT": -0.18000000000000027,
+    "TOTAL": 3.8499999999999996
+  },
+  "statistics": {
+    "total_trades": 2,
+    "tp_trades": 2,
+    "expiry_trades": 0,
+    "winning_trades": 2,
+    "losing_trades": 0,
+    "win_rate": 1.0,
+    "avg_win": 0.15499999999999997,
+    "avg_loss": 0
+  },
+  "trades": [
+    {
+      "timestamp": "2026-02-02T16:30:52.652660",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.45,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:30:52.652743",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:36:20.881896",
+      "option_type": "PUT",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.6,
+      "close_price": 0.75,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 519.118099
+    },
+    {
+      "timestamp": "2026-02-02T16:36:21.382236",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.79,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:39:22.010871",
+      "option_type": "PUT",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.79,
+      "close_price": 0.95,
+      "pnl": 0.15999999999999992,
+      "reason": "TP",
+      "seconds_to_expiry": 337.989124
+    },
+    {
+      "timestamp": "2026-02-02T16:39:22.511271",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.96,
+      "reason": "OPEN"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "period_id": "2026-01-16_22:45",
+  "start_time": "2026-01-16T22:45:00",
+  "end_time": "2026-01-16T23:00:21.120197",
+  "summary": {
+    "total_trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "pnl": 0.62,
+    "win_rate": 100.0
+  },
+  "trades": [
+    {
+      "trade_id": 117,
+      "period_id": "2026-01-16_22:45",
+      "asset_type": "CALL",
+      "entry_price": 0.47,
+      "exit_price": 0.59,
+      "entry_time": "2026-01-16T22:53:20.969184",
+      "exit_time": "2026-01-16T22:53:44.552528",
+      "size": 5.2,
+      "pnl": 0.62,
+      "pnl_percent": 25.53,
+      "exit_reason": "signal"
+    }
+  ]
+}

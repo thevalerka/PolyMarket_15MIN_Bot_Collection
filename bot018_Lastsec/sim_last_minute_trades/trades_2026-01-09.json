@@ -1,0 +1,20 @@
+[
+  {
+    "entry_time": "2026-01-09T00:14:00.842631+00:00",
+    "expiry_time": "2026-01-09T00:15:00+00:00",
+    "type": "CALL",
+    "entry_price": 0.99,
+    "exit_price": 1.0,
+    "entry_btc": 91162.0,
+    "exit_btc": 91145.61,
+    "strike_price": 91100.0,
+    "distance_at_entry": 62.0,
+    "pnl": 0.10000000000000009,
+    "result": "WIN",
+    "reason": "LONG_VOL_DEEP_ITM (dist $62.00 > vol_long $15.71)",
+    "time_to_expiry_at_entry": 59.157369,
+    "volatility_long": 15.713685573660836,
+    "volatility_short": 2.349938700609002,
+    "choppiness": 18.757879629414933
+  }
+]

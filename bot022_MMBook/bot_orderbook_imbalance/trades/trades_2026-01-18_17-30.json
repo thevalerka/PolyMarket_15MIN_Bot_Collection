@@ -1,0 +1,27 @@
+{
+  "period_id": "2026-01-18_17:30",
+  "start_time": "2026-01-18T17:30:00",
+  "end_time": "2026-01-18T17:45:11.092345",
+  "summary": {
+    "total_trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "pnl": 0.52,
+    "win_rate": 100.0
+  },
+  "trades": [
+    {
+      "trade_id": 248,
+      "period_id": "2026-01-18_17:30",
+      "asset_type": "PUT",
+      "entry_price": 0.56,
+      "exit_price": 0.66,
+      "entry_time": "2026-01-18T17:30:12.428132",
+      "exit_time": "2026-01-18T17:36:45.738759",
+      "size": 5.2,
+      "pnl": 0.52,
+      "pnl_percent": 17.86,
+      "exit_reason": "signal_switch"
+    }
+  ]
+}

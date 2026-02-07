@@ -1,0 +1,29 @@
+{
+  "strategy": "strategy1",
+  "strategy_config": {
+    "tp": 0.05,
+    "sl": 0.1,
+    "tp_type": "fixed",
+    "sl_type": "fixed"
+  },
+  "timestamp": "2026-02-01T09:53:29.069235",
+  "pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "statistics": {
+    "total_trades": 0,
+    "tp_trades": 0,
+    "sl_trades": 0,
+    "expiry_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0
+  },
+  "trades": [],
+  "current_positions": {
+    "CALL": null,
+    "PUT": null
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "period_id": "2026-01-16_22:30",
+  "start_time": "2026-01-16T22:30:00",
+  "end_time": "2026-01-16T22:45:01.022000",
+  "summary": {
+    "total_trades": 10,
+    "wins": 6,
+    "losses": 4,
+    "pnl": 93.0,
+    "win_rate": 60.0
+  },
+  "trades": [
+    {
+      "trade_id": 178,
+      "asset_type": "PUT",
+      "entry_price": 0.51,
+      "exit_price": 0.47,
+      "entry_time": "2026-01-16T22:30:19.301000",
+      "exit_time": "2026-01-16T22:35:35.812000",
+      "size": 100.0,
+      "pnl": -4.0,
+      "pnl_percent": -7.84,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 179,
+      "asset_type": "CALL",
+      "entry_price": 0.53,
+      "exit_price": 0.51,
+      "entry_time": "2026-01-16T22:35:35.812000",
+      "exit_time": "2026-01-16T22:38:43.070000",
+      "size": 100.0,
+      "pnl": -2.0,
+      "pnl_percent": -3.77,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 180,
+      "asset_type": "PUT",
+      "entry_price": 0.49,
+      "exit_price": 0.53,
+      "entry_time": "2026-01-16T22:38:43.070000",
+      "exit_time": "2026-01-16T22:39:06.024000",
+      "size": 100.0,
+      "pnl": 4.0,
+      "pnl_percent": 8.16,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 181,
+      "asset_type": "CALL",
+      "entry_price": 0.47,
+      "exit_price": 0.46,
+      "entry_time": "2026-01-16T22:39:06.024000",
+      "exit_time": "2026-01-16T22:39:18.084000",
+      "size": 100.0,
+      "pnl": -1.0,
+      "pnl_percent": -2.13,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 182,
+      "asset_type": "PUT",
+      "entry_price": 0.54,
+      "exit_price": 0.51,
+      "entry_time": "2026-01-16T22:39:18.084000",
+      "exit_time": "2026-01-16T22:39:56.197000",
+      "size": 100.0,
+      "pnl": -3.0,
+      "pnl_percent": -5.56,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 183,
+      "asset_type": "CALL",
+      "entry_price": 0.49,
+      "exit_price": 0.59,
+      "entry_time": "2026-01-16T22:39:56.197000",
+      "exit_time": "2026-01-16T22:39:58.935000",
+      "size": 100.0,
+      "pnl": 10.0,
+      "pnl_percent": 20.41,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 184,
+      "asset_type": "PUT",
+      "entry_price": 0.41,
+      "exit_price": 0.5,
+      "entry_time": "2026-01-16T22:39:58.935000",
+      "exit_time": "2026-01-16T22:40:18.214000",
+      "size": 100.0,
+      "pnl": 9.0,
+      "pnl_percent": 21.95,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 185,
+      "asset_type": "CALL",
+      "entry_price": 0.5,
+      "exit_price": 0.63,
+      "entry_time": "2026-01-16T22:40:18.214000",
+      "exit_time": "2026-01-16T22:40:55.284000",
+      "size": 100.0,
+      "pnl": 13.0,
+      "pnl_percent": 26.0,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 186,
+      "asset_type": "PUT",
+      "entry_price": 0.37,
+      "exit_price": 0.59,
+      "entry_time": "2026-01-16T22:40:55.284000",
+      "exit_time": "2026-01-16T22:41:08.297000",
+      "size": 100.0,
+      "pnl": 22.0,
+      "pnl_percent": 59.46,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 187,
+      "asset_type": "CALL",
+      "entry_price": 0.41,
+      "exit_price": 0.86,
+      "entry_time": "2026-01-16T22:41:08.297000",
+      "exit_time": "2026-01-16T22:44:50.597000",
+      "size": 100.0,
+      "pnl": 45.0,
+      "pnl_percent": 109.76,
+      "exit_reason": "last_10s"
+    }
+  ]
+}

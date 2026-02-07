@@ -1,0 +1,520 @@
+import json
+import pandas as pd
+import numpy as np
+from scipy import stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+from pathlib import Path
+import glob
+
+# Find all trading results JSON files in the current directory
+json_files = glob.glob('trading_results5_*.json')
+
+if not json_files:
+    print("No trading_results5_*.json files found in the current directory")
+    exit()
+
+print(f"Found {len(json_files)} JSON files:")
+for f in json_files:
+    print(f"  - {f}")
+
+# Load and combine all trading data
+all_trades_list = []
+daily_summaries = []
+
+for json_file in sorted(json_files):
+    print(f"\nProcessing {json_file}...")
+
+    with open(json_file, 'r') as f:
+        data = json.load(f)
+
+    # Store daily summary
+    daily_summaries.append({
+        'file': json_file,
+        'date': data.get('date'),
+        'last_updated': data.get('last_updated'),
+        'total_trades': data.get('total_trades'),
+        'open_positions': data.get('open_positions'),
+        **{f'pnl_{k}': v for k, v in data.get('total_pnl', {}).items()}
+    })
+
+    # Extract and flatten nested JSON structure
+    for trade in data.get('trades', []):
+        flat_trade = {
+            'date': data.get('date'),
+            'timestamp': trade.get('timestamp'),
+            'period_end': trade.get('period_end'),
+            'strategy': trade.get('strategy'),
+            'pair_type': trade.get('pair_type'),
+            'asset1': trade.get('asset1'),
+            'asset1_entry': trade.get('asset1_entry'),
+            'asset1_exit': trade.get('asset1_exit'),
+            'asset2': trade.get('asset2'),
+            'asset2_entry': trade.get('asset2_entry'),
+            'asset2_exit': trade.get('asset2_exit'),
+            'total_pnl': trade.get('total_pnl'),
+            'correlation': trade.get('correlation'),  # Add correlation
+        }
+
+        # Add market conditions
+        mc = trade.get('market_conditions', {})
+        flat_trade.update({
+            'volatility': mc.get('volatility'),
+            'volatility_method': mc.get('volatility_method'),
+            'time_to_expiry_minutes': mc.get('time_to_expiry_minutes'),
+            'ma_5min_crossings_last_15min': mc.get('ma_5min_crossings_last_15min'),
+            'max_swing_distance': mc.get('max_swing_distance'),
+            'avg_last_3_swings_pct_atr': mc.get('avg_last_3_swings_pct_atr'),
+            'data_freshness_pct': mc.get('data_freshness_pct'),
+        })
+
+        # Add oscillation metrics
+        osc = mc.get('oscillation_60min', {})
+        flat_trade.update({
+            'osc_efficiency_ratio': osc.get('efficiency_ratio'),
+            'osc_choppiness_index': osc.get('choppiness_index'),
+            'osc_zero_crossing_rate': osc.get('zero_crossing_rate'),
+            'osc_fractal_dimension': osc.get('fractal_dimension'),
+        })
+
+        all_trades_list.append(flat_trade)
+
+trades = pd.DataFrame(all_trades_list)
+daily_df = pd.DataFrame(daily_summaries)
+
+print("\n" + "="*80)
+print("MULTI-DAY TRADING RESULTS ANALYSIS")
+print("="*80)
+print(f"\nTotal Days Analyzed: {len(json_files)}")
+print(f"Total Trades: {len(trades)}")
+print(f"\nDaily Summary:")
+print(daily_df[['date', 'total_trades', 'pnl_ALL']].to_string(index=False))
+
+# Basic statistics
+print(f"\n{'='*80}")
+print("OVERALL PNL STATISTICS")
+print("="*80)
+print(f"Total PnL: ${trades['total_pnl'].sum():.2f}")
+print(f"Mean PnL per trade: ${trades['total_pnl'].mean():.3f}")
+print(f"Median PnL per trade: ${trades['total_pnl'].median():.3f}")
+print(f"Std Dev: ${trades['total_pnl'].std():.3f}")
+print(f"Min PnL: ${trades['total_pnl'].min():.3f}")
+print(f"Max PnL: ${trades['total_pnl'].max():.3f}")
+print(f"Win Rate: {(trades['total_pnl'] > 0).sum() / len(trades) * 100:.1f}%")
+
+# Correlation statistics
+if 'correlation' in trades.columns and trades['correlation'].notna().sum() > 0:
+    print(f"\n{'='*80}")
+    print("CORRELATION STATISTICS")
+    print("="*80)
+    print(f"Trades with correlation data: {trades['correlation'].notna().sum()} / {len(trades)}")
+    print(f"Mean correlation: {trades['correlation'].mean():.4f}")
+    print(f"Median correlation: {trades['correlation'].median():.4f}")
+    print(f"Std Dev: {trades['correlation'].std():.4f}")
+    print(f"Min: {trades['correlation'].min():.4f}")
+    print(f"Max: {trades['correlation'].max():.4f}")
+
+    # Correlation with PnL
+    valid_corr = trades[trades['correlation'].notna()]
+    if len(valid_corr) > 3:
+        corr_pnl, p_corr = stats.pearsonr(valid_corr['correlation'], valid_corr['total_pnl'])
+        print(f"\nCorrelation coefficient vs PnL: r={corr_pnl:.4f}, p={p_corr:.4f}")
+        if p_corr < 0.05:
+            print(f"  *** STATISTICALLY SIGNIFICANT ***")
+
+    # Correlation bins analysis
+    print(f"\nPnL by Correlation Ranges:")
+    corr_bins = [-1.0, -0.5, 0, 0.25, 0.5, 0.75, 1.0]
+    corr_labels = ['Strong Neg', 'Weak Neg', 'Neutral', 'Weak Pos', 'Moderate Pos', 'Strong Pos']
+    trades['correlation_bin'] = pd.cut(trades['correlation'], bins=corr_bins, labels=corr_labels)
+
+    corr_bin_stats = trades.groupby('correlation_bin')['total_pnl'].agg([
+        'count', 'mean', 'sum',
+        lambda x: (x > 0).sum() / len(x) * 100 if len(x) > 0 else 0
+    ])
+    corr_bin_stats.columns = ['Count', 'Avg PnL', 'Total PnL', 'Win Rate %']
+    corr_bin_stats = corr_bin_stats[corr_bin_stats['Count'] > 0]
+    print(corr_bin_stats.round(3))
+
+    # Find optimal correlation threshold
+    print(f"\nCorrelation Threshold Analysis:")
+    thresholds = [0, 0.25, 0.5, 0.75]
+    for threshold in thresholds:
+        above = trades[trades['correlation'] > threshold]['total_pnl'].mean()
+        below = trades[trades['correlation'] <= threshold]['total_pnl'].mean()
+        above_count = len(trades[trades['correlation'] > threshold])
+        below_count = len(trades[trades['correlation'] <= threshold])
+        print(f"  Above {threshold}: ${above:.3f} avg (n={above_count})")
+        print(f"  Below {threshold}: ${below:.3f} avg (n={below_count})")
+        print(f"  Difference: ${above - below:.3f}\n")
+
+# Strategy performance
+print(f"\n{'='*80}")
+print("STRATEGY PERFORMANCE")
+print("="*80)
+strategy_stats = trades.groupby('strategy')['total_pnl'].agg([
+    'count', 'mean', 'median', 'std', 'min', 'max',
+    lambda x: (x > 0).sum() / len(x) * 100
+])
+strategy_stats.columns = ['Count', 'Mean', 'Median', 'Std', 'Min', 'Max', 'Win Rate %']
+print(strategy_stats.round(3))
+
+# Pair type performance
+print(f"\n{'='*80}")
+print("PAIR TYPE PERFORMANCE")
+print("="*80)
+pair_stats = trades.groupby('pair_type')['total_pnl'].agg([
+    'count', 'mean', 'median',
+    lambda x: (x > 0).sum() / len(x) * 100
+])
+pair_stats.columns = ['Count', 'Mean', 'Median', 'Win Rate %']
+print(pair_stats.round(3))
+
+# Correlation analysis (excluding asset1_pnl and asset2_pnl)
+print(f"\n{'='*80}")
+print("CORRELATION ANALYSIS WITH PNL")
+print("="*80)
+
+# Select numeric columns for correlation, excluding individual asset PnLs and exits
+numeric_cols = trades.select_dtypes(include=[np.number]).columns
+excluded_cols = ['asset1_pnl', 'asset2_pnl', 'asset1_exit', 'asset2_exit', 'timestamp']
+numeric_cols = [col for col in numeric_cols if col not in excluded_cols]
+
+correlations = trades[numeric_cols].corr()['total_pnl'].sort_values(ascending=False)
+print("\nTop positive correlations:")
+print(correlations[1:11].round(3))
+print("\nTop negative correlations:")
+print(correlations[-10:].round(3))
+
+# Statistical significance testing
+print(f"\n{'='*80}")
+print("STATISTICAL SIGNIFICANCE (p-values < 0.05)")
+print("="*80)
+
+significant_vars = []
+for col in numeric_cols:
+    if col != 'total_pnl' and trades[col].notna().sum() > 3:
+        try:
+            corr, p_value = stats.pearsonr(trades[col].dropna(),
+                                          trades.loc[trades[col].notna(), 'total_pnl'])
+            if p_value < 0.05:
+                significant_vars.append({
+                    'Variable': col,
+                    'Correlation': corr,
+                    'P-value': p_value
+                })
+        except:
+            pass
+
+if significant_vars:
+    sig_df = pd.DataFrame(significant_vars).sort_values('Correlation',
+                                                        key=abs,
+                                                        ascending=False)
+    print(sig_df.to_string(index=False))
+else:
+    print("No statistically significant correlations found (all p > 0.05)")
+    print("\nNote: With limited sample size, correlations may not reach statistical significance.")
+
+# Threshold analysis for key variables
+print(f"\n{'='*80}")
+print("THRESHOLD ANALYSIS")
+print("="*80)
+
+key_vars = ['volatility', 'time_to_expiry_minutes', 'osc_efficiency_ratio',
+            'osc_choppiness_index', 'max_swing_distance', 'data_freshness_pct',
+            'ma_5min_crossings_last_15min', 'avg_last_3_swings_pct_atr',
+            'osc_zero_crossing_rate', 'osc_fractal_dimension', 'correlation']
+
+for var in key_vars:
+    if var in trades.columns and trades[var].notna().sum() > 0:
+        print(f"\n{var.upper()}:")
+
+        # Find optimal threshold using median split
+        median_val = trades[var].median()
+        above_median = trades[trades[var] > median_val]['total_pnl'].mean()
+        below_median = trades[trades[var] <= median_val]['total_pnl'].mean()
+
+        print(f"  Median: {median_val:.3f}")
+        print(f"  Avg PnL above median: ${above_median:.3f}")
+        print(f"  Avg PnL below median: ${below_median:.3f}")
+        print(f"  Difference: ${above_median - below_median:.3f}")
+
+        # Quartile analysis
+        q1, q3 = trades[var].quantile([0.25, 0.75])
+        pnl_q1 = trades[trades[var] < q1]['total_pnl'].mean()
+        pnl_q3 = trades[trades[var] > q3]['total_pnl'].mean()
+
+        print(f"  Q1 ({q1:.3f}): Avg PnL = ${pnl_q1:.3f} (n={len(trades[trades[var] < q1])})")
+        print(f"  Q3 ({q3:.3f}): Avg PnL = ${pnl_q3:.3f} (n={len(trades[trades[var] > q3])})")
+
+# Entry price analysis with finer granularity
+print(f"\n{'='*80}")
+print("ENTRY PRICE ANALYSIS (0.05 BINS)")
+print("="*80)
+
+for asset_type in ['asset1', 'asset2']:
+    entry_col = f'{asset_type}_entry'
+
+    print(f"\n{asset_type.upper()}:")
+
+    # Bin entry prices with 0.05 increments
+    bins = np.arange(0, 1.05, 0.05)
+    trades[f'{asset_type}_entry_bin'] = pd.cut(trades[entry_col], bins=bins)
+
+    entry_analysis = trades.groupby(f'{asset_type}_entry_bin')['total_pnl'].agg([
+        'count', 'mean', lambda x: (x > 0).sum() / len(x) * 100 if len(x) > 0 else 0
+    ])
+    entry_analysis.columns = ['Count', 'Avg PnL', 'Win Rate %']
+    # Only show bins with trades
+    entry_analysis = entry_analysis[entry_analysis['Count'] > 0]
+    print(entry_analysis.round(3))
+
+# Combined entry analysis
+print(f"\n{'='*80}")
+print("COMBINED ENTRY ANALYSIS (asset1_entry + asset2_entry)")
+print("="*80)
+
+trades['combined_entry'] = trades['asset1_entry'] + trades['asset2_entry']
+
+print(f"\nCombined Entry Statistics:")
+print(f"  Mean: {trades['combined_entry'].mean():.3f}")
+print(f"  Median: {trades['combined_entry'].median():.3f}")
+print(f"  Std Dev: {trades['combined_entry'].std():.3f}")
+print(f"  Min: {trades['combined_entry'].min():.3f}")
+print(f"  Max: {trades['combined_entry'].max():.3f}")
+
+# Correlation with PnL
+corr_combined, p_combined = stats.pearsonr(trades['combined_entry'], trades['total_pnl'])
+print(f"\nCorrelation with PnL: r={corr_combined:.3f}, p={p_combined:.4f}")
+
+# Bin analysis for combined entry with 0.02 increments
+bins_combined = np.arange(0, 2.1, 0.02)
+trades['combined_entry_bin'] = pd.cut(trades['combined_entry'], bins=bins_combined)
+
+combined_analysis = trades.groupby('combined_entry_bin')['total_pnl'].agg([
+    'count', 'mean', lambda x: (x > 0).sum() / len(x) * 100 if len(x) > 0 else 0
+])
+combined_analysis.columns = ['Count', 'Avg PnL', 'Win Rate %']
+combined_analysis = combined_analysis[combined_analysis['Count'] > 0]
+
+print(f"\nCombined Entry Bins (0.02 increments):")
+print(combined_analysis.round(3))
+
+# Time zone analysis
+print(f"\n{'='*80}")
+print("TIME ZONE ANALYSIS")
+print("="*80)
+
+# Convert timestamp to datetime and extract hour (UTC)
+trades['datetime'] = pd.to_datetime(trades['timestamp'])
+trades['hour_utc'] = trades['datetime'].dt.hour
+
+# Define time zones
+def get_timezone(hour):
+    if 0 <= hour < 9.5:
+        return 'Asia'
+    elif 9.5 <= hour < 14.5:
+        return 'Europe'
+    elif 14.5 <= hour < 22:
+        return 'America'
+    else:
+        return 'Sleep'
+
+trades['timezone'] = trades['hour_utc'].apply(get_timezone)
+
+timezone_stats = trades.groupby('timezone')['total_pnl'].agg([
+    'count', 'mean', 'median', 'sum',
+    lambda x: (x > 0).sum() / len(x) * 100 if len(x) > 0 else 0
+])
+timezone_stats.columns = ['Count', 'Mean', 'Median', 'Total', 'Win Rate %']
+
+# Order by time zones
+timezone_order = ['Asia', 'Europe', 'America', 'Sleep']
+timezone_stats = timezone_stats.reindex([tz for tz in timezone_order if tz in timezone_stats.index])
+
+print("\nPerformance by Time Zone:")
+print(timezone_stats.round(3))
+
+# Summary insights
+print(f"\n{'='*80}")
+print("KEY INSIGHTS")
+print("="*80)
+
+print("\n1. MOST INFLUENTIAL VARIABLES:")
+if significant_vars:
+    top_5 = sig_df.head(5)
+    for idx, row in top_5.iterrows():
+        direction = "positive" if row['Correlation'] > 0 else "negative"
+        print(f"   - {row['Variable']}: {direction} correlation (r={row['Correlation']:.3f}, p={row['P-value']:.4f})")
+else:
+    print("   - No statistically significant correlations found")
+    print(f"   - Top correlations by magnitude:")
+    for var, corr in correlations[1:6].items():
+        print(f"     * {var}: r={corr:.3f}")
+
+# Highlight correlation if it's significant
+if 'correlation' in trades.columns and trades['correlation'].notna().sum() > 3:
+    valid_corr = trades[trades['correlation'].notna()]
+    corr_pnl, p_corr = stats.pearsonr(valid_corr['correlation'], valid_corr['total_pnl'])
+    if p_corr < 0.10:  # Show if marginally significant
+        print(f"\n   ** PAIR CORRELATION IMPACT: r={corr_pnl:.3f}, p={p_corr:.4f} **")
+        if corr_pnl > 0:
+            print(f"      Higher pair correlation → Better PnL")
+        else:
+            print(f"      Lower pair correlation → Better PnL")
+
+print("\n2. STRATEGY RECOMMENDATIONS:")
+best_strategy = strategy_stats['Mean'].idxmax()
+worst_strategy = strategy_stats['Mean'].idxmin()
+print(f"   - Best performing: {best_strategy} (${strategy_stats.loc[best_strategy, 'Mean']:.3f} avg, {strategy_stats.loc[best_strategy, 'Win Rate %']:.1f}% win rate)")
+print(f"   - Worst performing: {worst_strategy} (${strategy_stats.loc[worst_strategy, 'Mean']:.3f} avg, {strategy_stats.loc[worst_strategy, 'Win Rate %']:.1f}% win rate)")
+
+print("\n3. PAIR TYPE RECOMMENDATIONS:")
+best_pair = pair_stats['Mean'].idxmax()
+worst_pair = pair_stats['Mean'].idxmin()
+print(f"   - Best performing: {best_pair} (${pair_stats.loc[best_pair, 'Mean']:.3f} avg)")
+print(f"   - Worst performing: {worst_pair} (${pair_stats.loc[worst_pair, 'Mean']:.3f} avg)")
+
+print("\n4. OPTIMAL THRESHOLDS:")
+# Find variables with biggest PnL differences
+threshold_impacts = []
+for var in key_vars:
+    if var in trades.columns and trades[var].notna().sum() > 0:
+        median_val = trades[var].median()
+        above = trades[trades[var] > median_val]['total_pnl'].mean()
+        below = trades[trades[var] <= median_val]['total_pnl'].mean()
+        impact = abs(above - below)
+        threshold_impacts.append((var, median_val, impact, above, below))
+
+threshold_impacts.sort(key=lambda x: x[2], reverse=True)
+for var, threshold, impact, above, below in threshold_impacts[:3]:
+    better = "above" if above > below else "below"
+    print(f"   - {var}: Trade when {better} {threshold:.3f} (${impact:.3f} avg difference)")
+
+# Save detailed results
+output_file = 'trading_analysis_results.csv'
+trades.to_csv(output_file, index=False)
+print(f"\n\nDetailed results saved to: {output_file}")
+
+# Save daily summary
+daily_output = 'daily_summary.csv'
+daily_df.to_csv(daily_output, index=False)
+print(f"Daily summary saved to: {daily_output}")
+
+# PER-STRATEGY ANALYSIS
+print(f"\n\n{'='*80}")
+print("PER-STRATEGY DETAILED ANALYSIS")
+print("="*80)
+
+strategies = trades['strategy'].unique()
+
+for strategy in sorted(strategies):
+    strat_trades = trades[trades['strategy'] == strategy].copy()
+
+    print(f"\n\n{'#'*80}")
+    print(f"STRATEGY: {strategy}")
+    print(f"{'#'*80}")
+
+    print(f"\nBasic Statistics:")
+    print(f"  Total Trades: {len(strat_trades)}")
+    print(f"  Total PnL: ${strat_trades['total_pnl'].sum():.2f}")
+    print(f"  Mean PnL: ${strat_trades['total_pnl'].mean():.3f}")
+    print(f"  Median PnL: ${strat_trades['total_pnl'].median():.3f}")
+    print(f"  Win Rate: {(strat_trades['total_pnl'] > 0).sum() / len(strat_trades) * 100:.1f}%")
+
+    # Pair type performance for this strategy
+    if len(strat_trades['pair_type'].unique()) > 1:
+        print(f"\nPair Type Performance:")
+        pair_stats_strat = strat_trades.groupby('pair_type')['total_pnl'].agg([
+            'count', 'mean', lambda x: (x > 0).sum() / len(x) * 100 if len(x) > 0 else 0
+        ])
+        pair_stats_strat.columns = ['Count', 'Mean', 'Win Rate %']
+        print(pair_stats_strat.round(3))
+
+    # Time zone performance for this strategy
+    print(f"\nTime Zone Performance:")
+    tz_stats_strat = strat_trades.groupby('timezone')['total_pnl'].agg([
+        'count', 'mean', lambda x: (x > 0).sum() / len(x) * 100 if len(x) > 0 else 0
+    ])
+    tz_stats_strat.columns = ['Count', 'Mean', 'Win Rate %']
+    tz_stats_strat = tz_stats_strat.reindex([tz for tz in timezone_order if tz in tz_stats_strat.index])
+    print(tz_stats_strat.round(3))
+
+    # Combined entry analysis for this strategy
+    print(f"\nCombined Entry Statistics:")
+    print(f"  Mean: {strat_trades['combined_entry'].mean():.3f}")
+    print(f"  Median: {strat_trades['combined_entry'].median():.3f}")
+    if len(strat_trades) > 3:
+        corr_s, p_s = stats.pearsonr(strat_trades['combined_entry'], strat_trades['total_pnl'])
+        print(f"  Correlation with PnL: r={corr_s:.3f}, p={p_s:.4f}")
+
+    # Correlation analysis for this strategy
+    if 'correlation' in strat_trades.columns and strat_trades['correlation'].notna().sum() > 3:
+        print(f"\nCorrelation Statistics:")
+        print(f"  Mean: {strat_trades['correlation'].mean():.4f}")
+        print(f"  Median: {strat_trades['correlation'].median():.4f}")
+        corr_pnl_s, p_pnl_s = stats.pearsonr(
+            strat_trades['correlation'].dropna(),
+            strat_trades.loc[strat_trades['correlation'].notna(), 'total_pnl']
+        )
+        print(f"  Correlation with PnL: r={corr_pnl_s:.4f}, p={p_pnl_s:.4f}")
+
+        # Best correlation range for this strategy
+        corr_bins_strat = [-1.0, 0, 0.5, 1.0]
+        strat_trades['corr_bin_simple'] = pd.cut(strat_trades['correlation'], bins=corr_bins_strat)
+        corr_perf = strat_trades.groupby('corr_bin_simple')['total_pnl'].agg(['count', 'mean'])
+        corr_perf = corr_perf[corr_perf['count'] > 0]
+        if len(corr_perf) > 0:
+            print(f"\n  PnL by Correlation Range:")
+            for idx, row in corr_perf.iterrows():
+                print(f"    {idx}: ${row['mean']:.3f} avg (n={int(row['count'])})")
+
+    # Top correlations for this strategy
+    print(f"\nTop Correlations with PnL:")
+    numeric_cols_strat = strat_trades.select_dtypes(include=[np.number]).columns
+    excluded_cols_strat = ['asset1_pnl', 'asset2_pnl', 'asset1_exit', 'asset2_exit', 'timestamp', 'hour_utc']
+    numeric_cols_strat = [col for col in numeric_cols_strat if col not in excluded_cols_strat]
+
+    if len(strat_trades) > 3:
+        corr_strat = strat_trades[numeric_cols_strat].corr()['total_pnl'].sort_values(ascending=False)
+        print("  Positive:")
+        print(corr_strat[1:6].round(3).to_string())
+        print("  Negative:")
+        print(corr_strat[-5:].round(3).to_string())
+
+    # Key thresholds for this strategy
+    print(f"\nKey Variable Thresholds:")
+    threshold_vars = ['volatility', 'time_to_expiry_minutes', 'osc_efficiency_ratio',
+                      'osc_choppiness_index', 'combined_entry', 'correlation']
+
+    for var in threshold_vars:
+        if var in strat_trades.columns and strat_trades[var].notna().sum() > 2:
+            median_val = strat_trades[var].median()
+            above = strat_trades[strat_trades[var] > median_val]['total_pnl'].mean()
+            below = strat_trades[strat_trades[var] <= median_val]['total_pnl'].mean()
+            diff = above - below
+            better = "above" if above > below else "below"
+            print(f"  {var}: {better} {median_val:.3f} (${diff:+.3f} diff)")
+
+# Hourly accumulated PnL by strategy
+print(f"\n\n{'='*80}")
+print("HOURLY ACCUMULATED PNL BY STRATEGY")
+print("="*80)
+
+# Create hourly aggregation
+trades['hour'] = trades['datetime'].dt.floor('h')
+hourly_pnl = trades.groupby(['hour', 'strategy'])['total_pnl'].sum().reset_index()
+hourly_pnl_pivot = hourly_pnl.pivot(index='hour', columns='strategy', values='total_pnl').fillna(0)
+
+# Calculate cumulative PnL
+hourly_cumulative = hourly_pnl_pivot.cumsum()
+
+# Save to CSV
+hourly_output = 'hourly_accumulated_pnl_by_strategy.csv'
+hourly_cumulative.to_csv(hourly_output)
+print(f"\nHourly accumulated PnL saved to: {hourly_output}")
+print(f"\nPreview (first 10 hours):")
+print(hourly_cumulative.head(10).round(2))
+
+print(f"\nFinal accumulated PnL by strategy:")
+print(hourly_cumulative.iloc[-1].round(2))

@@ -1,0 +1,981 @@
+{
+  "period_start": "2026-02-01T13:30:00",
+  "period_end": "2026-02-01T13:45:00",
+  "num_snapshots": 25,
+  "oscillation_metrics": {
+    "period_start": "2026-02-01T13:44:35.266926",
+    "period_end": "2026-02-01T13:44:59.274308",
+    "call_min": 0.0005,
+    "call_max": 0.0005,
+    "call_range": 0.0,
+    "call_volatility": 0.0,
+    "put_min": 0.9995,
+    "put_max": 0.9995,
+    "put_range": 0.0,
+    "put_volatility": 0.0,
+    "num_reversals": 0,
+    "avg_swing_size": 0,
+    "max_swing_size": 0,
+    "mean_reversion_speed": 0.4995,
+    "time_above_60": 0.0,
+    "time_below_40": 1.0,
+    "best_buy_and_hold_call": 0.0,
+    "best_buy_and_hold_put": 0.0,
+    "theoretical_max_swing_trading": 0.0
+  },
+  "strategy_backtests": {
+    "momentum_basic": {
+      "total_pnl": 0,
+      "num_trades": 0,
+      "trades": [],
+      "avg_pnl_per_trade": 0
+    },
+    "momentum_confirmation": {
+      "total_pnl": 0,
+      "num_trades": 0,
+      "trades": [],
+      "avg_pnl_per_trade": 0
+    },
+    "momentum_acceleration": {
+      "total_pnl": 0,
+      "num_trades": 0,
+      "trades": [],
+      "avg_pnl_per_trade": 0
+    },
+    "momentum_strength": {
+      "total_pnl": 0,
+      "num_trades": 0,
+      "trades": [],
+      "avg_pnl_per_trade": 0
+    },
+    "momentum_adaptive": {
+      "total_pnl": 0,
+      "num_trades": 0,
+      "trades": [],
+      "avg_pnl_per_trade": 0
+    },
+    "fixed_profit_3pct": {
+      "total_pnl": -0.001,
+      "num_trades": 1,
+      "trades": [
+        {
+          "entry": 0.001,
+          "exit": 0.0,
+          "pnl": -0.001,
+          "entry_time": "2026-02-01T13:44:35.266926",
+          "exit_time": "2026-02-01T13:44:59.274308",
+          "closed_at_expiry": true
+        }
+      ],
+      "avg_pnl_per_trade": -0.001
+    },
+    "fixed_profit_5pct": {
+      "total_pnl": -0.001,
+      "num_trades": 1,
+      "trades": [
+        {
+          "entry": 0.001,
+          "exit": 0.0,
+          "pnl": -0.001,
+          "entry_time": "2026-02-01T13:44:35.266926",
+          "exit_time": "2026-02-01T13:44:59.274308",
+          "closed_at_expiry": true
+        }
+      ],
+      "avg_pnl_per_trade": -0.001
+    },
+    "fixed_profit_7pct": {
+      "total_pnl": -0.001,
+      "num_trades": 1,
+      "trades": [
+        {
+          "entry": 0.001,
+          "exit": 0.0,
+          "pnl": -0.001,
+          "entry_time": "2026-02-01T13:44:35.266926",
+          "exit_time": "2026-02-01T13:44:59.274308",
+          "closed_at_expiry": true
+        }
+      ],
+      "avg_pnl_per_trade": -0.001
+    },
+    "fixed_profit_10pct": {
+      "total_pnl": -0.001,
+      "num_trades": 1,
+      "trades": [
+        {
+          "entry": 0.001,
+          "exit": 0.0,
+          "pnl": -0.001,
+          "entry_time": "2026-02-01T13:44:35.266926",
+          "exit_time": "2026-02-01T13:44:59.274308",
+          "closed_at_expiry": true
+        }
+      ],
+      "avg_pnl_per_trade": -0.001
+    },
+    "pair_trading": {
+      "total_pnl": 0,
+      "num_trades": 0,
+      "trades": [],
+      "avg_pnl_per_trade": 0
+    }
+  },
+  "optimal_tp_sl_hindsight": {
+    "best_combination": {
+      "tp": 0.03,
+      "sl": 0.05,
+      "total_pnl": -0.001,
+      "num_trades": 1,
+      "tp_hits": 0,
+      "sl_hits": 0,
+      "avg_pnl_per_trade": -0.001,
+      "win_rate": 0.0
+    },
+    "all_combinations": [
+      {
+        "tp": 0.03,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.03,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.03,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.03,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.03,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.03,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.03,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.05,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.07,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.1,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.12,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.15,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": 0.05,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": 0.07,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": 0.1,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": 0.12,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": 0.15,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": 0.2,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      },
+      {
+        "tp": 0.2,
+        "sl": null,
+        "total_pnl": -0.001,
+        "num_trades": 1,
+        "tp_hits": 0,
+        "sl_hits": 0,
+        "avg_pnl_per_trade": -0.001,
+        "win_rate": 0.0
+      }
+    ],
+    "total_tested": 49
+  },
+  "price_snapshots": [
+    {
+      "timestamp": "2026-02-01T13:44:35.266926",
+      "timestamp_ms": 1769953475266,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 24.733074,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:36.267236",
+      "timestamp_ms": 1769953476267,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 23.732764,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:37.267576",
+      "timestamp_ms": 1769953477267,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 22.732424,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:38.267903",
+      "timestamp_ms": 1769953478267,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 21.732097,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:39.268115",
+      "timestamp_ms": 1769953479268,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 20.731885,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:40.268472",
+      "timestamp_ms": 1769953480268,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 19.731528,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:41.268800",
+      "timestamp_ms": 1769953481268,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 18.7312,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:42.269092",
+      "timestamp_ms": 1769953482269,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 17.730908,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:43.269430",
+      "timestamp_ms": 1769953483269,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 16.73057,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:44.269680",
+      "timestamp_ms": 1769953484269,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 15.73032,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:45.269955",
+      "timestamp_ms": 1769953485269,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 14.730045,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:46.270216",
+      "timestamp_ms": 1769953486270,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 13.729784,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:47.270509",
+      "timestamp_ms": 1769953487270,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 12.729491,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:48.270777",
+      "timestamp_ms": 1769953488270,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 11.729223,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:49.271054",
+      "timestamp_ms": 1769953489271,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 10.728946,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:50.271313",
+      "timestamp_ms": 1769953490271,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 9.728687,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:51.271684",
+      "timestamp_ms": 1769953491271,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 8.728316,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:52.271988",
+      "timestamp_ms": 1769953492271,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 7.728012,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:53.272254",
+      "timestamp_ms": 1769953493272,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 6.727746,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:54.272507",
+      "timestamp_ms": 1769953494272,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 5.727493,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:55.273116",
+      "timestamp_ms": 1769953495273,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 4.726884,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:56.273391",
+      "timestamp_ms": 1769953496273,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 3.726609,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:57.273655",
+      "timestamp_ms": 1769953497273,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 2.726345,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:58.274025",
+      "timestamp_ms": 1769953498274,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 1.725975,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    },
+    {
+      "timestamp": "2026-02-01T13:44:59.274308",
+      "timestamp_ms": 1769953499274,
+      "call_bid": 0.0,
+      "call_ask": 0.001,
+      "put_bid": 0.999,
+      "put_ask": 1.0,
+      "call_mid": 0.0005,
+      "put_mid": 0.9995,
+      "spread_total": 0.002000000000000001,
+      "seconds_to_expiry": 0.725692,
+      "price_sum": 1.0,
+      "arbitrage_opportunity": 0.0
+    }
+  ]
+}

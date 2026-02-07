@@ -1,0 +1,84 @@
+{
+  "period_id": "2026-01-17_21:00",
+  "start_time": "2026-01-17T21:00:00",
+  "end_time": "2026-01-17T21:15:01.159000",
+  "summary": {
+    "total_trades": 5,
+    "wins": 3,
+    "losses": 2,
+    "pnl": 91.0,
+    "win_rate": 60.0
+  },
+  "trades": [
+    {
+      "trade_id": 96,
+      "asset_type": "CALL",
+      "entry_price": 0.34,
+      "exit_price": 0.67,
+      "entry_time": "2026-01-17T21:07:39.432000",
+      "exit_time": "2026-01-17T21:10:51.979000",
+      "size": 100.0,
+      "pnl": 33.0,
+      "pnl_percent": 97.06,
+      "exit_reason": "signal",
+      "choppiness": 1.17,
+      "volatility": 0.0
+    },
+    {
+      "trade_id": 97,
+      "asset_type": "PUT",
+      "entry_price": 0.33,
+      "exit_price": 0.14,
+      "entry_time": "2026-01-17T21:10:51.979000",
+      "exit_time": "2026-01-17T21:14:06.455000",
+      "size": 100.0,
+      "pnl": -19.0,
+      "pnl_percent": -57.58,
+      "exit_reason": "signal",
+      "choppiness": 25.87,
+      "volatility": 0.001
+    },
+    {
+      "trade_id": 98,
+      "asset_type": "CALL",
+      "entry_price": 0.86,
+      "exit_price": 0.87,
+      "entry_time": "2026-01-17T21:14:06.455000",
+      "exit_time": "2026-01-17T21:14:31.677000",
+      "size": 100.0,
+      "pnl": 1.0,
+      "pnl_percent": 1.16,
+      "exit_reason": "signal",
+      "choppiness": 25.87,
+      "volatility": 0.001
+    },
+    {
+      "trade_id": 99,
+      "asset_type": "PUT",
+      "entry_price": 0.13,
+      "exit_price": 0.91,
+      "entry_time": "2026-01-17T21:14:31.677000",
+      "exit_time": "2026-01-17T21:14:48.925000",
+      "size": 100.0,
+      "pnl": 78.0,
+      "pnl_percent": 600.0,
+      "exit_reason": "signal",
+      "choppiness": 25.87,
+      "volatility": 0.001
+    },
+    {
+      "trade_id": 100,
+      "asset_type": "CALL",
+      "entry_price": 0.09,
+      "exit_price": 0.07,
+      "entry_time": "2026-01-17T21:14:48.925000",
+      "exit_time": "2026-01-17T21:14:50.146000",
+      "size": 100.0,
+      "pnl": -2.0,
+      "pnl_percent": -22.22,
+      "exit_reason": "last_10s",
+      "choppiness": 40.7,
+      "volatility": 0.001
+    }
+  ]
+}

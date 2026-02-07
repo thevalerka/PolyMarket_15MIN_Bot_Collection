@@ -1,0 +1,158 @@
+{
+  "period_start": "2026-01-11T22:00:00+00:00",
+  "period_end": "2026-01-11T22:15:01.513479+00:00",
+  "strike_price": 90757.07,
+  "final_price": 90555.62,
+  "price_movement": -201.45000000001164,
+  "calls_won": false,
+  "puts_won": true,
+  "retracements": {
+    "call_bid": {
+      "count": 2,
+      "total_width": 0.44,
+      "avg_width": 0.22,
+      "max_width": 0.3,
+      "min_width": 0.14,
+      "up_count": 0,
+      "down_count": 2,
+      "retracements": [
+        {
+          "direction": "down",
+          "from": 0.43,
+          "to": 0.13,
+          "width": 0.3,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-11T22:02:30.922229+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.16,
+          "to": 0.02,
+          "width": 0.14,
+          "price_type": "call_bid",
+          "timestamp": "2026-01-11T22:06:11.811433+00:00"
+        }
+      ]
+    },
+    "call_ask": {
+      "count": 3,
+      "total_width": 0.48,
+      "avg_width": 0.16,
+      "max_width": 0.3,
+      "min_width": 0.04,
+      "up_count": 0,
+      "down_count": 3,
+      "retracements": [
+        {
+          "direction": "down",
+          "from": 0.44,
+          "to": 0.14,
+          "width": 0.3,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-11T22:02:30.922242+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.17,
+          "to": 0.03,
+          "width": 0.14,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-11T22:06:11.811476+00:00"
+        },
+        {
+          "direction": "down",
+          "from": 0.05,
+          "to": 0.01,
+          "width": 0.04,
+          "price_type": "call_ask",
+          "timestamp": "2026-01-11T22:09:17.913988+00:00"
+        }
+      ]
+    },
+    "put_bid": {
+      "count": 3,
+      "total_width": 0.48,
+      "avg_width": 0.16,
+      "max_width": 0.29999999999999993,
+      "min_width": 0.040000000000000036,
+      "up_count": 3,
+      "down_count": 0,
+      "retracements": [
+        {
+          "direction": "up",
+          "from": 0.56,
+          "to": 0.86,
+          "width": 0.29999999999999993,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-11T22:02:30.922245+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.83,
+          "to": 0.97,
+          "width": 0.14,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-11T22:06:11.811482+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.95,
+          "to": 0.99,
+          "width": 0.040000000000000036,
+          "price_type": "put_bid",
+          "timestamp": "2026-01-11T22:09:17.914000+00:00"
+        }
+      ]
+    },
+    "put_ask": {
+      "count": 2,
+      "total_width": 0.44000000000000006,
+      "avg_width": 0.22000000000000003,
+      "max_width": 0.30000000000000004,
+      "min_width": 0.14,
+      "up_count": 2,
+      "down_count": 0,
+      "retracements": [
+        {
+          "direction": "up",
+          "from": 0.57,
+          "to": 0.87,
+          "width": 0.30000000000000004,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-11T22:02:30.922248+00:00"
+        },
+        {
+          "direction": "up",
+          "from": 0.84,
+          "to": 0.98,
+          "width": 0.14,
+          "price_type": "put_ask",
+          "timestamp": "2026-01-11T22:06:11.811487+00:00"
+        }
+      ]
+    }
+  },
+  "trades": [
+    {
+      "entry_time": "2026-01-11T22:01:43.163365+00:00",
+      "side": "CALL",
+      "entry_price": 0.21,
+      "size": 5.0,
+      "choppiness": 33.484906859617126,
+      "time_to_expiry_seconds": 796,
+      "strike_price": 90757.07,
+      "final_price": 90555.62,
+      "final_value": 0.0,
+      "pnl": -1.05,
+      "won": false
+    }
+  ],
+  "summary": {
+    "total_trades": 1,
+    "call_trades": 1,
+    "put_trades": 0,
+    "total_pnl": -1.05,
+    "call_pnl": -1.05,
+    "put_pnl": 0.0
+  }
+}

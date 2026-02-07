@@ -1,0 +1,51 @@
+{
+  "strategy": "strategy5E",
+  "strategy_config": {
+    "tp": 0.15,
+    "sl": null,
+    "max_buy_price": 0.99,
+    "min_entry_price": 0.6,
+    "retrace_amount": 0.05,
+    "max_imbalance": 1,
+    "description": "Enter when >$0.60, balanced positions, wait $0.05 retrace to reopen"
+  },
+  "period_start": "2026-02-02T14:15:00",
+  "period_end": "2026-02-02T14:30:00",
+  "saved_at": "2026-02-02T14:30:00.425935",
+  "period_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "overall_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "statistics": {
+    "total_trades": 0,
+    "tp_trades": 0,
+    "expiry_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "avg_win": 0,
+    "avg_loss": 0
+  },
+  "trades": [
+    {
+      "timestamp": "2026-02-02T14:28:38.877197",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.02,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T14:28:44.881171",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.98,
+      "reason": "OPEN"
+    }
+  ]
+}

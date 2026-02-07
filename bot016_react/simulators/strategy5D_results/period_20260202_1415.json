@@ -1,0 +1,49 @@
+{
+  "strategy": "strategy5D",
+  "strategy_config": {
+    "tp": 0.15,
+    "sl": null,
+    "max_buy_price": 0.99,
+    "open_at_start": true,
+    "description": "Open both at start, on TP reopen + open opposite side"
+  },
+  "period_start": "2026-02-02T14:15:00",
+  "period_end": "2026-02-02T14:30:00",
+  "saved_at": "2026-02-02T14:30:00.425471",
+  "period_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "overall_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "statistics": {
+    "total_trades": 0,
+    "tp_trades": 0,
+    "expiry_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "avg_win": 0,
+    "avg_loss": 0
+  },
+  "trades": [
+    {
+      "timestamp": "2026-02-02T14:28:38.876926",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.02,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T14:28:44.881107",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.98,
+      "reason": "OPEN"
+    }
+  ]
+}

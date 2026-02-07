@@ -1,0 +1,6358 @@
+{
+  "date": "2025-12-25",
+  "daily_pnl": -4.52,
+  "total_trades": 635,
+  "trades": [
+    {
+      "timestamp": "2025-12-23T15:30:49.326255",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.33,
+      "quantity": 5.0,
+      "btc_price": 87413.84,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-23T15:36:29.814295",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.55,
+      "quantity": 5.0,
+      "btc_price": 87253.53,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T15:41:45.986437",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.17,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -1.9,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-23T15:45:14.968119",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87388.0,
+      "pnl": null,
+      "reason": "PUT lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-23T15:54:48.695238",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87398.36,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T15:55:53.935272",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.0,
+      "btc_price": 87417.18,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T15:57:01.697652",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.33,
+      "quantity": 5.0,
+      "btc_price": 87360.01,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T15:57:30.539661",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.0,
+      "btc_price": 87380.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T16:00:16.246961",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87443.46,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T16:02:39.012033",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 4.995713,
+      "btc_price": 87478.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T16:19:16.273750",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.18,
+      "quantity": 5.0,
+      "btc_price": 87977.53,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T16:23:00.827005",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.0,
+      "btc_price": 87865.31,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T16:23:12.152223",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87861.38,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T16:32:46.398851",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.16,
+      "quantity": 5.0,
+      "btc_price": 87727.98,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T16:38:46.165635",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.9,
+      "quantity": 5.0,
+      "btc_price": 87756.35,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T16:40:34.488526",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.15,
+      "quantity": 5.0,
+      "btc_price": 87782.24,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T16:42:54.900951",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87830.91,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T16:43:08.971912",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.55,
+      "quantity": 5.0,
+      "btc_price": 87905.89,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T16:43:38.857406",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87873.64,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T16:43:53.283296",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.28,
+      "quantity": 4.994435,
+      "btc_price": 87844.1,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T16:44:34.201212",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.004435,
+      "btc_price": 87858.0,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-23T16:47:06.861371",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87801.22,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T16:47:23.433843",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 88060.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T16:48:45.116537",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.77,
+      "quantity": 5.0,
+      "btc_price": 88005.95,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:01:07.664927",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 88027.69,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T17:01:58.513205",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 88041.53,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:06:30.686109",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.77,
+      "quantity": 5.0,
+      "btc_price": 88133.58,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:10:09.564268",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 5.0,
+      "btc_price": 88089.88,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:10:53.020948",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 88060.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:10:59.803387",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 88038.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:11:52.848629",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 88024.63,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:12:09.289407",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87991.97,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:12:20.755448",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 88002.57,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:16:42.637633",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87919.89,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T17:17:49.833886",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87910.87,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:18:03.838748",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87937.1,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:19:56.466614",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.22,
+      "quantity": 5.0,
+      "btc_price": 88019.49,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:21:58.038131",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.09999999999999995,
+      "reason": "Flip to CALL (lag $0.050)"
+    },
+    {
+      "timestamp": "2025-12-23T17:22:36.072349",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.76,
+      "quantity": 5.0,
+      "btc_price": 87986.74,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:23:05.006951",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 87971.22,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:25:35.836982",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 5.0,
+      "btc_price": 87943.5,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:25:52.807135",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 4.992305,
+      "btc_price": 87914.04,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:26:08.378750",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87884.01,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:26:33.720055",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.002305,
+      "btc_price": 87853.65,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:27:00.678446",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87856.02,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:27:13.481435",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.002305,
+      "btc_price": 87826.31,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:27:36.479195",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87840.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:28:49.710087",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.79,
+      "quantity": 5.003031,
+      "btc_price": 87831.17,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:29:03.595074",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87849.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:32:29.928246",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87793.2,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T17:33:25.328519",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87826.25,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:34:00.205980",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87837.21,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:36:19.349177",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87791.92,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:37:28.974875",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.39,
+      "quantity": 5.0,
+      "btc_price": 87684.1,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:38:16.341045",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87715.25,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:38:29.352346",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.5,
+      "quantity": 5.0,
+      "btc_price": 87735.44,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:38:47.400676",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.56,
+      "quantity": 5.0,
+      "btc_price": 87706.8,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:39:29.767027",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.5,
+      "quantity": 5.0,
+      "btc_price": 87737.18,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:40:05.663518",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 7.9,
+      "btc_price": 87737.18,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:40:46.064733",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87738.13,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:41:46.948733",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 6.82157,
+      "btc_price": 87700.54,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:42:04.461361",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87733.27,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:43:07.681178",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.00157,
+      "btc_price": 87714.29,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:43:15.680444",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 10.0,
+      "btc_price": 87765.5,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T17:43:38.340593",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.7,
+      "quantity": 15.0,
+      "btc_price": 0,
+      "pnl": 0.44999999999999873,
+      "reason": "Flip to PUT (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-23T17:43:40.748165",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.00157,
+      "btc_price": 87762.15,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T17:47:05.128800",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87738.21,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T17:50:02.972869",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 4.99846,
+      "btc_price": 87769.21,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T18:20:27.865462",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.76,
+      "quantity": 5.0,
+      "btc_price": 87702.09,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T18:21:34.424455",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.17,
+      "quantity": 5.0,
+      "btc_price": 87743.71,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T18:30:41.888688",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87804.83,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T18:31:05.969542",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.1999999999999999,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-23T18:32:26.124419",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87877.99,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T18:32:48.565212",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87899.82,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T18:33:41.935286",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.69,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.44999999999999984,
+      "reason": "Flip to PUT (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-23T18:33:49.702766",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87937.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T18:34:56.344879",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 4.993512,
+      "btc_price": 87911.78,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T18:35:47.067656",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.26,
+      "quantity": 5.0,
+      "btc_price": 87945.08,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T18:36:20.856178",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.12,
+      "quantity": 5.0,
+      "btc_price": 88054.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T18:48:57.411822",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.82,
+      "quantity": 5.0,
+      "btc_price": 87945.89,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-23T18:59:01.600157",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.99,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.8500000000000002,
+      "reason": "Hit max price 0.99"
+    },
+    {
+      "timestamp": "2025-12-23T19:02:52.969479",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87988.56,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T19:03:48.670942",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87956.31,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:05:33.652189",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 88025.56,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:06:54.251067",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 88037.57,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:09:23.111127",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87978.81,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:19:44.746067",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87880.9,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T19:20:05.249925",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.32,
+      "quantity": 5.0,
+      "btc_price": 87950.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:22:24.070857",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87954.23,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:23:09.576324",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87881.75,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:25:28.526068",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.005954,
+      "btc_price": 87877.7,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:26:28.713106",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.04,
+      "quantity": 5.0,
+      "btc_price": 87760.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:31:40.980528",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 4.996606,
+      "btc_price": 87669.59,
+      "pnl": null,
+      "reason": "CALL lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-23T19:32:27.565483",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87659.54,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:33:56.150602",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.006606,
+      "btc_price": 87658.43,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:35:01.753340",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87700.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:45:34.360412",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87839.56,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T19:49:31.056639",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.69,
+      "quantity": 5.0,
+      "btc_price": 87767.05,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:53:14.733125",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87803.08,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:53:20.330079",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.3,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.5499999999999999,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-23T19:53:28.087586",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87766.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T19:55:15.131307",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.28,
+      "quantity": 4.998885,
+      "btc_price": 87772.88,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T19:56:11.303247",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.9,
+      "quantity": 5.001113,
+      "btc_price": 87730.39,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T20:00:55.661206",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87735.64,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T20:02:45.016924",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.0,
+      "btc_price": 87721.98,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T20:04:58.388700",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.0,
+      "btc_price": 87748.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T20:05:23.308517",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87725.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T20:15:45.413140",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87709.51,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T20:30:53.673963",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87791.01,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T20:32:07.494239",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.4,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.04999999999999977,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-23T20:32:15.612668",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87813.26,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T20:36:11.805438",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87691.4,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T20:37:45.313484",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.0,
+      "btc_price": 87722.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T20:37:52.109225",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87779.23,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T20:38:52.748499",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87811.64,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T20:45:41.059924",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 88297.99,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T20:46:42.787536",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 88293.8,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T20:46:51.685175",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 88214.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T20:47:31.072198",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.27,
+      "quantity": 5.0,
+      "btc_price": 88089.97,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:01:56.142117",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87704.56,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T21:04:05.297817",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.55,
+      "quantity": 5.0,
+      "btc_price": 87722.01,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:05:53.440102",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 87619.1,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T21:12:07.059779",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.94,
+      "quantity": 5.0,
+      "btc_price": 87614.29,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:13:35.565333",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.07,
+      "quantity": 4.995257,
+      "btc_price": 87659.01,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:14:31.018646",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.82,
+      "quantity": 5.0,
+      "btc_price": 87682.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:14:47.511761",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.11,
+      "quantity": 5.005257,
+      "btc_price": 87690.9,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T21:15:01.975635",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.005257,
+      "btc_price": 87719.32,
+      "pnl": null,
+      "reason": "CALL lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-23T21:16:44.449080",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 4.998047,
+      "btc_price": 87665.73,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T21:21:23.853119",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.81,
+      "quantity": 5.0,
+      "btc_price": 87793.2,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:31:29.867001",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87782.03,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T21:33:30.863654",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87764.18,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T21:36:21.799286",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.0,
+      "btc_price": 87750.09,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T21:46:07.193925",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.34,
+      "quantity": 5.0,
+      "btc_price": 87760.62,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T21:46:59.719586",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87715.78,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:47:27.643243",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.20000000000000018,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-23T21:47:35.386328",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87700.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:48:06.638269",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87700.09,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:49:28.374432",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 87684.48,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:50:24.779553",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87700.09,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:51:16.838792",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87679.04,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:52:07.739865",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.68,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.2500000000000002,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-23T21:52:15.468978",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.32,
+      "quantity": 5.0,
+      "btc_price": 87679.05,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:53:35.832716",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.65,
+      "quantity": 5.0,
+      "btc_price": 87682.67,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:54:14.701000",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 4.99857,
+      "btc_price": 87688.38,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:54:29.295665",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87679.04,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:54:59.359270",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.00857,
+      "btc_price": 87700.67,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:55:15.116996",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.56,
+      "quantity": 5.0,
+      "btc_price": 87719.98,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:55:28.998775",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.00857,
+      "btc_price": 87747.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:56:16.012870",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 87694.53,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:56:58.678913",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.00857,
+      "btc_price": 87713.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:57:06.216315",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87739.76,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:57:31.005355",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.00857,
+      "btc_price": 87715.45,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:57:46.121022",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87719.58,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T21:58:59.912788",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.00857,
+      "btc_price": 87730.02,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T21:59:12.902485",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.4,
+      "quantity": 5.0,
+      "btc_price": 87723.45,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T21:59:42.741385",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.00857,
+      "btc_price": 87730.62,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-23T21:59:57.305920",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87717.88,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T22:03:04.917471",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87704.43,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T22:06:16.397878",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87723.01,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T22:06:28.178183",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87739.08,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T22:06:33.617551",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.3,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-23T22:06:41.447584",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.005616,
+      "btc_price": 87739.08,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T22:07:12.046538",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 4.990348,
+      "btc_price": 87747.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T22:09:11.595676",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.005616,
+      "btc_price": 87711.72,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T22:30:45.378941",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87437.47,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-23T22:46:01.546742",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.55,
+      "quantity": 5.0,
+      "btc_price": 87559.37,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T22:47:55.600945",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.69,
+      "quantity": 5.0,
+      "btc_price": 87650.71,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T23:03:10.598369",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 5.0,
+      "btc_price": 87296.0,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T23:04:39.633591",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87378.36,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T23:16:05.663185",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87266.5,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T23:17:56.945601",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87280.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T23:26:27.572599",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87332.43,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T23:26:43.726969",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.006668,
+      "btc_price": 87343.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T23:27:33.798523",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.006668,
+      "btc_price": 87351.47,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T23:28:37.699567",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.006668,
+      "btc_price": 87351.47,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T23:33:29.921887",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 5.0,
+      "btc_price": 87455.62,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T23:34:29.299072",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87417.95,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-23T23:35:07.700520",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87418.06,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-23T23:35:12.066813",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.34,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.6999999999999997,
+      "reason": "Flip to CALL (lag $0.090)"
+    },
+    {
+      "timestamp": "2025-12-23T23:35:31.125539",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.0,
+      "btc_price": 87441.44,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-23T23:41:00.938650",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87437.32,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-23T23:53:54.554936",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.19,
+      "quantity": 4.994563,
+      "btc_price": 87440.65,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T23:55:36.655510",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.004563,
+      "btc_price": 87454.76,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-23T23:57:04.137615",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.17,
+      "quantity": 5.004563,
+      "btc_price": 87462.0,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-23T23:58:18.429374",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.28,
+      "quantity": 5.004563,
+      "btc_price": 87479.55,
+      "pnl": null,
+      "reason": "CALL lag $0.100"
+    },
+    {
+      "timestamp": "2025-12-24T00:37:28.923475",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.1,
+      "quantity": 5.0,
+      "btc_price": 87433.86,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T12:57:13.499450",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 5.0,
+      "btc_price": 87478.59,
+      "pnl": null,
+      "reason": "PUT lag $0.090"
+    },
+    {
+      "timestamp": "2025-12-24T12:57:31.826862",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.0,
+      "btc_price": 87466.33,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T12:58:05.387780",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.13,
+      "quantity": 5.0,
+      "btc_price": 87465.68,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T12:58:22.585863",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.82,
+      "quantity": 5.0,
+      "btc_price": 87455.1,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T12:59:51.397639",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.06,
+      "quantity": 5.0,
+      "btc_price": 87428.5,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T13:01:12.999734",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87422.96,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T13:04:14.921864",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87426.41,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:04:55.307894",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87423.31,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T13:05:21.892868",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87431.26,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:07:34.823892",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87410.86,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T13:08:31.026525",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.17,
+      "quantity": 5.0,
+      "btc_price": 87399.49,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:16:27.972718",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87305.66,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T13:16:49.240007",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87305.66,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:16:53.557680",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.56,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.15000000000000013,
+      "reason": "Flip to PUT (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-24T13:17:01.325000",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87305.68,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T13:17:09.831815",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.1999999999999999,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T13:17:17.620007",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87306.6,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:18:59.285219",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87319.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T13:21:21.584062",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.0,
+      "btc_price": 87308.93,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:24:30.252299",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87286.28,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T13:25:15.192550",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87294.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T13:29:23.618858",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.04,
+      "quantity": 5.0,
+      "btc_price": 87270.0,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T13:32:40.360568",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87278.13,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T13:39:54.205789",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -1.75,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T13:46:51.844371",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.0,
+      "btc_price": 87232.08,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T13:52:33.393477",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.22,
+      "quantity": 5.0,
+      "btc_price": 87236.32,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T14:06:15.834614",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.15,
+      "quantity": 5.0,
+      "btc_price": 87378.36,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T14:23:24.602121",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.04,
+      "quantity": 5.0,
+      "btc_price": 87315.49,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T15:06:46.671316",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87031.37,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T15:09:43.902538",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 86930.53,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:11:28.587273",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 86995.51,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T15:11:37.644757",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.4000000000000001,
+      "reason": "Flip to CALL (lag $0.050)"
+    },
+    {
+      "timestamp": "2025-12-24T15:11:45.420949",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 86982.24,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:12:02.225589",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.2500000000000002,
+      "reason": "Flip to PUT (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-24T15:12:09.913587",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 86996.07,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:13:12.719153",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 86962.26,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:17:19.886593",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 86954.15,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T15:20:59.421148",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.46,
+      "quantity": 4.999258,
+      "btc_price": 86857.79,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:27:04.948668",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 86840.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:27:39.757872",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.009258,
+      "btc_price": 86863.27,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:31:59.086892",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 86899.99,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T15:37:57.179875",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.0,
+      "btc_price": 86943.93,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:38:11.269053",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 86931.87,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:39:50.158898",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.26,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.14999999999999986,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-24T15:39:58.129754",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 86925.58,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:40:12.430981",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 5.0,
+      "btc_price": 86893.19,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:41:00.816722",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 86915.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:46:10.191131",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87077.67,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T15:51:42.395252",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 86995.43,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T15:54:20.486425",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87003.28,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:55:04.723234",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 86986.28,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:55:15.545834",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 86988.28,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:56:22.157269",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.28,
+      "quantity": 9.9987,
+      "btc_price": 0,
+      "pnl": 0.49993500000000013,
+      "reason": "Flip to PUT (lag $0.060)"
+    },
+    {
+      "timestamp": "2025-12-24T15:56:30.062119",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 87026.14,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T15:57:54.039994",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0087,
+      "btc_price": 87014.28,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T15:59:25.288738",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.91,
+      "quantity": 5.0,
+      "btc_price": 87012.18,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T15:59:29.804172",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.89,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.10000000000000009,
+      "reason": "Near expiry (35s)"
+    },
+    {
+      "timestamp": "2025-12-24T15:59:57.751559",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.81,
+      "quantity": 5.0,
+      "btc_price": 87040.54,
+      "pnl": null,
+      "reason": "PUT lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-24T16:01:13.745518",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 86990.0,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T16:02:22.019902",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87103.39,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T16:02:33.992175",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.22,
+      "quantity": 5.0,
+      "btc_price": 87193.88,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T16:04:49.814489",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.79,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.8250000000000002,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T16:04:57.677380",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87197.2,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T16:11:45.769371",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87055.61,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T16:11:55.882120",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 87017.93,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T16:12:38.391341",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87037.48,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T16:12:51.751568",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.0,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T16:12:59.588383",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87030.07,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T16:13:56.633392",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.96,
+      "quantity": 5.0,
+      "btc_price": 87116.74,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T16:46:11.411252",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87412.04,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T17:01:26.482286",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87306.54,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T17:06:46.923898",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87402.47,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T17:07:54.323813",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.19,
+      "quantity": 5.0,
+      "btc_price": 87378.07,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T17:12:15.004775",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.005434,
+      "btc_price": 87302.47,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T17:12:30.327797",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87317.49,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T17:16:45.014084",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87378.13,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T17:21:33.731779",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.9499999999999998,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T17:21:41.366780",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.77,
+      "quantity": 5.0,
+      "btc_price": 87442.31,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T17:24:36.401064",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.0,
+      "btc_price": 87388.72,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T17:25:01.769891",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.34999999999999987,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-24T17:26:07.706208",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 87382.36,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T17:30:33.526289",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.0,
+      "btc_price": 87555.67,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T17:45:41.681907",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87382.2,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T17:47:54.730203",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.39,
+      "quantity": 5.0,
+      "btc_price": 87441.3,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T17:50:21.631844",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87436.02,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T17:53:38.144115",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87349.03,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T17:54:14.780662",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87378.36,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:01:01.786499",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87311.58,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T18:04:29.137049",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87256.67,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:06:22.134509",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.0,
+      "btc_price": 87306.54,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:06:55.410341",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.002,
+      "btc_price": 87407.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:08:16.498601",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 5.0,
+      "btc_price": 87386.79,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:09:32.542262",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.002,
+      "btc_price": 87350.11,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:09:48.573469",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87350.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:10:15.710816",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.002,
+      "btc_price": 87326.29,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:10:28.320936",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.55,
+      "quantity": 5.007098,
+      "btc_price": 87322.58,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:10:38.673634",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.002,
+      "btc_price": 87304.02,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:11:43.987294",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.007098,
+      "btc_price": 87287.64,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:12:45.745980",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 10.002,
+      "btc_price": 87279.7,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:13:27.075250",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.007098,
+      "btc_price": 87311.36,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:13:49.399008",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.002,
+      "btc_price": 87312.02,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:13:59.879327",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.007098,
+      "btc_price": 87335.2,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:14:20.047615",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.16,
+      "quantity": 5.002,
+      "btc_price": 87340.5,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T18:15:54.816513",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87395.79,
+      "pnl": null,
+      "reason": "PUT lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-24T18:16:36.129545",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87471.26,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:20:05.794403",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.0,
+      "btc_price": 87429.91,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:25:47.157109",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.88,
+      "quantity": 5.0,
+      "btc_price": 87410.57,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:26:16.533361",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.06,
+      "quantity": 5.0,
+      "btc_price": 87453.51,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:31:16.561593",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87395.28,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T18:34:12.826387",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.0,
+      "btc_price": 87439.6,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T18:35:34.477142",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87419.21,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:35:57.417262",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87392.77,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:37:07.745634",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 87433.95,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:39:27.194357",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87415.93,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T18:40:14.506487",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 87457.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:41:26.005195",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87445.7,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:41:54.359351",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87454.14,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:43:58.767508",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.81,
+      "quantity": 5.007162,
+      "btc_price": 87434.69,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T18:46:13.584375",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87462.82,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T18:46:43.206924",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 5.0,
+      "btc_price": 87422.17,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:47:22.406689",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.9500000000000003,
+      "reason": "Flip to PUT (lag $0.050)"
+    },
+    {
+      "timestamp": "2025-12-24T18:47:24.835205",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.46,
+      "quantity": 5.0,
+      "btc_price": 87474.45,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:48:47.843457",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87495.83,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:51:14.387369",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87470.97,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:53:50.521332",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87476.87,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T18:54:10.243503",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87476.87,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:54:21.843386",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.34,
+      "quantity": 5.0,
+      "btc_price": 87476.86,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:54:36.388991",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 7.77485,
+      "btc_price": 87485.42,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T18:56:41.512876",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 4.9973,
+      "btc_price": 87466.19,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:58:39.572645",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0073,
+      "btc_price": 87470.64,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T18:59:59.020987",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.93,
+      "quantity": 5.00485,
+      "btc_price": 87470.64,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T19:00:53.417536",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87470.18,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T19:01:09.425557",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.050000000000000044,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T19:01:47.730419",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87452.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:04:56.166257",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 87502.39,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:05:18.558335",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.32,
+      "quantity": 5.0,
+      "btc_price": 87502.38,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:06:18.475667",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 87497.99,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:06:35.212171",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87497.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:07:35.472823",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87498.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:07:48.852869",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87487.52,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:08:47.513523",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0027,
+      "btc_price": 87487.52,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:10:12.111179",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0046,
+      "btc_price": 87469.84,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T19:10:41.480341",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0027,
+      "btc_price": 87473.5,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:11:20.237882",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.8,
+      "quantity": 5.013832,
+      "btc_price": 87426.02,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:14:05.371517",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.98,
+      "quantity": 5.013832,
+      "btc_price": 0,
+      "pnl": 0.9024897599999997,
+      "reason": "Near expiry (59s)"
+    },
+    {
+      "timestamp": "2025-12-24T19:15:36.108627",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87411.13,
+      "pnl": null,
+      "reason": "CALL lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T19:18:15.053423",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87378.08,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:19:59.729346",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.34,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -1.45,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-24T19:20:07.533413",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.66,
+      "quantity": 5.0,
+      "btc_price": 87457.24,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:20:52.571065",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.26,
+      "quantity": 5.0,
+      "btc_price": 87457.24,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:20:58.104195",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.28,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.10000000000000009,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T19:21:05.887170",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 87469.92,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:22:06.224540",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.35,
+      "quantity": 5.0,
+      "btc_price": 87439.63,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:24:25.157399",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87386.36,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T19:25:00.723230",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87409.58,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:25:15.994290",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87416.63,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:25:33.862950",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87386.69,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:26:06.810406",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87412.09,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:26:19.239135",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.56,
+      "quantity": 5.0,
+      "btc_price": 87409.53,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:27:03.769833",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.7000000000000004,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-24T19:27:11.625286",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87424.13,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:27:35.941582",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87435.33,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:28:16.426471",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87421.27,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:28:31.521382",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.14,
+      "quantity": 5.0,
+      "btc_price": 87439.44,
+      "pnl": null,
+      "reason": "PUT lag $0.090"
+    },
+    {
+      "timestamp": "2025-12-24T19:31:33.236164",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87471.19,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T19:45:37.319678",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87504.39,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T19:45:56.441881",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.0,
+      "btc_price": 87501.1,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:48:47.096314",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87542.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T19:50:02.950509",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87542.91,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T19:54:59.420890",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.76,
+      "quantity": 5.0,
+      "btc_price": 87532.3,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T19:55:13.161254",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87532.29,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:04:36.306032",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.5,
+      "quantity": 5.0,
+      "btc_price": 87568.08,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T20:06:16.071973",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.33,
+      "quantity": 5.0,
+      "btc_price": 87557.55,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:06:32.847804",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.010003,
+      "btc_price": 87551.86,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:14:00.855040",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.84,
+      "quantity": 5.0,
+      "btc_price": 87582.47,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:18:01.234952",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.0,
+      "btc_price": 87628.13,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T20:19:17.104078",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.39,
+      "quantity": 5.0,
+      "btc_price": 87631.64,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:22:09.603727",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87635.09,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T20:23:39.291208",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87635.08,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:23:53.846604",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87635.23,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:25:55.934714",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.5,
+      "quantity": 5.0,
+      "btc_price": 87615.07,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T20:26:25.295403",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87615.06,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:26:57.873875",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.0,
+      "btc_price": 87620.39,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:27:27.843646",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.0,
+      "btc_price": 87620.4,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:27:59.794868",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.0,
+      "btc_price": 87620.4,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:28:17.562940",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.34999999999999987,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T20:28:25.344259",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.77,
+      "quantity": 5.0,
+      "btc_price": 87625.91,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:28:50.153562",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -1.7500000000000002,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-24T20:28:57.444000",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87611.15,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:29:19.582643",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.15,
+      "quantity": 4.998233,
+      "btc_price": 87619.92,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T20:29:36.056061",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87619.91,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T20:29:59.837305",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.08,
+      "quantity": 5.008233,
+      "btc_price": 87619.91,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T20:31:17.006882",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.46,
+      "quantity": 5.0,
+      "btc_price": 87625.9,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T20:32:32.452939",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87659.49,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:32:47.546070",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": -0.2500000000000002,
+      "reason": "Flip to PUT (lag $0.050)"
+    },
+    {
+      "timestamp": "2025-12-24T20:32:55.319040",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87639.46,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:33:45.042480",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87648.69,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:36:16.763609",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87607.22,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:37:04.327730",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87631.79,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:37:56.939263",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87642.56,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T20:39:50.085023",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87643.26,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T20:40:05.556211",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 7.0,
+      "btc_price": 87647.93,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:41:15.871297",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 5.0,
+      "btc_price": 87647.94,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T20:42:03.943219",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.82,
+      "quantity": 5.0,
+      "btc_price": 87647.93,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T20:45:47.839074",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87639.72,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T20:47:53.973284",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 5.0,
+      "btc_price": 87588.63,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T21:00:46.378758",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.32,
+      "quantity": 5.0,
+      "btc_price": 87586.67,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T21:02:14.734554",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.16,
+      "quantity": 5.0,
+      "btc_price": 87631.67,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T21:10:36.883033",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.9,
+      "quantity": 5.0,
+      "btc_price": 87613.09,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T21:17:00.757323",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.0,
+      "btc_price": 87650.64,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T21:17:53.666812",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87648.75,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T21:18:30.207076",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87635.95,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T21:18:57.664149",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87652.61,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T21:21:18.378921",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.65,
+      "quantity": 5.0,
+      "btc_price": 87624.25,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T21:23:09.932827",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87635.98,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T21:24:54.763069",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 8.305086,
+      "btc_price": 87635.98,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T21:25:13.922681",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.0,
+      "btc_price": 87635.97,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T21:26:24.867556",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.005086,
+      "btc_price": 87635.98,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T21:30:55.610556",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87720.43,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T21:31:33.556359",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87748.28,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T21:32:14.450139",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87710.54,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T21:36:08.887825",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87731.95,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T21:37:21.602037",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87751.99,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T21:38:36.720258",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.16,
+      "quantity": 5.0,
+      "btc_price": 87773.08,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T21:40:40.721289",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.12,
+      "quantity": 5.0,
+      "btc_price": 87762.15,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T21:45:54.350914",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87703.33,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T22:00:45.461732",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.46,
+      "quantity": 5.0,
+      "btc_price": 87696.34,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T22:07:08.064008",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87710.77,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:07:54.287117",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.87,
+      "quantity": 5.0,
+      "btc_price": 87743.44,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:15:35.039864",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87853.45,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T22:18:41.386829",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87830.6,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:19:11.950701",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87821.95,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:19:39.530131",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.0,
+      "btc_price": 87821.95,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:20:37.554584",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.00182,
+      "btc_price": 87803.79,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:26:15.872535",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 5.0,
+      "btc_price": 87803.77,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:26:27.974856",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.00182,
+      "btc_price": 87803.77,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:30:44.088391",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.0,
+      "btc_price": 87814.0,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-24T22:46:05.890551",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87979.73,
+      "pnl": null,
+      "reason": "CALL lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T22:47:18.487134",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.0,
+      "btc_price": 87999.73,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:47:43.884926",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87983.44,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:48:36.816193",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.55,
+      "quantity": 5.0,
+      "btc_price": 87976.46,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:48:52.018986",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87999.99,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:49:17.377323",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87994.68,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:50:17.033760",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.34,
+      "quantity": 5.0,
+      "btc_price": 87956.64,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:51:47.201503",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87994.48,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:52:34.288809",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 88000.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:53:24.633177",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 88000.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:54:04.501514",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.0,
+      "btc_price": 88000.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:56:47.893592",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 87969.77,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:57:02.969842",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 6.875,
+      "btc_price": 87969.77,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:57:38.896569",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.83,
+      "quantity": 5.0,
+      "btc_price": 87966.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:57:55.979823",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 4.995628,
+      "btc_price": 87966.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T22:58:42.519183",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 8.734179,
+      "btc_price": 87969.73,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T22:59:20.131433",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.32,
+      "quantity": 4.995628,
+      "btc_price": 87979.73,
+      "pnl": null,
+      "reason": "CALL lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-24T23:00:54.018603",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87979.74,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T23:03:18.458369",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87932.16,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:15:50.563849",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.0,
+      "btc_price": 87786.06,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-24T23:19:04.298507",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87798.76,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:19:18.280984",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.4,
+      "quantity": 5.0,
+      "btc_price": 87810.01,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:20:36.486512",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87815.67,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T23:21:24.550678",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.33,
+      "quantity": 5.0,
+      "btc_price": 87803.76,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:22:10.292502",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87779.27,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:30:54.748747",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.34,
+      "quantity": 5.0,
+      "btc_price": 87640.0,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-24T23:32:18.233313",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.69,
+      "quantity": 5.0,
+      "btc_price": 87650.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:32:46.096556",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.0,
+      "btc_price": 87669.19,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:41:11.204537",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.85,
+      "quantity": 5.0,
+      "btc_price": 87644.9,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:42:04.612858",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.1,
+      "quantity": 5.0,
+      "btc_price": 87644.89,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:42:48.695597",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.89,
+      "quantity": 5.0,
+      "btc_price": 87640.52,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:46:14.471703",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87680.98,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-24T23:47:39.045898",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87654.04,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:48:34.643438",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87654.04,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:48:53.629030",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.45,
+      "quantity": 5.0,
+      "btc_price": 87654.03,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:50:04.583880",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87679.96,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:50:53.258238",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87700.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:51:29.787363",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.65,
+      "quantity": 5.0013,
+      "btc_price": 87679.72,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:52:08.534002",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.33,
+      "quantity": 5.0,
+      "btc_price": 87675.47,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:52:39.536048",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0013,
+      "btc_price": 87688.63,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:53:08.664510",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.26,
+      "quantity": 5.0,
+      "btc_price": 87688.63,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:53:53.912196",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0013,
+      "btc_price": 87687.65,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:54:19.627907",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.008463,
+      "btc_price": 87679.05,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:56:29.097666",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.91,
+      "quantity": 5.0013,
+      "btc_price": 87709.81,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:56:53.111660",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.008463,
+      "btc_price": 87678.7,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:57:38.951371",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.79,
+      "quantity": 5.0013,
+      "btc_price": 87673.62,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-24T23:57:57.693880",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.13,
+      "quantity": 5.008463,
+      "btc_price": 87673.61,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-24T23:59:16.765710",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.87,
+      "quantity": 5.002452,
+      "btc_price": 87669.44,
+      "pnl": null,
+      "reason": "CALL lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-25T00:00:37.019868",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87669.44,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T00:04:13.349567",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.72,
+      "quantity": 5.0,
+      "btc_price": 87607.14,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:05:22.597082",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87658.41,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:05:53.706859",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87660.62,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:07:15.652056",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.65,
+      "quantity": 5.0,
+      "btc_price": 87700.86,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:09:11.856570",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.3,
+      "quantity": 5.0,
+      "btc_price": 87703.45,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:09:32.323871",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.75,
+      "quantity": 5.0,
+      "btc_price": 87707.52,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:12:29.978350",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.14,
+      "quantity": 5.0,
+      "btc_price": 87699.61,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:12:48.873568",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87679.55,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:14:51.379417",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.76,
+      "quantity": 5.0,
+      "btc_price": 87675.0,
+      "pnl": null,
+      "reason": "PUT lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-25T00:16:05.196152",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87692.0,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T00:18:04.402775",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.75,
+      "quantity": 5.0,
+      "btc_price": 87721.94,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:19:23.601924",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.77,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.10000000000000009,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-25T00:19:31.503348",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87718.53,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:22:04.566594",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87711.78,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:26:06.644669",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87659.49,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T00:27:03.404971",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87659.48,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:27:51.123559",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.005864,
+      "btc_price": 87659.49,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:32:22.738789",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.0,
+      "btc_price": 87678.54,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T00:35:38.546328",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 5.0,
+      "btc_price": 87650.93,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T00:36:33.340544",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87607.25,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T00:40:09.472234",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.06,
+      "quantity": 5.0,
+      "btc_price": 87542.17,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T00:51:51.166655",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87563.23,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T00:52:26.042085",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87567.73,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:55:23.636872",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.18,
+      "quantity": 5.0,
+      "btc_price": 87577.0,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:55:51.160834",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.9,
+      "quantity": 5.0,
+      "btc_price": 87590.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:56:35.844337",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.27,
+      "quantity": 5.0,
+      "btc_price": 87556.81,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:56:45.350538",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87544.87,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:57:00.007251",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87544.86,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:57:40.762140",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87553.62,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:57:55.534066",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.27,
+      "quantity": 5.0,
+      "btc_price": 87555.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:58:22.520963",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.75,
+      "quantity": 5.0,
+      "btc_price": 87556.81,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:58:47.514153",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87542.77,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T00:59:01.122436",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.53,
+      "quantity": 5.0,
+      "btc_price": 87548.55,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T00:59:32.572275",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.57,
+      "quantity": 5.005864,
+      "btc_price": 87546.76,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T00:59:44.795307",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87546.76,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:01:24.638553",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87586.78,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T01:01:57.109733",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 87589.06,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:02:43.843516",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87582.49,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:03:06.702198",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87595.18,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:05:17.449224",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87571.21,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:05:37.803634",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87591.61,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:06:31.068787",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87581.77,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:06:57.290150",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87598.78,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:08:06.045202",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87595.15,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:08:46.094047",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.69,
+      "quantity": 5.0,
+      "btc_price": 87590.93,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:09:06.013719",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.26,
+      "quantity": 5.0,
+      "btc_price": 87590.92,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:09:24.761325",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.83,
+      "quantity": 5.00865,
+      "btc_price": 87611.24,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:16:13.493524",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.58,
+      "quantity": 5.0,
+      "btc_price": 87656.81,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T01:16:31.280645",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.37,
+      "quantity": 5.0,
+      "btc_price": 87652.29,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:18:44.209426",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.54,
+      "quantity": 5.0,
+      "btc_price": 87679.03,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:20:07.224492",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87679.03,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:21:24.247662",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.46,
+      "quantity": 5.0,
+      "btc_price": 87694.6,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:24:34.210289",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87703.07,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:24:57.480374",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87690.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:45:30.596853",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.0,
+      "btc_price": 87727.07,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T01:46:58.664662",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87721.79,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T01:48:33.747624",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.10000000000000009,
+      "reason": "Flip to CALL (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-25T01:50:15.722191",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.65,
+      "quantity": 5.0,
+      "btc_price": 87715.12,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T01:51:23.075164",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87748.78,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T01:52:16.972781",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.62,
+      "quantity": 5.0,
+      "btc_price": 87723.68,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T01:52:38.380658",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.38,
+      "quantity": 5.0,
+      "btc_price": 87718.85,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:00:47.045605",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87683.2,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T02:02:40.895707",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.87,
+      "quantity": 5.0,
+      "btc_price": 87598.42,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:04:03.795709",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 87650.14,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:11:54.528261",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87666.9,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:16:56.336236",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87739.26,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-25T02:17:26.991862",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87734.73,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:18:17.498147",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.46,
+      "quantity": 5.0,
+      "btc_price": 87749.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:20:13.254179",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.48,
+      "quantity": 5.0,
+      "btc_price": 87742.57,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:21:07.066998",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87742.56,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:21:37.073137",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87749.99,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:25:54.797737",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.7,
+      "quantity": 5.0,
+      "btc_price": 87727.54,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T02:26:22.114788",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87747.99,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:26:45.650690",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87731.68,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:27:11.127036",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.28,
+      "quantity": 5.0,
+      "btc_price": 87731.67,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:27:27.999902",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.001113,
+      "btc_price": 87725.86,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:29:04.322665",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 5.0,
+      "btc_price": 87733.21,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:29:21.461419",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.15,
+      "quantity": 5.0075,
+      "btc_price": 87733.22,
+      "pnl": null,
+      "reason": "CALL lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-25T02:29:36.284270",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 4.0875,
+      "btc_price": 87733.21,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T02:29:51.742904",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.11,
+      "quantity": 5.0075,
+      "btc_price": 87733.22,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-25T02:31:11.023451",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87739.37,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T02:34:34.591078",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.66,
+      "quantity": 5.0,
+      "btc_price": 87757.47,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:34:49.041600",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 7.058825,
+      "btc_price": 87769.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:36:20.366468",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.67,
+      "quantity": 5.0,
+      "btc_price": 87771.4,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:36:41.928283",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 7.058825,
+      "btc_price": 87735.99,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:40:19.422074",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.04,
+      "quantity": 5.008825,
+      "btc_price": 87789.77,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T02:45:45.069119",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.43,
+      "quantity": 5.0,
+      "btc_price": 87908.19,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T02:46:12.249930",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.65,
+      "quantity": 5.0,
+      "btc_price": 87879.51,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:50:14.194270",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87873.08,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:50:49.048004",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.0,
+      "btc_price": 87873.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:53:08.109923",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.33,
+      "quantity": 5.0,
+      "btc_price": 87940.09,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T02:53:30.752374",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 87933.3,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:55:41.740827",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "quantity": 5.0,
+      "btc_price": 87892.66,
+      "pnl": null,
+      "reason": "PUT lag $0.090"
+    },
+    {
+      "timestamp": "2025-12-25T02:56:31.281216",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87913.66,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:57:12.580075",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.64,
+      "quantity": 5.0,
+      "btc_price": 87904.47,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:57:28.677466",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.0,
+      "btc_price": 87897.7,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:58:04.219300",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.26,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.2500000000000001,
+      "reason": "Flip to PUT (lag $0.130)"
+    },
+    {
+      "timestamp": "2025-12-25T02:58:11.985615",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.74,
+      "quantity": 5.0,
+      "btc_price": 87892.66,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T02:58:45.974276",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.15,
+      "quantity": 5.0,
+      "btc_price": 87892.65,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T02:59:15.227831",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.09,
+      "quantity": 5.0,
+      "btc_price": 87892.66,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T02:59:28.403282",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.06,
+      "quantity": 4.993816,
+      "btc_price": 87892.65,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-25T02:59:33.355786",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.02,
+      "quantity": 4.993816,
+      "btc_price": 0,
+      "pnl": -0.19975263999999995,
+      "reason": "Near expiry (31s)"
+    },
+    {
+      "timestamp": "2025-12-25T03:03:11.847139",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.49,
+      "quantity": 5.0,
+      "btc_price": 87897.8,
+      "pnl": null,
+      "reason": "PUT lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-25T03:04:03.894991",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.68,
+      "quantity": 5.0,
+      "btc_price": 87925.08,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T03:05:51.401048",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87899.09,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T03:06:14.646515",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.714287,
+      "btc_price": 87879.5,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T03:07:18.680965",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.66,
+      "quantity": 5.0,
+      "btc_price": 87871.01,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T03:07:31.301194",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.004287,
+      "btc_price": 87875.11,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T03:11:27.082713",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.83,
+      "quantity": 5.0,
+      "btc_price": 87852.34,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T03:14:10.156814",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.02,
+      "quantity": 5.004287,
+      "btc_price": 87848.77,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T03:15:51.894040",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 4.993332,
+      "btc_price": 87847.62,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T03:18:22.014521",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.52,
+      "quantity": 5.003332,
+      "btc_price": 87839.98,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T03:20:49.918209",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "quantity": 5.0,
+      "btc_price": 87852.98,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T03:22:11.246294",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 87881.9,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T03:23:33.263765",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87873.24,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T03:23:57.792005",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.27,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.20000000000000004,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-25T03:24:08.924015",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.26,
+      "quantity": 4.99135,
+      "btc_price": 87864.83,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T03:25:13.927621",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 4.98975,
+      "btc_price": 87864.84,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T03:27:39.774158",
+      "token_type": "PUT",
+      "action": "SELL",
+      "price": 0.17,
+      "quantity": 4.98975,
+      "btc_price": 0,
+      "pnl": -0.6985649999999999,
+      "reason": "Flip to CALL (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-25T03:28:10.855997",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.39,
+      "quantity": 5.003332,
+      "btc_price": 87841.99,
+      "pnl": null,
+      "reason": "CALL lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-25T03:29:01.828887",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 4.996664,
+      "btc_price": 87841.97,
+      "pnl": null,
+      "reason": "CALL lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-25T03:29:16.029767",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.006664,
+      "btc_price": 87841.97,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-25T03:29:29.240999",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.21,
+      "quantity": 5.002483,
+      "btc_price": 87841.96,
+      "pnl": null,
+      "reason": "CALL lag $0.090"
+    },
+    {
+      "timestamp": "2025-12-25T03:29:33.607084",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.18,
+      "quantity": 5.002483,
+      "btc_price": 0,
+      "pnl": -0.15007448999999998,
+      "reason": "Near expiry (31s)"
+    },
+    {
+      "timestamp": "2025-12-25T03:29:40.992878",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.22,
+      "quantity": 4.986583,
+      "btc_price": 87841.96,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-25T03:29:55.107855",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.1,
+      "quantity": 5.006583,
+      "btc_price": 87841.96,
+      "pnl": null,
+      "reason": "CALL lag $0.140"
+    },
+    {
+      "timestamp": "2025-12-25T03:46:20.086460",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.42,
+      "quantity": 5.0,
+      "btc_price": 87787.87,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T03:46:27.712381",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.24999999999999994,
+      "reason": "Flip to PUT (lag $0.030)"
+    },
+    {
+      "timestamp": "2025-12-25T03:47:31.604030",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.31,
+      "quantity": 5.0,
+      "btc_price": 87779.28,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T03:48:22.994918",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.59,
+      "quantity": 5.0,
+      "btc_price": 87779.27,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T03:50:14.970601",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.47,
+      "quantity": 5.0,
+      "btc_price": 87797.71,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T03:51:09.021002",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.51,
+      "quantity": 5.0,
+      "btc_price": 87797.72,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T03:51:55.575096",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.71,
+      "quantity": 5.0,
+      "btc_price": 87819.99,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T04:00:37.551285",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.63,
+      "quantity": 5.0,
+      "btc_price": 87822.0,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T04:01:34.131415",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.44,
+      "quantity": 5.0,
+      "btc_price": 87840.14,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T04:16:13.342564",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 87799.28,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T04:16:27.560593",
+      "token_type": "CALL",
+      "action": "SELL",
+      "price": 0.61,
+      "quantity": 5.0,
+      "btc_price": 0,
+      "pnl": 0.0,
+      "reason": "Flip to PUT (lag $0.040)"
+    },
+    {
+      "timestamp": "2025-12-25T04:16:35.112797",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.39,
+      "quantity": 5.0,
+      "btc_price": 87799.11,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T04:17:08.641851",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.78,
+      "quantity": 5.0,
+      "btc_price": 87834.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T04:17:50.582403",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87821.88,
+      "pnl": null,
+      "reason": "Flipped from CALL"
+    },
+    {
+      "timestamp": "2025-12-25T04:21:13.897390",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.73,
+      "quantity": 5.0,
+      "btc_price": 87809.18,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T04:25:21.249973",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.82,
+      "quantity": 5.0,
+      "btc_price": 87808.0,
+      "pnl": null,
+      "reason": "Flipped from PUT"
+    },
+    {
+      "timestamp": "2025-12-25T04:27:52.540390",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.15,
+      "quantity": 4.996466,
+      "btc_price": 87756.05,
+      "pnl": null,
+      "reason": "CALL lag $0.070"
+    },
+    {
+      "timestamp": "2025-12-25T04:32:26.499002",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.0,
+      "btc_price": 87773.83,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T04:36:17.726455",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.25,
+      "quantity": 5.0,
+      "btc_price": 87788.64,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T04:39:06.585675",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 87774.44,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T04:40:01.005228",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.14,
+      "quantity": 5.0,
+      "btc_price": 87782.19,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T05:01:26.182946",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.39,
+      "quantity": 5.0,
+      "btc_price": 87762.46,
+      "pnl": null,
+      "reason": "CALL lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T05:04:14.222439",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.14,
+      "quantity": 5.007299,
+      "btc_price": 87726.16,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T05:06:15.404125",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.14,
+      "quantity": 4.992869,
+      "btc_price": 87717.47,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T05:32:39.226894",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 4.995787,
+      "btc_price": 87748.23,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T05:36:14.860112",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.27,
+      "quantity": 5.005787,
+      "btc_price": 87742.6,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T05:38:28.005588",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.32,
+      "quantity": 4.996374,
+      "btc_price": 87731.91,
+      "pnl": null,
+      "reason": "PUT lag $0.060"
+    },
+    {
+      "timestamp": "2025-12-25T05:39:14.611102",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.36,
+      "quantity": 5.006374,
+      "btc_price": 87731.91,
+      "pnl": null,
+      "reason": "PUT lag $0.080"
+    },
+    {
+      "timestamp": "2025-12-25T05:55:32.280603",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.18,
+      "quantity": 4.985361,
+      "btc_price": 87771.0,
+      "pnl": null,
+      "reason": "PUT lag $0.090"
+    },
+    {
+      "timestamp": "2025-12-25T05:59:13.554284",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.23,
+      "quantity": 5.0,
+      "btc_price": 87751.91,
+      "pnl": null,
+      "reason": "CALL lag $0.120"
+    },
+    {
+      "timestamp": "2025-12-25T06:06:55.818139",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.2,
+      "quantity": 5.0,
+      "btc_price": 87703.97,
+      "pnl": null,
+      "reason": "CALL lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T06:07:38.619360",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.28,
+      "quantity": 5.0,
+      "btc_price": 87724.0,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T06:17:27.027396",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.22,
+      "quantity": 5.0,
+      "btc_price": 87738.74,
+      "pnl": null,
+      "reason": "PUT lag $0.030"
+    },
+    {
+      "timestamp": "2025-12-25T06:18:59.003902",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.24,
+      "quantity": 5.0,
+      "btc_price": 87738.75,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T06:21:10.244294",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.29,
+      "quantity": 5.0,
+      "btc_price": 87722.83,
+      "pnl": null,
+      "reason": "PUT lag $0.050"
+    },
+    {
+      "timestamp": "2025-12-25T06:43:47.288506",
+      "token_type": "PUT",
+      "action": "BUY",
+      "price": 0.04,
+      "quantity": 5.0,
+      "btc_price": 87770.46,
+      "pnl": null,
+      "reason": "PUT lag $0.040"
+    },
+    {
+      "timestamp": "2025-12-25T07:11:31.630125",
+      "token_type": "CALL",
+      "action": "BUY",
+      "price": 0.07,
+      "quantity": 5.0,
+      "btc_price": 87808.7,
+      "pnl": null,
+      "reason": "CALL lag $0.040"
+    }
+  ],
+  "current_position": null
+}

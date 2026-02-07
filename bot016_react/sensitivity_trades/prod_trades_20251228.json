@@ -1,0 +1,52 @@
+{
+  "date": "2025-12-28",
+  "total_trades": 3,
+  "wins": 0,
+  "losses": 2,
+  "win_rate": 0.0,
+  "daily_pnl": -0.8499999999999996,
+  "trades": [
+    {
+      "type": "CALL",
+      "open_time": "2025-12-28T16:56:43.174906",
+      "close_time": "2025-12-28T16:56:47.721029",
+      "open_btc": 87781.2,
+      "close_btc": 87775.3,
+      "open_price": 0.82,
+      "close_price": 0.8,
+      "open_bin": "10-20|4m-3m|10-20",
+      "close_bin": "5-10|4m-3m|10-20",
+      "edge": 0.2832570270744815,
+      "pnl": -0.09999999999999953,
+      "close_reason": "SELL_SIGNAL"
+    },
+    {
+      "type": "PUT",
+      "open_time": "2025-12-28T18:20:14.096389",
+      "close_time": "2025-12-28T18:21:09.884921",
+      "open_btc": 87586.1,
+      "close_btc": 87606.3,
+      "open_price": 0.66,
+      "close_price": 0.51,
+      "open_bin": "40-80|10m-9m|40-60",
+      "close_bin": "20-40|9m-8m|40-60",
+      "edge": 0.1549023842683842,
+      "pnl": -0.7500000000000001,
+      "close_reason": "SELL_SIGNAL"
+    },
+    {
+      "type": "CALL",
+      "open_time": "2025-12-28T21:00:25.184830",
+      "close_time": "2025-12-28T21:00:49.706561",
+      "open_btc": 87464.4,
+      "close_btc": 87469.5,
+      "open_price": 0.54,
+      "close_price": 0.54,
+      "open_bin": "1-5|15m-13m|0-10",
+      "close_bin": "1-5|15m-13m|30-40",
+      "edge": 0.040484081139525174,
+      "pnl": 0.0,
+      "close_reason": "SELL_SIGNAL"
+    }
+  ]
+}

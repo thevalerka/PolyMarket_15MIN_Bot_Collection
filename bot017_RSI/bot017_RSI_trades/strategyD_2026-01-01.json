@@ -1,0 +1,32 @@
+{
+  "strategy": "D_Adaptive",
+  "date": "2026-01-01",
+  "total_pnl": 0.0,
+  "trades": [
+    {
+      "entry_time": "2026-01-01 23:50:32",
+      "exit_time": "2026-01-01 23:51:56",
+      "type": "CALL",
+      "entry_price": 0.17,
+      "exit_price": 0.17,
+      "pnl": 0.0,
+      "strike_price": 88847.98,
+      "btc_at_entry": 88762.0,
+      "rsi_at_entry": 47.59358288769947,
+      "ema_at_entry": 88753.65253748267,
+      "ema_period": 85,
+      "btc_volatility": 42.10000000000582,
+      "bin": "80-160|10m-9m|40-60",
+      "seconds_remaining_at_entry": 568,
+      "entry_reason": "EMA_CROSS_UP",
+      "exit_reason": "RSI_EXIT"
+    }
+  ],
+  "stats": {
+    "total_trades": 1,
+    "winning_trades": 0,
+    "losing_trades": 1,
+    "call_trades": 1,
+    "put_trades": 0
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "period_id": "2026-01-17_00:45",
+  "start_time": "2026-01-17T00:45:00",
+  "end_time": "2026-01-17T01:00:02.749000",
+  "summary": {
+    "total_trades": 12,
+    "wins": 8,
+    "losses": 4,
+    "pnl": 118.0,
+    "win_rate": 66.7
+  },
+  "trades": [
+    {
+      "trade_id": 42,
+      "asset_type": "PUT",
+      "entry_price": 0.55,
+      "exit_price": 0.47,
+      "entry_time": "2026-01-17T00:45:02.380000",
+      "exit_time": "2026-01-17T00:45:27.865000",
+      "size": 100.0,
+      "pnl": -8.0,
+      "pnl_percent": -14.55,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 43,
+      "asset_type": "CALL",
+      "entry_price": 0.53,
+      "exit_price": 0.65,
+      "entry_time": "2026-01-17T00:45:27.865000",
+      "exit_time": "2026-01-17T00:45:56.937000",
+      "size": 100.0,
+      "pnl": 12.0,
+      "pnl_percent": 22.64,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 44,
+      "asset_type": "PUT",
+      "entry_price": 0.35,
+      "exit_price": 0.46,
+      "entry_time": "2026-01-17T00:45:56.937000",
+      "exit_time": "2026-01-17T00:51:36.355000",
+      "size": 100.0,
+      "pnl": 11.0,
+      "pnl_percent": 31.43,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 45,
+      "asset_type": "CALL",
+      "entry_price": 0.54,
+      "exit_price": 0.73,
+      "entry_time": "2026-01-17T00:51:36.355000",
+      "exit_time": "2026-01-17T00:55:07.503000",
+      "size": 100.0,
+      "pnl": 19.0,
+      "pnl_percent": 35.19,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 46,
+      "asset_type": "PUT",
+      "entry_price": 0.27,
+      "exit_price": 0.45,
+      "entry_time": "2026-01-17T00:55:07.503000",
+      "exit_time": "2026-01-17T00:59:22.928000",
+      "size": 100.0,
+      "pnl": 18.0,
+      "pnl_percent": 66.67,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 47,
+      "asset_type": "CALL",
+      "entry_price": 0.55,
+      "exit_price": 0.53,
+      "entry_time": "2026-01-17T00:59:22.928000",
+      "exit_time": "2026-01-17T00:59:28.967000",
+      "size": 100.0,
+      "pnl": -2.0,
+      "pnl_percent": -3.64,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 48,
+      "asset_type": "PUT",
+      "entry_price": 0.47,
+      "exit_price": 0.45,
+      "entry_time": "2026-01-17T00:59:28.967000",
+      "exit_time": "2026-01-17T00:59:29.966000",
+      "size": 100.0,
+      "pnl": -2.0,
+      "pnl_percent": -4.26,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 49,
+      "asset_type": "CALL",
+      "entry_price": 0.55,
+      "exit_price": 0.54,
+      "entry_time": "2026-01-17T00:59:29.966000",
+      "exit_time": "2026-01-17T00:59:31.967000",
+      "size": 100.0,
+      "pnl": -1.0,
+      "pnl_percent": -1.82,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 50,
+      "asset_type": "PUT",
+      "entry_price": 0.46,
+      "exit_price": 0.87,
+      "entry_time": "2026-01-17T00:59:31.967000",
+      "exit_time": "2026-01-17T00:59:45.974000",
+      "size": 100.0,
+      "pnl": 41.0,
+      "pnl_percent": 89.13,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 51,
+      "asset_type": "CALL",
+      "entry_price": 0.13,
+      "exit_price": 0.17,
+      "entry_time": "2026-01-17T00:59:45.974000",
+      "exit_time": "2026-01-17T00:59:47.973000",
+      "size": 100.0,
+      "pnl": 4.0,
+      "pnl_percent": 30.77,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 52,
+      "asset_type": "PUT",
+      "entry_price": 0.83,
+      "exit_price": 0.94,
+      "entry_time": "2026-01-17T00:59:47.973000",
+      "exit_time": "2026-01-17T00:59:48.852000",
+      "size": 100.0,
+      "pnl": 11.0,
+      "pnl_percent": 13.25,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 53,
+      "asset_type": "CALL",
+      "entry_price": 0.06,
+      "exit_price": 0.21,
+      "entry_time": "2026-01-17T00:59:48.852000",
+      "exit_time": "2026-01-17T00:59:50.976000",
+      "size": 100.0,
+      "pnl": 15.0,
+      "pnl_percent": 250.0,
+      "exit_reason": "last_10s"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Pair Trading - Entry Prices</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0f1419;
+            color: #e1e8ed;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .period-info {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        
+        .timer {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        
+        .chart-wrapper {
+            background: #192734;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            height: calc(100vh - 200px);
+            min-height: 500px;
+        }
+        
+        .chart-title {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+        
+        .chart-canvas {
+            width: 100% !important;
+            height: calc(100% - 60px) !important;
+        }
+        
+        .status {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #192734;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            font-size: 0.9em;
+            z-index: 1000;
+        }
+        
+        .status-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-active {
+            background: #10b981;
+        }
+        
+        .status-error {
+            background: #ef4444;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📈 Polymarket Pair Trading - Entry Prices</h1>
+        <div class="period-info">
+            <div>Period: <span id="periodStart">--:--</span> to <span id="periodEnd">--:--</span></div>
+            <div class="timer">⏱️ <span id="timeRemaining">--:--</span></div>
+        </div>
+    </div>
+    
+    <div class="chart-wrapper">
+        <div class="chart-title">Entry Prices (Ask + Ask) - All 16 Pairs</div>
+        <canvas id="entryChart" class="chart-canvas"></canvas>
+    </div>
+    
+    <div class="status">
+        <span class="status-dot status-active" id="statusDot"></span>
+        <span id="statusText">Loading...</span>
+    </div>
+
+    <script>
+        let entryChart;
+        let entryDatasets = {};
+        let timeLabels = [];
+        let currentPeriodStart = null;
+        let fetchAttempts = 0;
+        let lastSuccessTime = null;
+        
+        const colors = [
+            '#667eea', '#764ba2', '#f093fb', '#4facfe',
+            '#43e97b', '#fa709a', '#fee140', '#30cfd0',
+            '#a8edea', '#fed6e3', '#c471f5', '#fa7a7a',
+            '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4'
+        ];
+        
+        const dataFilePath = './data/live_pairs_data.json';
+        
+        function initChart() {
+            const ctx = document.getElementById('entryChart').getContext('2d');
+            
+            entryChart = new Chart(ctx, {
+                type: 'line',
+                data: { 
+                    labels: [], 
+                    datasets: [] 
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'right',
+                            labels: {
+                                color: '#e1e8ed',
+                                font: { size: 11 },
+                                boxWidth: 20,
+                                padding: 10
+                            }
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                            titleColor: '#ffd700',
+                            bodyColor: '#e1e8ed',
+                            borderColor: '#667eea',
+                            borderWidth: 1,
+                            padding: 12,
+                            titleFont: { size: 14 },
+                            bodyFont: { size: 12 }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { 
+                                color: '#2d3748',
+                                drawBorder: false
+                            },
+                            ticks: { 
+                                color: '#94a3b8',
+                                maxRotation: 45,
+                                minRotation: 45,
+                                font: { size: 11 }
+                            }
+                        },
+                        y: {
+                            grid: { 
+                                color: '#2d3748',
+                                drawBorder: false
+                            },
+                            ticks: { 
+                                color: '#94a3b8',
+                                font: { size: 11 }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Entry Price (Ask + Ask)',
+                                color: '#ffd700',
+                                font: { size: 14 }
+                            }
+                        }
+                    },
+                    interaction: {
+                        mode: 'nearest',
+                        axis: 'x',
+                        intersect: false
+                    }
+                }
+            });
+        }
+        
+        function updateChart(data) {
+            const timestamp = new Date(data.timestamp).toLocaleTimeString();
+            
+            // Check if we need to reset (new period)
+            if (currentPeriodStart !== data.period_start) {
+                console.log('New period detected, resetting chart');
+                currentPeriodStart = data.period_start;
+                timeLabels = [];
+                entryDatasets = {};
+            }
+            
+            // Add timestamp
+            timeLabels.push(timestamp);
+            
+            // Limit to last 900 points (15 minutes at 1 second intervals)
+            if (timeLabels.length > 900) {
+                timeLabels.shift();
+            }
+            
+            // Update datasets for each pair
+            data.pairs.forEach((pair, index) => {
+                const colorIndex = index % colors.length;
+                
+                // Initialize dataset if needed
+                if (!entryDatasets[pair.name]) {
+                    entryDatasets[pair.name] = {
+                        label: pair.name,
+                        data: [],
+                        borderColor: colors[colorIndex],
+                        backgroundColor: colors[colorIndex] + '20',
+                        borderWidth: 2,
+                        tension: 0.4,
+                        pointRadius: 0,
+                        pointHoverRadius: 5,
+                        pointHoverBorderWidth: 2
+                    };
+                }
+                
+                // Add data point
+                entryDatasets[pair.name].data.push(pair.entry_price);
+                
+                // Limit data points
+                if (entryDatasets[pair.name].data.length > 900) {
+                    entryDatasets[pair.name].data.shift();
+                }
+            });
+            
+            // Update chart
+            entryChart.data.labels = timeLabels;
+            entryChart.data.datasets = Object.values(entryDatasets);
+            entryChart.update('none');
+        }
+        
+        function updateTimer(data) {
+            const seconds = Math.max(0, Math.floor(data.seconds_remaining));
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            
+            document.getElementById('timeRemaining').textContent = 
+                `${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            
+            document.getElementById('periodStart').textContent = 
+                new Date(data.period_start).toLocaleTimeString();
+            document.getElementById('periodEnd').textContent = 
+                new Date(data.period_end).toLocaleTimeString();
+        }
+        
+        function updateStatus(success, message = '') {
+            const dot = document.getElementById('statusDot');
+            const text = document.getElementById('statusText');
+            
+            if (success) {
+                dot.className = 'status-dot status-active';
+                const timeSince = lastSuccessTime ? 
+                    Math.floor((Date.now() - lastSuccessTime) / 1000) : 0;
+                text.textContent = `Live (${timeSince}s ago)`;
+                lastSuccessTime = Date.now();
+            } else {
+                dot.className = 'status-dot status-error';
+                text.textContent = message || `Error (${fetchAttempts} attempts)`;
+            }
+        }
+        
+        async function fetchData() {
+            try {
+                const cacheBuster = new Date().getTime();
+                const response = await fetch(dataFilePath + '?t=' + cacheBuster);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                updateChart(data);
+                updateTimer(data);
+                updateStatus(true);
+                fetchAttempts = 0;
+                
+            } catch (error) {
+                fetchAttempts++;
+                console.error('Error fetching data:', error);
+                
+                if (fetchAttempts === 1) {
+                    updateStatus(false, 'Waiting for data...');
+                } else if (fetchAttempts < 10) {
+                    updateStatus(false, `Connecting... (${fetchAttempts})`);
+                } else {
+                    updateStatus(false, 'No data available');
+                }
+            }
+        }
+        
+        // Initialize
+        console.log('Initializing dashboard...');
+        console.log('Data file path:', dataFilePath);
+        initChart();
+        
+        // Fetch data every second
+        setInterval(fetchData, 1000);
+        
+        // Initial fetch
+        fetchData();
+    </script>
+</body>
+</html>

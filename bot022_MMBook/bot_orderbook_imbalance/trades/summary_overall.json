@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-01-19T23:14:59.885481",
+  "overall": {
+    "total_trades": 0,
+    "total_pnl": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0
+  },
+  "exit_reasons": {},
+  "periods": {
+    "2026-01-19_21:30": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    },
+    "2026-01-19_21:45": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    },
+    "2026-01-19_22:00": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    },
+    "2026-01-19_22:15": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    },
+    "2026-01-19_22:30": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    },
+    "2026-01-19_22:45": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    },
+    "2026-01-19_23:00": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl": 0.0,
+      "win_rate": 0
+    }
+  }
+}

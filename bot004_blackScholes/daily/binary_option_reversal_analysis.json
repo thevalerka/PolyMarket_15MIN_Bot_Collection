@@ -1,0 +1,710 @@
+{
+  "summary": {
+    "total_periods_analyzed": 3446,
+    "total_records_processed": 2977798,
+    "total_files_processed": 37,
+    "date_range_start": "2025-09-14T10:00:00",
+    "date_range_end": "2025-10-20T17:30:00",
+    "thresholds_analyzed": [
+      "1%",
+      "2%",
+      "5%",
+      "10%",
+      "20%",
+      "30%"
+    ]
+  },
+  "reversal_analysis": {
+    "1%": {
+      "threshold_value": 0.01,
+      "total_periods_hit": 1664,
+      "reversals": 34,
+      "no_reversals": 1630,
+      "reversal_rate": 0.0204,
+      "by_minute": {
+        "minute_0": {
+          "periods_hit": 3,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_2": {
+          "periods_hit": 2,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_3": {
+          "periods_hit": 1,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_4": {
+          "periods_hit": 13,
+          "reversals": 2,
+          "reversal_rate": 0.1538
+        },
+        "minute_5": {
+          "periods_hit": 21,
+          "reversals": 2,
+          "reversal_rate": 0.0952
+        },
+        "minute_6": {
+          "periods_hit": 49,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_7": {
+          "periods_hit": 63,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_8": {
+          "periods_hit": 69,
+          "reversals": 1,
+          "reversal_rate": 0.0145
+        },
+        "minute_9": {
+          "periods_hit": 102,
+          "reversals": 3,
+          "reversal_rate": 0.0294
+        },
+        "minute_10": {
+          "periods_hit": 132,
+          "reversals": 4,
+          "reversal_rate": 0.0303
+        },
+        "minute_11": {
+          "periods_hit": 191,
+          "reversals": 4,
+          "reversal_rate": 0.0209
+        },
+        "minute_12": {
+          "periods_hit": 207,
+          "reversals": 3,
+          "reversal_rate": 0.0145
+        },
+        "minute_13": {
+          "periods_hit": 265,
+          "reversals": 5,
+          "reversal_rate": 0.0189
+        },
+        "minute_14": {
+          "periods_hit": 546,
+          "reversals": 10,
+          "reversal_rate": 0.0183
+        }
+      },
+      "by_volatility": {
+        "extremely_low": {
+          "periods_hit": 139,
+          "reversals": 2,
+          "reversal_rate": 0.0144
+        },
+        "low": {
+          "periods_hit": 619,
+          "reversals": 20,
+          "reversal_rate": 0.0323
+        },
+        "moderate": {
+          "periods_hit": 552,
+          "reversals": 8,
+          "reversal_rate": 0.0145
+        },
+        "sustained": {
+          "periods_hit": 230,
+          "reversals": 1,
+          "reversal_rate": 0.0043
+        },
+        "high": {
+          "periods_hit": 95,
+          "reversals": 3,
+          "reversal_rate": 0.0316
+        },
+        "extreme": {
+          "periods_hit": 29,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        }
+      }
+    },
+    "2%": {
+      "threshold_value": 0.02,
+      "total_periods_hit": 1691,
+      "reversals": 49,
+      "no_reversals": 1642,
+      "reversal_rate": 0.029,
+      "by_minute": {
+        "minute_0": {
+          "periods_hit": 3,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_1": {
+          "periods_hit": 1,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_2": {
+          "periods_hit": 1,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_3": {
+          "periods_hit": 9,
+          "reversals": 3,
+          "reversal_rate": 0.3333
+        },
+        "minute_4": {
+          "periods_hit": 24,
+          "reversals": 1,
+          "reversal_rate": 0.0417
+        },
+        "minute_5": {
+          "periods_hit": 37,
+          "reversals": 1,
+          "reversal_rate": 0.027
+        },
+        "minute_6": {
+          "periods_hit": 66,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_7": {
+          "periods_hit": 77,
+          "reversals": 1,
+          "reversal_rate": 0.013
+        },
+        "minute_8": {
+          "periods_hit": 110,
+          "reversals": 6,
+          "reversal_rate": 0.0545
+        },
+        "minute_9": {
+          "periods_hit": 120,
+          "reversals": 3,
+          "reversal_rate": 0.025
+        },
+        "minute_10": {
+          "periods_hit": 148,
+          "reversals": 9,
+          "reversal_rate": 0.0608
+        },
+        "minute_11": {
+          "periods_hit": 198,
+          "reversals": 6,
+          "reversal_rate": 0.0303
+        },
+        "minute_12": {
+          "periods_hit": 203,
+          "reversals": 2,
+          "reversal_rate": 0.0099
+        },
+        "minute_13": {
+          "periods_hit": 226,
+          "reversals": 6,
+          "reversal_rate": 0.0265
+        },
+        "minute_14": {
+          "periods_hit": 468,
+          "reversals": 11,
+          "reversal_rate": 0.0235
+        }
+      },
+      "by_volatility": {
+        "extremely_low": {
+          "periods_hit": 149,
+          "reversals": 5,
+          "reversal_rate": 0.0336
+        },
+        "low": {
+          "periods_hit": 628,
+          "reversals": 27,
+          "reversal_rate": 0.043
+        },
+        "moderate": {
+          "periods_hit": 554,
+          "reversals": 12,
+          "reversal_rate": 0.0217
+        },
+        "sustained": {
+          "periods_hit": 236,
+          "reversals": 3,
+          "reversal_rate": 0.0127
+        },
+        "high": {
+          "periods_hit": 99,
+          "reversals": 2,
+          "reversal_rate": 0.0202
+        },
+        "extreme": {
+          "periods_hit": 25,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        }
+      }
+    },
+    "5%": {
+      "threshold_value": 0.05,
+      "total_periods_hit": 1750,
+      "reversals": 89,
+      "no_reversals": 1661,
+      "reversal_rate": 0.0509,
+      "by_minute": {
+        "minute_0": {
+          "periods_hit": 5,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        },
+        "minute_1": {
+          "periods_hit": 3,
+          "reversals": 2,
+          "reversal_rate": 0.6667
+        },
+        "minute_2": {
+          "periods_hit": 10,
+          "reversals": 2,
+          "reversal_rate": 0.2
+        },
+        "minute_3": {
+          "periods_hit": 37,
+          "reversals": 3,
+          "reversal_rate": 0.0811
+        },
+        "minute_4": {
+          "periods_hit": 63,
+          "reversals": 4,
+          "reversal_rate": 0.0635
+        },
+        "minute_5": {
+          "periods_hit": 87,
+          "reversals": 4,
+          "reversal_rate": 0.046
+        },
+        "minute_6": {
+          "periods_hit": 104,
+          "reversals": 5,
+          "reversal_rate": 0.0481
+        },
+        "minute_7": {
+          "periods_hit": 120,
+          "reversals": 7,
+          "reversal_rate": 0.0583
+        },
+        "minute_8": {
+          "periods_hit": 139,
+          "reversals": 8,
+          "reversal_rate": 0.0576
+        },
+        "minute_9": {
+          "periods_hit": 127,
+          "reversals": 12,
+          "reversal_rate": 0.0945
+        },
+        "minute_10": {
+          "periods_hit": 162,
+          "reversals": 7,
+          "reversal_rate": 0.0432
+        },
+        "minute_11": {
+          "periods_hit": 170,
+          "reversals": 10,
+          "reversal_rate": 0.0588
+        },
+        "minute_12": {
+          "periods_hit": 187,
+          "reversals": 4,
+          "reversal_rate": 0.0214
+        },
+        "minute_13": {
+          "periods_hit": 178,
+          "reversals": 7,
+          "reversal_rate": 0.0393
+        },
+        "minute_14": {
+          "periods_hit": 358,
+          "reversals": 14,
+          "reversal_rate": 0.0391
+        }
+      },
+      "by_volatility": {
+        "extremely_low": {
+          "periods_hit": 148,
+          "reversals": 10,
+          "reversal_rate": 0.0676
+        },
+        "low": {
+          "periods_hit": 644,
+          "reversals": 40,
+          "reversal_rate": 0.0621
+        },
+        "moderate": {
+          "periods_hit": 584,
+          "reversals": 23,
+          "reversal_rate": 0.0394
+        },
+        "sustained": {
+          "periods_hit": 248,
+          "reversals": 10,
+          "reversal_rate": 0.0403
+        },
+        "high": {
+          "periods_hit": 97,
+          "reversals": 6,
+          "reversal_rate": 0.0619
+        },
+        "extreme": {
+          "periods_hit": 29,
+          "reversals": 0,
+          "reversal_rate": 0.0
+        }
+      }
+    },
+    "10%": {
+      "threshold_value": 0.1,
+      "total_periods_hit": 1849,
+      "reversals": 165,
+      "no_reversals": 1684,
+      "reversal_rate": 0.0892,
+      "by_minute": {
+        "minute_0": {
+          "periods_hit": 10,
+          "reversals": 1,
+          "reversal_rate": 0.1
+        },
+        "minute_1": {
+          "periods_hit": 19,
+          "reversals": 4,
+          "reversal_rate": 0.2105
+        },
+        "minute_2": {
+          "periods_hit": 57,
+          "reversals": 10,
+          "reversal_rate": 0.1754
+        },
+        "minute_3": {
+          "periods_hit": 105,
+          "reversals": 15,
+          "reversal_rate": 0.1429
+        },
+        "minute_4": {
+          "periods_hit": 114,
+          "reversals": 8,
+          "reversal_rate": 0.0702
+        },
+        "minute_5": {
+          "periods_hit": 131,
+          "reversals": 13,
+          "reversal_rate": 0.0992
+        },
+        "minute_6": {
+          "periods_hit": 140,
+          "reversals": 15,
+          "reversal_rate": 0.1071
+        },
+        "minute_7": {
+          "periods_hit": 150,
+          "reversals": 18,
+          "reversal_rate": 0.12
+        },
+        "minute_8": {
+          "periods_hit": 167,
+          "reversals": 11,
+          "reversal_rate": 0.0659
+        },
+        "minute_9": {
+          "periods_hit": 141,
+          "reversals": 16,
+          "reversal_rate": 0.1135
+        },
+        "minute_10": {
+          "periods_hit": 150,
+          "reversals": 12,
+          "reversal_rate": 0.08
+        },
+        "minute_11": {
+          "periods_hit": 139,
+          "reversals": 8,
+          "reversal_rate": 0.0576
+        },
+        "minute_12": {
+          "periods_hit": 130,
+          "reversals": 10,
+          "reversal_rate": 0.0769
+        },
+        "minute_13": {
+          "periods_hit": 149,
+          "reversals": 13,
+          "reversal_rate": 0.0872
+        },
+        "minute_14": {
+          "periods_hit": 247,
+          "reversals": 11,
+          "reversal_rate": 0.0445
+        }
+      },
+      "by_volatility": {
+        "extremely_low": {
+          "periods_hit": 166,
+          "reversals": 19,
+          "reversal_rate": 0.1145
+        },
+        "low": {
+          "periods_hit": 677,
+          "reversals": 64,
+          "reversal_rate": 0.0945
+        },
+        "moderate": {
+          "periods_hit": 607,
+          "reversals": 47,
+          "reversal_rate": 0.0774
+        },
+        "sustained": {
+          "periods_hit": 265,
+          "reversals": 20,
+          "reversal_rate": 0.0755
+        },
+        "high": {
+          "periods_hit": 101,
+          "reversals": 10,
+          "reversal_rate": 0.099
+        },
+        "extreme": {
+          "periods_hit": 33,
+          "reversals": 5,
+          "reversal_rate": 0.1515
+        }
+      }
+    },
+    "20%": {
+      "threshold_value": 0.2,
+      "total_periods_hit": 2066,
+      "reversals": 359,
+      "no_reversals": 1707,
+      "reversal_rate": 0.1738,
+      "by_minute": {
+        "minute_0": {
+          "periods_hit": 50,
+          "reversals": 13,
+          "reversal_rate": 0.26
+        },
+        "minute_1": {
+          "periods_hit": 125,
+          "reversals": 30,
+          "reversal_rate": 0.24
+        },
+        "minute_2": {
+          "periods_hit": 210,
+          "reversals": 42,
+          "reversal_rate": 0.2
+        },
+        "minute_3": {
+          "periods_hit": 217,
+          "reversals": 34,
+          "reversal_rate": 0.1567
+        },
+        "minute_4": {
+          "periods_hit": 194,
+          "reversals": 39,
+          "reversal_rate": 0.201
+        },
+        "minute_5": {
+          "periods_hit": 212,
+          "reversals": 39,
+          "reversal_rate": 0.184
+        },
+        "minute_6": {
+          "periods_hit": 159,
+          "reversals": 26,
+          "reversal_rate": 0.1635
+        },
+        "minute_7": {
+          "periods_hit": 143,
+          "reversals": 21,
+          "reversal_rate": 0.1469
+        },
+        "minute_8": {
+          "periods_hit": 120,
+          "reversals": 21,
+          "reversal_rate": 0.175
+        },
+        "minute_9": {
+          "periods_hit": 123,
+          "reversals": 23,
+          "reversal_rate": 0.187
+        },
+        "minute_10": {
+          "periods_hit": 117,
+          "reversals": 23,
+          "reversal_rate": 0.1966
+        },
+        "minute_11": {
+          "periods_hit": 93,
+          "reversals": 12,
+          "reversal_rate": 0.129
+        },
+        "minute_12": {
+          "periods_hit": 85,
+          "reversals": 8,
+          "reversal_rate": 0.0941
+        },
+        "minute_13": {
+          "periods_hit": 80,
+          "reversals": 15,
+          "reversal_rate": 0.1875
+        },
+        "minute_14": {
+          "periods_hit": 138,
+          "reversals": 13,
+          "reversal_rate": 0.0942
+        }
+      },
+      "by_volatility": {
+        "extremely_low": {
+          "periods_hit": 174,
+          "reversals": 32,
+          "reversal_rate": 0.1839
+        },
+        "low": {
+          "periods_hit": 756,
+          "reversals": 126,
+          "reversal_rate": 0.1667
+        },
+        "moderate": {
+          "periods_hit": 694,
+          "reversals": 124,
+          "reversal_rate": 0.1787
+        },
+        "sustained": {
+          "periods_hit": 292,
+          "reversals": 45,
+          "reversal_rate": 0.1541
+        },
+        "high": {
+          "periods_hit": 116,
+          "reversals": 24,
+          "reversal_rate": 0.2069
+        },
+        "extreme": {
+          "periods_hit": 34,
+          "reversals": 8,
+          "reversal_rate": 0.2353
+        }
+      }
+    },
+    "30%": {
+      "threshold_value": 0.3,
+      "total_periods_hit": 2309,
+      "reversals": 589,
+      "no_reversals": 1720,
+      "reversal_rate": 0.2551,
+      "by_minute": {
+        "minute_0": {
+          "periods_hit": 219,
+          "reversals": 62,
+          "reversal_rate": 0.2831
+        },
+        "minute_1": {
+          "periods_hit": 379,
+          "reversals": 111,
+          "reversal_rate": 0.2929
+        },
+        "minute_2": {
+          "periods_hit": 364,
+          "reversals": 93,
+          "reversal_rate": 0.2555
+        },
+        "minute_3": {
+          "periods_hit": 251,
+          "reversals": 65,
+          "reversal_rate": 0.259
+        },
+        "minute_4": {
+          "periods_hit": 210,
+          "reversals": 63,
+          "reversal_rate": 0.3
+        },
+        "minute_5": {
+          "periods_hit": 180,
+          "reversals": 42,
+          "reversal_rate": 0.2333
+        },
+        "minute_6": {
+          "periods_hit": 123,
+          "reversals": 30,
+          "reversal_rate": 0.2439
+        },
+        "minute_7": {
+          "periods_hit": 115,
+          "reversals": 28,
+          "reversal_rate": 0.2435
+        },
+        "minute_8": {
+          "periods_hit": 90,
+          "reversals": 25,
+          "reversal_rate": 0.2778
+        },
+        "minute_9": {
+          "periods_hit": 79,
+          "reversals": 11,
+          "reversal_rate": 0.1392
+        },
+        "minute_10": {
+          "periods_hit": 71,
+          "reversals": 16,
+          "reversal_rate": 0.2254
+        },
+        "minute_11": {
+          "periods_hit": 66,
+          "reversals": 18,
+          "reversal_rate": 0.2727
+        },
+        "minute_12": {
+          "periods_hit": 47,
+          "reversals": 8,
+          "reversal_rate": 0.1702
+        },
+        "minute_13": {
+          "periods_hit": 46,
+          "reversals": 9,
+          "reversal_rate": 0.1957
+        },
+        "minute_14": {
+          "periods_hit": 69,
+          "reversals": 8,
+          "reversal_rate": 0.1159
+        }
+      },
+      "by_volatility": {
+        "extremely_low": {
+          "periods_hit": 200,
+          "reversals": 48,
+          "reversal_rate": 0.24
+        },
+        "low": {
+          "periods_hit": 842,
+          "reversals": 201,
+          "reversal_rate": 0.2387
+        },
+        "moderate": {
+          "periods_hit": 783,
+          "reversals": 214,
+          "reversal_rate": 0.2733
+        },
+        "sustained": {
+          "periods_hit": 316,
+          "reversals": 80,
+          "reversal_rate": 0.2532
+        },
+        "high": {
+          "periods_hit": 129,
+          "reversals": 34,
+          "reversal_rate": 0.2636
+        },
+        "extreme": {
+          "periods_hit": 39,
+          "reversals": 12,
+          "reversal_rate": 0.3077
+        }
+      }
+    }
+  }
+}

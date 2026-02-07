@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-12-19 10:58:31",
+  "timestamp_ms": 1766141911787,
+  "period_start": "2025-12-19 10:45:00",
+  "period_end": "2025-12-19 11:00:00",
+  "seconds_remaining": 88.21287,
+  "pairs": [
+    {
+      "name": "BTC_CALL+ETH_PUT",
+      "entry_price": 1.04,
+      "exit_price": 1.02,
+      "spread": -0.02,
+      "call_ask": 0.99,
+      "call_bid": 0.98,
+      "put_ask": 0.05,
+      "put_bid": 0.04,
+      "cached": false
+    },
+    {
+      "name": "BTC_CALL+SOL_PUT",
+      "entry_price": 1.12,
+      "exit_price": 1.03,
+      "spread": -0.09,
+      "call_ask": 0.99,
+      "call_bid": 0.98,
+      "put_ask": 0.13,
+      "put_bid": 0.05,
+      "cached": false
+    },
+    {
+      "name": "BTC_CALL+XRP_PUT",
+      "entry_price": 1.14,
+      "exit_price": 1.08,
+      "spread": -0.06,
+      "call_ask": 0.99,
+      "call_bid": 0.98,
+      "put_ask": 0.15,
+      "put_bid": 0.1,
+      "cached": false
+    },
+    {
+      "name": "ETH_CALL+BTC_PUT",
+      "entry_price": 0.97,
+      "exit_price": 0.95,
+      "spread": -0.02,
+      "call_ask": 0.96,
+      "call_bid": 0.95,
+      "put_ask": 0.01,
+      "put_bid": 0.0,
+      "cached": false
+    },
+    {
+      "name": "ETH_CALL+SOL_PUT",
+      "entry_price": 1.09,
+      "exit_price": 1.0,
+      "spread": -0.09,
+      "call_ask": 0.96,
+      "call_bid": 0.95,
+      "put_ask": 0.13,
+      "put_bid": 0.05,
+      "cached": false
+    },
+    {
+      "name": "ETH_CALL+XRP_PUT",
+      "entry_price": 1.11,
+      "exit_price": 1.05,
+      "spread": -0.06,
+      "call_ask": 0.96,
+      "call_bid": 0.95,
+      "put_ask": 0.15,
+      "put_bid": 0.1,
+      "cached": false
+    },
+    {
+      "name": "SOL_CALL+BTC_PUT",
+      "entry_price": 0.96,
+      "exit_price": 0.87,
+      "spread": -0.09,
+      "call_ask": 0.95,
+      "call_bid": 0.87,
+      "put_ask": 0.01,
+      "put_bid": 0.0,
+      "cached": false
+    },
+    {
+      "name": "SOL_CALL+ETH_PUT",
+      "entry_price": 1.0,
+      "exit_price": 0.91,
+      "spread": -0.09,
+      "call_ask": 0.95,
+      "call_bid": 0.87,
+      "put_ask": 0.05,
+      "put_bid": 0.04,
+      "cached": false
+    },
+    {
+      "name": "SOL_CALL+XRP_PUT",
+      "entry_price": 1.1,
+      "exit_price": 0.97,
+      "spread": -0.13,
+      "call_ask": 0.95,
+      "call_bid": 0.87,
+      "put_ask": 0.15,
+      "put_bid": 0.1,
+      "cached": false
+    },
+    {
+      "name": "XRP_CALL+BTC_PUT",
+      "entry_price": 0.91,
+      "exit_price": 0.85,
+      "spread": -0.06,
+      "call_ask": 0.9,
+      "call_bid": 0.85,
+      "put_ask": 0.01,
+      "put_bid": 0.0,
+      "cached": false
+    },
+    {
+      "name": "XRP_CALL+ETH_PUT",
+      "entry_price": 0.95,
+      "exit_price": 0.89,
+      "spread": -0.06,
+      "call_ask": 0.9,
+      "call_bid": 0.85,
+      "put_ask": 0.05,
+      "put_bid": 0.04,
+      "cached": false
+    },
+    {
+      "name": "XRP_CALL+SOL_PUT",
+      "entry_price": 1.03,
+      "exit_price": 0.9,
+      "spread": -0.13,
+      "call_ask": 0.9,
+      "call_bid": 0.85,
+      "put_ask": 0.13,
+      "put_bid": 0.05,
+      "cached": false
+    }
+  ]
+}

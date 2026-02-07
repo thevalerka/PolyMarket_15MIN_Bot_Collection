@@ -1,0 +1,79 @@
+{
+  "period_id": "2026-01-18_16:45",
+  "start_time": "2026-01-18T16:45:00",
+  "end_time": "2026-01-18T17:00:11.044976",
+  "summary": {
+    "total_trades": 5,
+    "wins": 4,
+    "losses": 1,
+    "pnl": 0.05,
+    "win_rate": 80.0
+  },
+  "trades": [
+    {
+      "trade_id": 219,
+      "period_id": "2026-01-18_16:45",
+      "asset_type": "PUT",
+      "entry_price": 0.55,
+      "exit_price": 0.58,
+      "entry_time": "2026-01-18T16:45:17.168477",
+      "exit_time": "2026-01-18T16:46:39.367963",
+      "size": 5.2,
+      "pnl": 0.16,
+      "pnl_percent": 5.45,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 221,
+      "period_id": "2026-01-18_16:45",
+      "asset_type": "PUT",
+      "entry_price": 0.54,
+      "exit_price": 0.55,
+      "entry_time": "2026-01-18T16:47:03.314062",
+      "exit_time": "2026-01-18T16:47:14.932263",
+      "size": 5.2,
+      "pnl": 0.05,
+      "pnl_percent": 1.85,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 220,
+      "period_id": "2026-01-18_16:45",
+      "asset_type": "CALL",
+      "entry_price": 0.39,
+      "exit_price": 0.31,
+      "entry_time": "2026-01-18T16:46:27.567818",
+      "exit_time": "2026-01-18T16:48:55.832675",
+      "size": 5.2,
+      "pnl": -0.42,
+      "pnl_percent": -20.51,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 223,
+      "period_id": "2026-01-18_16:45",
+      "asset_type": "CALL",
+      "entry_price": 0.43,
+      "exit_price": 0.46,
+      "entry_time": "2026-01-18T16:52:50.069422",
+      "exit_time": "2026-01-18T16:54:13.220586",
+      "size": 5.2,
+      "pnl": 0.16,
+      "pnl_percent": 6.98,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 224,
+      "period_id": "2026-01-18_16:45",
+      "asset_type": "CALL",
+      "entry_price": 0.46,
+      "exit_price": 0.48,
+      "entry_time": "2026-01-18T16:54:45.671249",
+      "exit_time": "2026-01-18T16:54:54.314093",
+      "size": 5.2,
+      "pnl": 0.1,
+      "pnl_percent": 4.35,
+      "exit_reason": "signal"
+    }
+  ]
+}

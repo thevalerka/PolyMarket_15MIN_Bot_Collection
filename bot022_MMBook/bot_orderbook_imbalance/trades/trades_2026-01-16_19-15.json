@@ -1,0 +1,92 @@
+{
+  "period_id": "2026-01-16_19:15",
+  "start_time": "2026-01-16T19:15:00",
+  "end_time": "2026-01-16T19:30:11.371616",
+  "summary": {
+    "total_trades": 6,
+    "wins": 3,
+    "losses": 3,
+    "pnl": -0.26,
+    "win_rate": 50.0
+  },
+  "trades": [
+    {
+      "trade_id": 19,
+      "period_id": "2026-01-16_19:15",
+      "asset_type": "PUT",
+      "entry_price": 0.52,
+      "exit_price": 0.58,
+      "entry_time": "2026-01-16T19:15:44.685463",
+      "exit_time": "2026-01-16T19:16:39.897352",
+      "size": 5.2,
+      "pnl": 0.31,
+      "pnl_percent": 11.54,
+      "exit_reason": "signal_switch"
+    },
+    {
+      "trade_id": 20,
+      "period_id": "2026-01-16_19:15",
+      "asset_type": "CALL",
+      "entry_price": 0.42,
+      "exit_price": 0.5,
+      "entry_time": "2026-01-16T19:16:39.787010",
+      "exit_time": "2026-01-16T19:16:49.517187",
+      "size": 5.2,
+      "pnl": 0.42,
+      "pnl_percent": 19.05,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 21,
+      "period_id": "2026-01-16_19:15",
+      "asset_type": "CALL",
+      "entry_price": 0.22,
+      "exit_price": 0.19,
+      "entry_time": "2026-01-16T19:17:40.392740",
+      "exit_time": "2026-01-16T19:21:36.819365",
+      "size": 5.2,
+      "pnl": -0.16,
+      "pnl_percent": -13.64,
+      "exit_reason": "signal_switch"
+    },
+    {
+      "trade_id": 22,
+      "period_id": "2026-01-16_19:15",
+      "asset_type": "PUT",
+      "entry_price": 0.81,
+      "exit_price": 0.71,
+      "entry_time": "2026-01-16T19:21:36.710010",
+      "exit_time": "2026-01-16T19:23:00.096072",
+      "size": 5.2,
+      "pnl": -0.52,
+      "pnl_percent": -12.35,
+      "exit_reason": "signal_switch"
+    },
+    {
+      "trade_id": 23,
+      "period_id": "2026-01-16_19:15",
+      "asset_type": "CALL",
+      "entry_price": 0.29,
+      "exit_price": 0.17,
+      "entry_time": "2026-01-16T19:22:59.979772",
+      "exit_time": "2026-01-16T19:26:59.446211",
+      "size": 5.2,
+      "pnl": -0.62,
+      "pnl_percent": -41.38,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 24,
+      "period_id": "2026-01-16_19:15",
+      "asset_type": "PUT",
+      "entry_price": 0.83,
+      "exit_price": 0.89,
+      "entry_time": "2026-01-16T19:26:51.727792",
+      "exit_time": "2026-01-16T19:27:48.239554",
+      "size": 5.2,
+      "pnl": 0.31,
+      "pnl_percent": 7.23,
+      "exit_reason": "signal_switch"
+    }
+  ]
+}

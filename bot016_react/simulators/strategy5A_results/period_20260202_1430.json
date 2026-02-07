@@ -1,0 +1,86 @@
+{
+  "strategy": "strategy5A",
+  "strategy_config": {
+    "tp": 0.15,
+    "sl": null,
+    "max_buy_price": 0.99,
+    "min_entry_price": 0.6,
+    "description": "Enter when one side >$0.60, TP=$0.15, No SL"
+  },
+  "period_start": "2026-02-02T14:30:00",
+  "period_end": "2026-02-02T14:45:00",
+  "saved_at": "2026-02-02T14:45:00.336108",
+  "period_pnl": {
+    "CALL": 0.30000000000000004,
+    "PUT": 0.0,
+    "TOTAL": 0.30000000000000004
+  },
+  "overall_pnl": {
+    "CALL": 0.30000000000000004,
+    "PUT": 0.0,
+    "TOTAL": 0.30000000000000004
+  },
+  "statistics": {
+    "total_trades": 2,
+    "tp_trades": 2,
+    "sl_trades": 0,
+    "expiry_trades": 0,
+    "winning_trades": 2,
+    "losing_trades": 0,
+    "win_rate": 1.0,
+    "avg_win": 0.15000000000000002,
+    "avg_loss": 0
+  },
+  "trades": [
+    {
+      "timestamp": "2026-02-02T14:30:11.726698",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.6,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T14:30:11.726759",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.41,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T14:30:33.742711",
+      "option_type": "CALL",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.6,
+      "close_price": 0.75,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 866.257282
+    },
+    {
+      "timestamp": "2026-02-02T14:30:33.742762",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.75,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T14:35:21.439964",
+      "option_type": "CALL",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.75,
+      "close_price": 0.9,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 578.56003
+    },
+    {
+      "timestamp": "2026-02-02T14:35:21.440019",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.91,
+      "reason": "OPEN"
+    }
+  ]
+}

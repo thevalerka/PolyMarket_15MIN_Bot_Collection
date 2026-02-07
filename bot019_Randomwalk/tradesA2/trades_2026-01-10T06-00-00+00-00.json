@@ -1,0 +1,45 @@
+{
+  "period_start": "2026-01-10T06:00:00+00:00",
+  "period_end": "2026-01-10T06:15:05.139660+00:00",
+  "strike_price": 90603.52,
+  "final_price": 90580.0,
+  "price_movement": -23.520000000004075,
+  "calls_won": false,
+  "puts_won": true,
+  "trades": [
+    {
+      "entry_time": "2026-01-10T06:04:16.499694+00:00",
+      "side": "CALL",
+      "entry_price": 0.46,
+      "size": 5.0,
+      "choppiness": 24.24147428137142,
+      "time_to_expiry_seconds": 643,
+      "strike_price": 90603.52,
+      "final_price": 90580.0,
+      "final_value": 0.0,
+      "pnl": -2.3000000000000003,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T06:05:08.757276+00:00",
+      "side": "PUT",
+      "entry_price": 0.51,
+      "size": 5.0,
+      "choppiness": 40.68160908866426,
+      "time_to_expiry_seconds": 591,
+      "strike_price": 90603.52,
+      "final_price": 90580.0,
+      "final_value": 1.0,
+      "pnl": 2.45,
+      "won": true
+    }
+  ],
+  "summary": {
+    "total_trades": 2,
+    "call_trades": 1,
+    "put_trades": 1,
+    "total_pnl": 0.1499999999999999,
+    "call_pnl": -2.3000000000000003,
+    "put_pnl": 2.45
+  }
+}

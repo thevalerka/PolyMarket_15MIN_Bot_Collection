@@ -1,0 +1,79 @@
+{
+  "period_id": "2026-01-16_16:30",
+  "start_time": "2026-01-16T16:30:00",
+  "end_time": "2026-01-16T16:45:11.241774",
+  "summary": {
+    "total_trades": 5,
+    "wins": 5,
+    "losses": 0,
+    "pnl": 1.77,
+    "win_rate": 100.0
+  },
+  "trades": [
+    {
+      "trade_id": 58,
+      "period_id": "2026-01-16_16:30",
+      "asset_type": "CALL",
+      "entry_price": 0.44,
+      "exit_price": 0.47,
+      "entry_time": "2026-01-16T16:31:37.546108",
+      "exit_time": "2026-01-16T16:31:57.938163",
+      "size": 5.2,
+      "pnl": 0.16,
+      "pnl_percent": 6.82,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 57,
+      "period_id": "2026-01-16_16:30",
+      "asset_type": "PUT",
+      "entry_price": 0.6,
+      "exit_price": 0.65,
+      "entry_time": "2026-01-16T16:30:34.619480",
+      "exit_time": "2026-01-16T16:32:29.659689",
+      "size": 5.2,
+      "pnl": 0.26,
+      "pnl_percent": 8.33,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 60,
+      "period_id": "2026-01-16_16:30",
+      "asset_type": "CALL",
+      "entry_price": 0.3,
+      "exit_price": 0.45,
+      "entry_time": "2026-01-16T16:35:50.157334",
+      "exit_time": "2026-01-16T16:37:06.931214",
+      "size": 5.2,
+      "pnl": 0.78,
+      "pnl_percent": 50.0,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 61,
+      "period_id": "2026-01-16_16:30",
+      "asset_type": "CALL",
+      "entry_price": 0.43,
+      "exit_price": 0.47,
+      "entry_time": "2026-01-16T16:38:42.466492",
+      "exit_time": "2026-01-16T16:39:14.372974",
+      "size": 5.2,
+      "pnl": 0.21,
+      "pnl_percent": 9.3,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 63,
+      "period_id": "2026-01-16_16:30",
+      "asset_type": "CALL",
+      "entry_price": 0.83,
+      "exit_price": 0.9,
+      "entry_time": "2026-01-16T16:43:28.771077",
+      "exit_time": "2026-01-16T16:43:42.682647",
+      "size": 5.2,
+      "pnl": 0.36,
+      "pnl_percent": 8.43,
+      "exit_reason": "signal"
+    }
+  ]
+}

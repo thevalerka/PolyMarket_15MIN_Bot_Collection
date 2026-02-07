@@ -1,0 +1,84 @@
+{
+  "period_start": "2026-01-10T09:00:00+00:00",
+  "period_end": "2026-01-10T09:15:01.489979+00:00",
+  "strike_price": 90661.94,
+  "final_price": 90645.25,
+  "price_movement": -16.69000000000233,
+  "calls_won": false,
+  "puts_won": true,
+  "trades": [
+    {
+      "entry_time": "2026-01-10T09:04:19.203130+00:00",
+      "side": "PUT",
+      "entry_price": 0.69,
+      "size": 5.0,
+      "choppiness": 21.786362299640423,
+      "time_to_expiry_seconds": 640,
+      "strike_price": 90661.94,
+      "final_price": 90645.25,
+      "final_value": 1.0,
+      "pnl": 1.5500000000000003,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T09:07:56.428726+00:00",
+      "side": "CALL",
+      "entry_price": 0.68,
+      "size": 5.0,
+      "choppiness": 35.01104036901606,
+      "time_to_expiry_seconds": 423,
+      "strike_price": 90661.94,
+      "final_price": 90645.25,
+      "final_value": 0.0,
+      "pnl": -3.4000000000000004,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T09:07:56.428865+00:00",
+      "side": "PUT",
+      "entry_price": 0.33,
+      "size": 5.0,
+      "choppiness": 35.01104036901606,
+      "time_to_expiry_seconds": 423,
+      "strike_price": 90661.94,
+      "final_price": 90645.25,
+      "final_value": 1.0,
+      "pnl": 3.3499999999999996,
+      "won": true
+    },
+    {
+      "entry_time": "2026-01-10T09:09:23.367685+00:00",
+      "side": "CALL",
+      "entry_price": 0.54,
+      "size": 5.0,
+      "choppiness": 40.921620085837624,
+      "time_to_expiry_seconds": 336,
+      "strike_price": 90661.94,
+      "final_price": 90645.25,
+      "final_value": 0.0,
+      "pnl": -2.7,
+      "won": false
+    },
+    {
+      "entry_time": "2026-01-10T09:09:58.355725+00:00",
+      "side": "CALL",
+      "entry_price": 0.23,
+      "size": 5.0,
+      "choppiness": 44.54786938123695,
+      "time_to_expiry_seconds": 301,
+      "strike_price": 90661.94,
+      "final_price": 90645.25,
+      "final_value": 0.0,
+      "pnl": -1.1500000000000001,
+      "won": false
+    }
+  ],
+  "summary": {
+    "total_trades": 5,
+    "call_trades": 3,
+    "put_trades": 2,
+    "total_pnl": -2.3500000000000005,
+    "call_pnl": -7.250000000000001,
+    "put_pnl": 4.9
+  }
+}

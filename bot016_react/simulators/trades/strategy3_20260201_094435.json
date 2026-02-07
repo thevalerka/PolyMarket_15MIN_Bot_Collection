@@ -1,0 +1,21 @@
+{
+  "strategy": "strategy3",
+  "strategy_config": {
+    "tp": 0.07,
+    "sl": null,
+    "tp_type": "fixed",
+    "sl_type": "half_entry"
+  },
+  "timestamp": "2026-02-01T09:44:35.900357",
+  "pnl": {
+    "CALL": 0.0,
+    "PUT": 0.0,
+    "TOTAL": 0.0
+  },
+  "total_trades": 0,
+  "trades": [],
+  "current_positions": {
+    "CALL": null,
+    "PUT": null
+  }
+}

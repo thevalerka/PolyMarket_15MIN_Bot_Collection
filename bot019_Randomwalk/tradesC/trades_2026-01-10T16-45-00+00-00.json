@@ -1,0 +1,18 @@
+{
+  "period_start": "2026-01-10T16:45:00+00:00",
+  "period_end": "2026-01-10T17:00:04.767736+00:00",
+  "strike_price": 90706.38,
+  "final_price": 90676.66,
+  "price_movement": -29.720000000001164,
+  "calls_won": false,
+  "puts_won": true,
+  "trades": [],
+  "summary": {
+    "total_trades": 0,
+    "call_trades": 0,
+    "put_trades": 0,
+    "total_pnl": 0.0,
+    "call_pnl": 0.0,
+    "put_pnl": 0.0
+  }
+}

@@ -1,0 +1,4514 @@
+[
+  {
+    "asset_type": "PUT",
+    "asset_id": "3686170080540592098969070919460070433003173363650556082555419457722855659808",
+    "hour_end_time": 1756198810430,
+    "hour_end_readable": "2025-08-26T09:00:10.430000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756198536852,
+        "hit_time_readable": "2025-08-26T08:55:36.852000",
+        "hit_price": 0.95,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.263157894736835
+      },
+      "0.96": {
+        "hit_time": 1756198554783,
+        "hit_time_readable": "2025-08-26T08:55:54.783000",
+        "hit_price": 0.96,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.249999999999995
+      },
+      "0.97": {
+        "hit_time": 1756198560711,
+        "hit_time_readable": "2025-08-26T08:56:00.711000",
+        "hit_price": 0.97,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.2164948453608195
+      },
+      "0.98": {
+        "hit_time": 1756198583426,
+        "hit_time_readable": "2025-08-26T08:56:23.426000",
+        "hit_price": 0.98,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.163265306122446
+      },
+      "0.99": {
+        "hit_time": 1756198601003,
+        "hit_time_readable": "2025-08-26T08:56:41.003000",
+        "hit_price": 0.99,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.08999999999999997,
+        "max_drop_percentage": 9.090909090909088
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "47136915596657673054004505700392117543696088784542019634968805084916967944856",
+    "hour_end_time": 1756202414522,
+    "hour_end_readable": "2025-08-26T10:00:14.522000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756202355647,
+        "hit_time_readable": "2025-08-26T09:59:15.647000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756202358841,
+        "hit_time_readable": "2025-08-26T09:59:18.841000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756202358841,
+        "hit_time_readable": "2025-08-26T09:59:18.841000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "9091468140781502581032139683466778137096596664424534819377096011784239898724",
+    "hour_end_time": 1756206012581,
+    "hour_end_readable": "2025-08-26T11:00:12.581000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756205861502,
+        "hit_time_readable": "2025-08-26T10:57:41.502000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756205871498,
+        "hit_time_readable": "2025-08-26T10:57:51.498000",
+        "hit_price": 0.97,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756205871498,
+        "hit_time_readable": "2025-08-26T10:57:51.498000",
+        "hit_price": 0.97,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.123711340206178
+      },
+      "0.98": {
+        "hit_time": 1756205950175,
+        "hit_time_readable": "2025-08-26T10:59:10.175000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "51368101556811265187088941570558515573198200654264369759805840265152871331840",
+    "hour_end_time": 1756209616835,
+    "hour_end_readable": "2025-08-26T12:00:16.835000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756207969685,
+        "hit_time_readable": "2025-08-26T11:32:49.685000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756207969685,
+        "hit_time_readable": "2025-08-26T11:32:49.685000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756207971428,
+        "hit_time_readable": "2025-08-26T11:32:51.428000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756208294627,
+        "hit_time_readable": "2025-08-26T11:38:14.627000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756208775714,
+        "hit_time_readable": "2025-08-26T11:46:15.714000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "91281519311333882601853431586487348547312236634879180114318709954950076027827",
+    "hour_end_time": 1756213211149,
+    "hour_end_readable": "2025-08-26T13:00:11.149000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756212094666,
+        "hit_time_readable": "2025-08-26T12:41:34.666000",
+        "hit_price": 0.96,
+        "lowest_price": 0.2,
+        "max_drop_amount": 0.75,
+        "max_drop_percentage": 78.94736842105263
+      },
+      "0.96": {
+        "hit_time": 1756212094666,
+        "hit_time_readable": "2025-08-26T12:41:34.666000",
+        "hit_price": 0.96,
+        "lowest_price": 0.2,
+        "max_drop_amount": 0.76,
+        "max_drop_percentage": 79.16666666666667
+      },
+      "0.97": {
+        "hit_time": 1756212129256,
+        "hit_time_readable": "2025-08-26T12:42:09.256000",
+        "hit_price": 0.97,
+        "lowest_price": 0.2,
+        "max_drop_amount": 0.77,
+        "max_drop_percentage": 79.38144329896907
+      },
+      "0.98": {
+        "hit_time": 1756212138141,
+        "hit_time_readable": "2025-08-26T12:42:18.141000",
+        "hit_price": 0.98,
+        "lowest_price": 0.2,
+        "max_drop_amount": 0.78,
+        "max_drop_percentage": 79.59183673469387
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "79735245508809692363285839439050885586034335207201967872321544289729943775359",
+    "hour_end_time": 1756216829931,
+    "hour_end_readable": "2025-08-26T14:00:29.931000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756216144079,
+        "hit_time_readable": "2025-08-26T13:49:04.079000",
+        "hit_price": 0.95,
+        "lowest_price": 0.82,
+        "max_drop_amount": 0.13,
+        "max_drop_percentage": 13.684210526315791
+      },
+      "0.96": {
+        "hit_time": 1756216172447,
+        "hit_time_readable": "2025-08-26T13:49:32.447000",
+        "hit_price": 0.96,
+        "lowest_price": 0.82,
+        "max_drop_amount": 0.14,
+        "max_drop_percentage": 14.583333333333334
+      },
+      "0.97": {
+        "hit_time": 1756216185248,
+        "hit_time_readable": "2025-08-26T13:49:45.248000",
+        "hit_price": 0.97,
+        "lowest_price": 0.82,
+        "max_drop_amount": 0.15000000000000002,
+        "max_drop_percentage": 15.4639175257732
+      },
+      "0.98": {
+        "hit_time": 1756216204590,
+        "hit_time_readable": "2025-08-26T13:50:04.590000",
+        "hit_price": 0.98,
+        "lowest_price": 0.82,
+        "max_drop_amount": 0.16000000000000003,
+        "max_drop_percentage": 16.326530612244902
+      },
+      "0.99": {
+        "hit_time": 1756216594146,
+        "hit_time_readable": "2025-08-26T13:56:34.146000",
+        "hit_price": 0.99,
+        "lowest_price": 0.85,
+        "max_drop_amount": 0.14,
+        "max_drop_percentage": 14.141414141414144
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "112038612263620871459906943088360055582734966124275630448351133787713993306119",
+    "hour_end_time": 1756220421895,
+    "hour_end_readable": "2025-08-26T15:00:21.895000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756220123478,
+        "hit_time_readable": "2025-08-26T14:55:23.478000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756220134257,
+        "hit_time_readable": "2025-08-26T14:55:34.257000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756220134257,
+        "hit_time_readable": "2025-08-26T14:55:34.257000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756220139104,
+        "hit_time_readable": "2025-08-26T14:55:39.104000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "77664143186117147639858282289153401549485078708900268868856779301256000890202",
+    "hour_end_time": 1756224025041,
+    "hour_end_readable": "2025-08-26T16:00:25.041000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756222750510,
+        "hit_time_readable": "2025-08-26T15:39:10.510000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756222752818,
+        "hit_time_readable": "2025-08-26T15:39:12.818000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756222853732,
+        "hit_time_readable": "2025-08-26T15:40:53.732000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756222956570,
+        "hit_time_readable": "2025-08-26T15:42:36.570000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756223126909,
+        "hit_time_readable": "2025-08-26T15:45:26.909000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "33350235478732256695587565059947397916389698313689713166093091969266159318661",
+    "hour_end_time": 1756227622568,
+    "hour_end_readable": "2025-08-26T17:00:22.568000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756227355542,
+        "hit_time_readable": "2025-08-26T16:55:55.542000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756227367154,
+        "hit_time_readable": "2025-08-26T16:56:07.154000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756227367154,
+        "hit_time_readable": "2025-08-26T16:56:07.154000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756227373088,
+        "hit_time_readable": "2025-08-26T16:56:13.088000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "100256496086065328636641585254113285298843731332848944125303857425713230242120",
+    "hour_end_time": 1756231225285,
+    "hour_end_readable": "2025-08-26T18:00:25.285000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756229914833,
+        "hit_time_readable": "2025-08-26T17:38:34.833000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756229952378,
+        "hit_time_readable": "2025-08-26T17:39:12.378000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756230021280,
+        "hit_time_readable": "2025-08-26T17:40:21.280000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756230821320,
+        "hit_time_readable": "2025-08-26T17:53:41.320000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756230873381,
+        "hit_time_readable": "2025-08-26T17:54:33.381000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "41051116909014106969754323231691979296488311577700712612605613935170131601561",
+    "hour_end_time": 1756234829344,
+    "hour_end_readable": "2025-08-26T19:00:29.344000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756233258275,
+        "hit_time_readable": "2025-08-26T18:34:18.275000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756233357269,
+        "hit_time_readable": "2025-08-26T18:35:57.269000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756233488805,
+        "hit_time_readable": "2025-08-26T18:38:08.805000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756233538805,
+        "hit_time_readable": "2025-08-26T18:38:58.805000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756234442981,
+        "hit_time_readable": "2025-08-26T18:54:02.981000",
+        "hit_price": 0.996,
+        "lowest_price": 0.996,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "4683543542539642898714721373500371880718561373006342074621831598195196668474",
+    "hour_end_time": 1756238429558,
+    "hour_end_readable": "2025-08-26T20:00:29.558000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756237648185,
+        "hit_time_readable": "2025-08-26T19:47:28.185000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756237648185,
+        "hit_time_readable": "2025-08-26T19:47:28.185000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756237649372,
+        "hit_time_readable": "2025-08-26T19:47:29.372000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756237850830,
+        "hit_time_readable": "2025-08-26T19:50:50.830000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756238268323,
+        "hit_time_readable": "2025-08-26T19:57:48.323000",
+        "hit_price": 0.998,
+        "lowest_price": 0.998,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "101160828139714350439712537092328292358153615702037234659680280744813405600658",
+    "hour_end_time": 1756242031735,
+    "hour_end_readable": "2025-08-26T21:00:31.735000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756241566724,
+        "hit_time_readable": "2025-08-26T20:52:46.724000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756241574013,
+        "hit_time_readable": "2025-08-26T20:52:54.013000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756241574013,
+        "hit_time_readable": "2025-08-26T20:52:54.013000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756241672750,
+        "hit_time_readable": "2025-08-26T20:54:32.750000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "84375439250753208524766626514804928808700242549535205827902674971765697707515",
+    "hour_end_time": 1756245614392,
+    "hour_end_readable": "2025-08-26T22:00:14.392000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756245325287,
+        "hit_time_readable": "2025-08-26T21:55:25.287000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756245334455,
+        "hit_time_readable": "2025-08-26T21:55:34.455000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756245380507,
+        "hit_time_readable": "2025-08-26T21:56:20.507000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756245416866,
+        "hit_time_readable": "2025-08-26T21:56:56.866000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "89923076927428278070912759545373967646364461911445117474833189530777843099204",
+    "hour_end_time": 1756249222261,
+    "hour_end_readable": "2025-08-26T23:00:22.261000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756248663468,
+        "hit_time_readable": "2025-08-26T22:51:03.468000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756248664473,
+        "hit_time_readable": "2025-08-26T22:51:04.473000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756248678415,
+        "hit_time_readable": "2025-08-26T22:51:18.415000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756248682586,
+        "hit_time_readable": "2025-08-26T22:51:22.586000",
+        "hit_price": 0.98,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.040000000000000036,
+        "max_drop_percentage": 4.081632653061228
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "100124846237963321603666331523255072966670456510525918127992832337394437650008",
+    "hour_end_time": 1756252826015,
+    "hour_end_readable": "2025-08-27T00:00:26.015000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756252607688,
+        "hit_time_readable": "2025-08-26T23:56:47.688000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756252627487,
+        "hit_time_readable": "2025-08-26T23:57:07.487000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756252634891,
+        "hit_time_readable": "2025-08-26T23:57:14.891000",
+        "hit_price": 0.98,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.123711340206178
+      },
+      "0.98": {
+        "hit_time": 1756252634891,
+        "hit_time_readable": "2025-08-26T23:57:14.891000",
+        "hit_price": 0.98,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.102040816326523
+      },
+      "0.99": {
+        "hit_time": 1756252672427,
+        "hit_time_readable": "2025-08-26T23:57:52.427000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "81669820996394357340059360090406942929541563340149302078120157942245345422176",
+    "hour_end_time": 1756256413571,
+    "hour_end_readable": "2025-08-27T01:00:13.571000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756255699957,
+        "hit_time_readable": "2025-08-27T00:48:19.957000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756255714267,
+        "hit_time_readable": "2025-08-27T00:48:34.267000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756255727224,
+        "hit_time_readable": "2025-08-27T00:48:47.224000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756255799427,
+        "hit_time_readable": "2025-08-27T00:49:59.427000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756255813960,
+        "hit_time_readable": "2025-08-27T00:50:13.960000",
+        "hit_price": 0.99,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.010101010101011
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "60618217198334419576894877963517933908845572570537930702033260282271036118593",
+    "hour_end_time": 1756260032198,
+    "hour_end_readable": "2025-08-27T02:00:32.198000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756259953131,
+        "hit_time_readable": "2025-08-27T01:59:13.131000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756259968727,
+        "hit_time_readable": "2025-08-27T01:59:28.727000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756259992552,
+        "hit_time_readable": "2025-08-27T01:59:52.552000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756259992552,
+        "hit_time_readable": "2025-08-27T01:59:52.552000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756259992552,
+        "hit_time_readable": "2025-08-27T01:59:52.552000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "78624236182590869885636349450338153590817881278292227888269773738584795336244",
+    "hour_end_time": 1756263608737,
+    "hour_end_readable": "2025-08-27T03:00:08.737000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756263355061,
+        "hit_time_readable": "2025-08-27T02:55:55.061000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756263367102,
+        "hit_time_readable": "2025-08-27T02:56:07.102000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756263421222,
+        "hit_time_readable": "2025-08-27T02:57:01.222000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756263453470,
+        "hit_time_readable": "2025-08-27T02:57:33.470000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756263453470,
+        "hit_time_readable": "2025-08-27T02:57:33.470000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "95144866198745044751772004191438367920877659915831149305551336240709854310927",
+    "hour_end_time": 1756267218019,
+    "hour_end_readable": "2025-08-27T04:00:18.019000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756266420944,
+        "hit_time_readable": "2025-08-27T03:47:00.944000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756266424109,
+        "hit_time_readable": "2025-08-27T03:47:04.109000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756266466492,
+        "hit_time_readable": "2025-08-27T03:47:46.492000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756266515322,
+        "hit_time_readable": "2025-08-27T03:48:35.322000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756266942338,
+        "hit_time_readable": "2025-08-27T03:55:42.338000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "107245955870862450116378552268094053796374880413962969730019344347685293722026",
+    "hour_end_time": 1756270825505,
+    "hour_end_readable": "2025-08-27T05:00:25.505000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756269967861,
+        "hit_time_readable": "2025-08-27T04:46:07.861000",
+        "hit_price": 0.95,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756269974516,
+        "hit_time_readable": "2025-08-27T04:46:14.516000",
+        "hit_price": 0.97,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.166666666666659
+      },
+      "0.97": {
+        "hit_time": 1756269974516,
+        "hit_time_readable": "2025-08-27T04:46:14.516000",
+        "hit_price": 0.97,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.154639175257725
+      },
+      "0.98": {
+        "hit_time": 1756270136733,
+        "hit_time_readable": "2025-08-27T04:48:56.733000",
+        "hit_price": 0.98,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.122448979591831
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "7722630784212255250609228756203777357572741444395210203256134388048122452733",
+    "hour_end_time": 1756274405701,
+    "hour_end_readable": "2025-08-27T06:00:05.701000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756273551433,
+        "hit_time_readable": "2025-08-27T05:45:51.433000",
+        "hit_price": 0.95,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.315789473684205
+      },
+      "0.96": {
+        "hit_time": 1756273574409,
+        "hit_time_readable": "2025-08-27T05:46:14.409000",
+        "hit_price": 0.96,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.291666666666662
+      },
+      "0.97": {
+        "hit_time": 1756274063656,
+        "hit_time_readable": "2025-08-27T05:54:23.656000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756274104458,
+        "hit_time_readable": "2025-08-27T05:55:04.458000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756274110872,
+        "hit_time_readable": "2025-08-27T05:55:10.872000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "9169910793759469123089766449410216144957777060129419121126361139740572059818",
+    "hour_end_time": 1756278013416,
+    "hour_end_readable": "2025-08-27T07:00:13.416000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756277142388,
+        "hit_time_readable": "2025-08-27T06:45:42.388000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756277145295,
+        "hit_time_readable": "2025-08-27T06:45:45.295000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756277161182,
+        "hit_time_readable": "2025-08-27T06:46:01.182000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756277424222,
+        "hit_time_readable": "2025-08-27T06:50:24.222000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756277463037,
+        "hit_time_readable": "2025-08-27T06:51:03.037000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "18101866254833573533699410810179253833629037679886281939019086014941765129647",
+    "hour_end_time": 1756281620690,
+    "hour_end_readable": "2025-08-27T08:00:20.690000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756280449848,
+        "hit_time_readable": "2025-08-27T07:40:49.848000",
+        "hit_price": 0.95,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.315789473684205
+      },
+      "0.96": {
+        "hit_time": 1756280456444,
+        "hit_time_readable": "2025-08-27T07:40:56.444000",
+        "hit_price": 0.96,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.291666666666662
+      },
+      "0.97": {
+        "hit_time": 1756280505154,
+        "hit_time_readable": "2025-08-27T07:41:45.154000",
+        "hit_price": 0.97,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.247422680412367
+      },
+      "0.98": {
+        "hit_time": 1756280723665,
+        "hit_time_readable": "2025-08-27T07:45:23.665000",
+        "hit_price": 0.98,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.08999999999999997,
+        "max_drop_percentage": 9.18367346938775
+      },
+      "0.99": {
+        "hit_time": 1756281179135,
+        "hit_time_readable": "2025-08-27T07:52:59.135000",
+        "hit_price": 0.99,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.010101010101011
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "32301265850415175904031897688427316227600593648844224006761375444553690063699",
+    "hour_end_time": 1756285222598,
+    "hour_end_readable": "2025-08-27T09:00:22.598000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756284454922,
+        "hit_time_readable": "2025-08-27T08:47:34.922000",
+        "hit_price": 0.95,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.94,
+        "max_drop_percentage": 98.94736842105263
+      },
+      "0.96": {
+        "hit_time": 1756284513184,
+        "hit_time_readable": "2025-08-27T08:48:33.184000",
+        "hit_price": 0.97,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.95,
+        "max_drop_percentage": 98.95833333333334
+      },
+      "0.97": {
+        "hit_time": 1756284513184,
+        "hit_time_readable": "2025-08-27T08:48:33.184000",
+        "hit_price": 0.97,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.96,
+        "max_drop_percentage": 98.96907216494846
+      },
+      "0.98": {
+        "hit_time": 1756284531726,
+        "hit_time_readable": "2025-08-27T08:48:51.726000",
+        "hit_price": 0.98,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.97,
+        "max_drop_percentage": 98.9795918367347
+      },
+      "0.99": {
+        "hit_time": 1756284555625,
+        "hit_time_readable": "2025-08-27T08:49:15.625000",
+        "hit_price": 0.99,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.98,
+        "max_drop_percentage": 98.98989898989899
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "7719364214963561396599440016401377861613013346259533169729358266820806598105",
+    "hour_end_time": 1756285222598,
+    "hour_end_readable": "2025-08-27T09:00:22.598000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756285171875,
+        "hit_time_readable": "2025-08-27T08:59:31.875000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756285185252,
+        "hit_time_readable": "2025-08-27T08:59:45.252000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756285185252,
+        "hit_time_readable": "2025-08-27T08:59:45.252000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756285185252,
+        "hit_time_readable": "2025-08-27T08:59:45.252000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "30132992095331737372700135283428178793599237445140845099704621810599811975498",
+    "hour_end_time": 1756288825537,
+    "hour_end_readable": "2025-08-27T10:00:25.537000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756287246356,
+        "hit_time_readable": "2025-08-27T09:34:06.356000",
+        "hit_price": 0.95,
+        "lowest_price": 0.66,
+        "max_drop_amount": 0.2899999999999999,
+        "max_drop_percentage": 30.526315789473678
+      },
+      "0.96": {
+        "hit_time": 1756287261311,
+        "hit_time_readable": "2025-08-27T09:34:21.311000",
+        "hit_price": 0.96,
+        "lowest_price": 0.66,
+        "max_drop_amount": 0.29999999999999993,
+        "max_drop_percentage": 31.249999999999993
+      },
+      "0.97": {
+        "hit_time": 1756288712036,
+        "hit_time_readable": "2025-08-27T09:58:32.036000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756288727324,
+        "hit_time_readable": "2025-08-27T09:58:47.324000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "43009338837374304741695824038486955879079948473184084933307215546114897553526",
+    "hour_end_time": 1756292429296,
+    "hour_end_readable": "2025-08-27T11:00:29.296000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756291871751,
+        "hit_time_readable": "2025-08-27T10:51:11.751000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756291871751,
+        "hit_time_readable": "2025-08-27T10:51:11.751000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756291871751,
+        "hit_time_readable": "2025-08-27T10:51:11.751000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756291909074,
+        "hit_time_readable": "2025-08-27T10:51:49.074000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "41863987627127515260642136685189281732560794993560305295300520122441521628111",
+    "hour_end_time": 1756371620358,
+    "hour_end_readable": "2025-08-28T09:00:20.358000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756371481169,
+        "hit_time_readable": "2025-08-28T08:58:01.169000",
+        "hit_price": 0.96,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.94,
+        "max_drop_percentage": 98.94736842105263
+      },
+      "0.96": {
+        "hit_time": 1756371481169,
+        "hit_time_readable": "2025-08-28T08:58:01.169000",
+        "hit_price": 0.96,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.95,
+        "max_drop_percentage": 98.95833333333334
+      },
+      "0.97": {
+        "hit_time": 1756371489201,
+        "hit_time_readable": "2025-08-28T08:58:09.201000",
+        "hit_price": 0.98,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.96,
+        "max_drop_percentage": 98.96907216494846
+      },
+      "0.98": {
+        "hit_time": 1756371489201,
+        "hit_time_readable": "2025-08-28T08:58:09.201000",
+        "hit_price": 0.98,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.97,
+        "max_drop_percentage": 98.9795918367347
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "20342400482728811032860524700393640507010182657760906998234546566919917487110",
+    "hour_end_time": 1756371620358,
+    "hour_end_readable": "2025-08-28T09:00:20.358000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756371598401,
+        "hit_time_readable": "2025-08-28T08:59:58.401000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756371598401,
+        "hit_time_readable": "2025-08-28T08:59:58.401000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "7604593249481992636253264083223490453456357515901605277174573908533871532806",
+    "hour_end_time": 1756375223579,
+    "hour_end_readable": "2025-08-28T10:00:23.579000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756374345254,
+        "hit_time_readable": "2025-08-28T09:45:45.254000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756374345254,
+        "hit_time_readable": "2025-08-28T09:45:45.254000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756374460447,
+        "hit_time_readable": "2025-08-28T09:47:40.447000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756374479140,
+        "hit_time_readable": "2025-08-28T09:47:59.140000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756374663800,
+        "hit_time_readable": "2025-08-28T09:51:03.800000",
+        "hit_price": 0.99,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.020202020202022
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "66844866435975338892956378564358778756623450062623945626895080021768714656398",
+    "hour_end_time": 1756378824717,
+    "hour_end_readable": "2025-08-28T11:00:24.717000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756378475417,
+        "hit_time_readable": "2025-08-28T10:54:35.417000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756378476475,
+        "hit_time_readable": "2025-08-28T10:54:36.475000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756378504495,
+        "hit_time_readable": "2025-08-28T10:55:04.495000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756378554581,
+        "hit_time_readable": "2025-08-28T10:55:54.581000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "58114001137505684982014621935890788712867211685516350592200937061734366971345",
+    "hour_end_time": 1756382432134,
+    "hour_end_readable": "2025-08-28T12:00:32.134000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756381093845,
+        "hit_time_readable": "2025-08-28T11:38:13.845000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756381184064,
+        "hit_time_readable": "2025-08-28T11:39:44.064000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756381305329,
+        "hit_time_readable": "2025-08-28T11:41:45.329000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756381528668,
+        "hit_time_readable": "2025-08-28T11:45:28.668000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.061224489795921
+      },
+      "0.99": {
+        "hit_time": 1756381889702,
+        "hit_time_readable": "2025-08-28T11:51:29.702000",
+        "hit_price": 0.99,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.040000000000000036,
+        "max_drop_percentage": 4.040404040404044
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "98200228109493157387378569515265920879325889621392268856122746185965939918044",
+    "hour_end_time": 1756386034213,
+    "hour_end_readable": "2025-08-28T13:00:34.213000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756385407518,
+        "hit_time_readable": "2025-08-28T12:50:07.518000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756385409607,
+        "hit_time_readable": "2025-08-28T12:50:09.607000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756385426623,
+        "hit_time_readable": "2025-08-28T12:50:26.623000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756385481717,
+        "hit_time_readable": "2025-08-28T12:51:21.717000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "9338724092615509281376318523880280769765270216791770008700391276125962114831",
+    "hour_end_time": 1756389613435,
+    "hour_end_readable": "2025-08-28T14:00:13.435000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756388968552,
+        "hit_time_readable": "2025-08-28T13:49:28.552000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756388968552,
+        "hit_time_readable": "2025-08-28T13:49:28.552000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756388972633,
+        "hit_time_readable": "2025-08-28T13:49:32.633000",
+        "hit_price": 0.97,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.123711340206178
+      },
+      "0.98": {
+        "hit_time": 1756389123852,
+        "hit_time_readable": "2025-08-28T13:52:03.852000",
+        "hit_price": 0.98,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.040000000000000036,
+        "max_drop_percentage": 4.081632653061228
+      },
+      "0.99": {
+        "hit_time": 1756389241986,
+        "hit_time_readable": "2025-08-28T13:54:01.986000",
+        "hit_price": 0.99,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.020202020202022
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "83239821555350630560591384932277012016617206511645028340534602964507793740610",
+    "hour_end_time": 1756393218753,
+    "hour_end_readable": "2025-08-28T15:00:18.753000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756392520888,
+        "hit_time_readable": "2025-08-28T14:48:40.888000",
+        "hit_price": 0.95,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.263157894736835
+      },
+      "0.96": {
+        "hit_time": 1756392528899,
+        "hit_time_readable": "2025-08-28T14:48:48.899000",
+        "hit_price": 0.96,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.249999999999995
+      },
+      "0.97": {
+        "hit_time": 1756392529886,
+        "hit_time_readable": "2025-08-28T14:48:49.886000",
+        "hit_price": 0.97,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.2164948453608195
+      },
+      "0.98": {
+        "hit_time": 1756392637069,
+        "hit_time_readable": "2025-08-28T14:50:37.069000",
+        "hit_price": 0.98,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.163265306122446
+      },
+      "0.99": {
+        "hit_time": 1756393012667,
+        "hit_time_readable": "2025-08-28T14:56:52.667000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "19245371155001886638462580512154475869555582078973623807200168863967588346748",
+    "hour_end_time": 1756396821060,
+    "hour_end_readable": "2025-08-28T16:00:21.060000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756394878953,
+        "hit_time_readable": "2025-08-28T15:27:58.953000",
+        "hit_price": 0.95,
+        "lowest_price": 0.84,
+        "max_drop_amount": 0.10999999999999999,
+        "max_drop_percentage": 11.578947368421051
+      },
+      "0.96": {
+        "hit_time": 1756394917942,
+        "hit_time_readable": "2025-08-28T15:28:37.942000",
+        "hit_price": 0.96,
+        "lowest_price": 0.84,
+        "max_drop_amount": 0.12,
+        "max_drop_percentage": 12.5
+      },
+      "0.97": {
+        "hit_time": 1756395696587,
+        "hit_time_readable": "2025-08-28T15:41:36.587000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756395869895,
+        "hit_time_readable": "2025-08-28T15:44:29.895000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756395972963,
+        "hit_time_readable": "2025-08-28T15:46:12.963000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "50294342906437324980993018115617966598985302189750051427290713943338543498001",
+    "hour_end_time": 1756400425817,
+    "hour_end_readable": "2025-08-28T17:00:25.817000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756400294067,
+        "hit_time_readable": "2025-08-28T16:58:14.067000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756400301546,
+        "hit_time_readable": "2025-08-28T16:58:21.546000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756400303679,
+        "hit_time_readable": "2025-08-28T16:58:23.679000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756400303679,
+        "hit_time_readable": "2025-08-28T16:58:23.679000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756400325272,
+        "hit_time_readable": "2025-08-28T16:58:45.272000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "64509798949533934695969350039604926622009939317201063069776020727807295831355",
+    "hour_end_time": 1756404028503,
+    "hour_end_readable": "2025-08-28T18:00:28.503000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756403225295,
+        "hit_time_readable": "2025-08-28T17:47:05.295000",
+        "hit_price": 0.95,
+        "lowest_price": 0.57,
+        "max_drop_amount": 0.38,
+        "max_drop_percentage": 40.0
+      },
+      "0.96": {
+        "hit_time": 1756403271320,
+        "hit_time_readable": "2025-08-28T17:47:51.320000",
+        "hit_price": 0.96,
+        "lowest_price": 0.57,
+        "max_drop_amount": 0.39,
+        "max_drop_percentage": 40.62500000000001
+      },
+      "0.97": {
+        "hit_time": 1756403477759,
+        "hit_time_readable": "2025-08-28T17:51:17.759000",
+        "hit_price": 0.97,
+        "lowest_price": 0.57,
+        "max_drop_amount": 0.4,
+        "max_drop_percentage": 41.23711340206186
+      },
+      "0.98": {
+        "hit_time": 1756403877426,
+        "hit_time_readable": "2025-08-28T17:57:57.426000",
+        "hit_price": 0.98,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.142857142857138
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "25544035324364326107177597001512412777109252819235501073379857903233474696106",
+    "hour_end_time": 1756407634590,
+    "hour_end_readable": "2025-08-28T19:00:34.590000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756407599534,
+        "hit_time_readable": "2025-08-28T18:59:59.534000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756407599534,
+        "hit_time_readable": "2025-08-28T18:59:59.534000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756407599534,
+        "hit_time_readable": "2025-08-28T18:59:59.534000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756407599534,
+        "hit_time_readable": "2025-08-28T18:59:59.534000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756407599534,
+        "hit_time_readable": "2025-08-28T18:59:59.534000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "110280617100717072790808610233315956588272844688148934366631323405712826224207",
+    "hour_end_time": 1756407634590,
+    "hour_end_readable": "2025-08-28T19:00:34.590000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756406449409,
+        "hit_time_readable": "2025-08-28T18:40:49.409000",
+        "hit_price": 0.95,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.94,
+        "max_drop_percentage": 98.94736842105263
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "57301306555220364860309460916930029742360266603682930966985234629670060618394",
+    "hour_end_time": 1756411205137,
+    "hour_end_readable": "2025-08-28T20:00:05.137000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756410207420,
+        "hit_time_readable": "2025-08-28T19:43:27.420000",
+        "hit_price": 0.95,
+        "lowest_price": 0.85,
+        "max_drop_amount": 0.09999999999999998,
+        "max_drop_percentage": 10.526315789473681
+      },
+      "0.96": {
+        "hit_time": 1756410625016,
+        "hit_time_readable": "2025-08-28T19:50:25.016000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756410627295,
+        "hit_time_readable": "2025-08-28T19:50:27.295000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756410764562,
+        "hit_time_readable": "2025-08-28T19:52:44.562000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756410889815,
+        "hit_time_readable": "2025-08-28T19:54:49.815000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "105887752233725915702756931278178939360421508198360721071414608560523775605040",
+    "hour_end_time": 1756418419133,
+    "hour_end_readable": "2025-08-28T22:00:19.133000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756418082053,
+        "hit_time_readable": "2025-08-28T21:54:42.053000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756418100025,
+        "hit_time_readable": "2025-08-28T21:55:00.025000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756418104348,
+        "hit_time_readable": "2025-08-28T21:55:04.348000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "60698420810648376094970669064182158158730985321981847281169320203775633359235",
+    "hour_end_time": 1756422024209,
+    "hour_end_readable": "2025-08-28T23:00:24.209000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756419909890,
+        "hit_time_readable": "2025-08-28T22:25:09.890000",
+        "hit_price": 0.96,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756419909890,
+        "hit_time_readable": "2025-08-28T22:25:09.890000",
+        "hit_price": 0.96,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.166666666666659
+      },
+      "0.97": {
+        "hit_time": 1756420262719,
+        "hit_time_readable": "2025-08-28T22:31:02.719000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756420262719,
+        "hit_time_readable": "2025-08-28T22:31:02.719000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.061224489795921
+      },
+      "0.99": {
+        "hit_time": 1756421279697,
+        "hit_time_readable": "2025-08-28T22:47:59.697000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "96089052319831800050159032686202422673589424935561398325651001850425743265502",
+    "hour_end_time": 1756425627255,
+    "hour_end_readable": "2025-08-29T00:00:27.255000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756424897016,
+        "hit_time_readable": "2025-08-28T23:48:17.016000",
+        "hit_price": 0.95,
+        "lowest_price": 0.84,
+        "max_drop_amount": 0.10999999999999999,
+        "max_drop_percentage": 11.578947368421051
+      },
+      "0.96": {
+        "hit_time": 1756424900034,
+        "hit_time_readable": "2025-08-28T23:48:20.034000",
+        "hit_price": 0.96,
+        "lowest_price": 0.84,
+        "max_drop_amount": 0.12,
+        "max_drop_percentage": 12.5
+      },
+      "0.97": {
+        "hit_time": 1756425273771,
+        "hit_time_readable": "2025-08-28T23:54:33.771000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756425296126,
+        "hit_time_readable": "2025-08-28T23:54:56.126000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "65291832103314098292958390228316373027243815896601306006207314163947000292163",
+    "hour_end_time": 1756429204011,
+    "hour_end_readable": "2025-08-29T01:00:04.011000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756428327777,
+        "hit_time_readable": "2025-08-29T00:45:27.777000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756428329835,
+        "hit_time_readable": "2025-08-29T00:45:29.835000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756428423021,
+        "hit_time_readable": "2025-08-29T00:47:03.021000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756428497116,
+        "hit_time_readable": "2025-08-29T00:48:17.116000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756428576230,
+        "hit_time_readable": "2025-08-29T00:49:36.230000",
+        "hit_price": 0.99,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.020202020202022
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "20288603388461878821363019714792797445848250234693498876428914418088271011626",
+    "hour_end_time": 1756432815679,
+    "hour_end_readable": "2025-08-29T02:00:15.679000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756430451573,
+        "hit_time_readable": "2025-08-29T01:20:51.573000",
+        "hit_price": 0.95,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756430595015,
+        "hit_time_readable": "2025-08-29T01:23:15.015000",
+        "hit_price": 0.96,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.166666666666659
+      },
+      "0.97": {
+        "hit_time": 1756431311440,
+        "hit_time_readable": "2025-08-29T01:35:11.440000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756431479685,
+        "hit_time_readable": "2025-08-29T01:37:59.685000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756431850410,
+        "hit_time_readable": "2025-08-29T01:44:10.410000",
+        "hit_price": 0.99,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.010101010101011
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "95460884040996456573837269877956332799031824742556331252069565485687189265263",
+    "hour_end_time": 1756436432350,
+    "hour_end_readable": "2025-08-29T03:00:32.350000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756436381253,
+        "hit_time_readable": "2025-08-29T02:59:41.253000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756436381253,
+        "hit_time_readable": "2025-08-29T02:59:41.253000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756436381253,
+        "hit_time_readable": "2025-08-29T02:59:41.253000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756436387018,
+        "hit_time_readable": "2025-08-29T02:59:47.018000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756436391563,
+        "hit_time_readable": "2025-08-29T02:59:51.563000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "12847491762384478685469874164667864085245824417996412379599139475605721789212",
+    "hour_end_time": 1756440015760,
+    "hour_end_readable": "2025-08-29T04:00:15.760000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756438682044,
+        "hit_time_readable": "2025-08-29T03:38:02.044000",
+        "hit_price": 0.95,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756438754138,
+        "hit_time_readable": "2025-08-29T03:39:14.138000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756438787012,
+        "hit_time_readable": "2025-08-29T03:39:47.012000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756438994666,
+        "hit_time_readable": "2025-08-29T03:43:14.666000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "71698439036875062965896614608898540226263900432374897620299558352023510427607",
+    "hour_end_time": 1756443624877,
+    "hour_end_readable": "2025-08-29T05:00:24.877000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756443166977,
+        "hit_time_readable": "2025-08-29T04:52:46.977000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756443176886,
+        "hit_time_readable": "2025-08-29T04:52:56.886000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756443176886,
+        "hit_time_readable": "2025-08-29T04:52:56.886000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756443254356,
+        "hit_time_readable": "2025-08-29T04:54:14.356000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756443274457,
+        "hit_time_readable": "2025-08-29T04:54:34.457000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "57026362980378686829849709959694389951846584347282942725883989457767647477449",
+    "hour_end_time": 1756447235068,
+    "hour_end_readable": "2025-08-29T06:00:35.068000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756445850495,
+        "hit_time_readable": "2025-08-29T05:37:30.495000",
+        "hit_price": 0.95,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756446065023,
+        "hit_time_readable": "2025-08-29T05:41:05.023000",
+        "hit_price": 0.96,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.166666666666659
+      },
+      "0.97": {
+        "hit_time": 1756446211305,
+        "hit_time_readable": "2025-08-29T05:43:31.305000",
+        "hit_price": 0.97,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.154639175257725
+      },
+      "0.98": {
+        "hit_time": 1756446256376,
+        "hit_time_readable": "2025-08-29T05:44:16.376000",
+        "hit_price": 0.98,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.122448979591831
+      },
+      "0.99": {
+        "hit_time": 1756446744283,
+        "hit_time_readable": "2025-08-29T05:52:24.283000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "52976426001017770616571864617650633765565565327661572534700679398749690819032",
+    "hour_end_time": 1756450806810,
+    "hour_end_readable": "2025-08-29T07:00:06.810000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756449302570,
+        "hit_time_readable": "2025-08-29T06:35:02.570000",
+        "hit_price": 0.95,
+        "lowest_price": 0.6,
+        "max_drop_amount": 0.35,
+        "max_drop_percentage": 36.84210526315789
+      },
+      "0.96": {
+        "hit_time": 1756449318605,
+        "hit_time_readable": "2025-08-29T06:35:18.605000",
+        "hit_price": 0.96,
+        "lowest_price": 0.6,
+        "max_drop_amount": 0.36,
+        "max_drop_percentage": 37.5
+      },
+      "0.97": {
+        "hit_time": 1756449392739,
+        "hit_time_readable": "2025-08-29T06:36:32.739000",
+        "hit_price": 0.97,
+        "lowest_price": 0.6,
+        "max_drop_amount": 0.37,
+        "max_drop_percentage": 38.14432989690722
+      },
+      "0.98": {
+        "hit_time": 1756450777676,
+        "hit_time_readable": "2025-08-29T06:59:37.676000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756450781579,
+        "hit_time_readable": "2025-08-29T06:59:41.579000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "85332287309502359840824342591300036701883687872006604742003694229789037684081",
+    "hour_end_time": 1756454414339,
+    "hour_end_readable": "2025-08-29T08:00:14.339000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756451949242,
+        "hit_time_readable": "2025-08-29T07:19:09.242000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756451975303,
+        "hit_time_readable": "2025-08-29T07:19:35.303000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756452423250,
+        "hit_time_readable": "2025-08-29T07:27:03.250000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756452423250,
+        "hit_time_readable": "2025-08-29T07:27:03.250000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756453007973,
+        "hit_time_readable": "2025-08-29T07:36:47.973000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "43891015631423965178357875191177561876509842595741594973000209027273374022693",
+    "hour_end_time": 1756458014771,
+    "hour_end_readable": "2025-08-29T09:00:14.771000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756457489960,
+        "hit_time_readable": "2025-08-29T08:51:29.960000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756457496903,
+        "hit_time_readable": "2025-08-29T08:51:36.903000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756457496903,
+        "hit_time_readable": "2025-08-29T08:51:36.903000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756457530104,
+        "hit_time_readable": "2025-08-29T08:52:10.104000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756457582872,
+        "hit_time_readable": "2025-08-29T08:53:02.872000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "18909901168369197967394056261893088439934507472449378864697468949659429146260",
+    "hour_end_time": 1756461620456,
+    "hour_end_readable": "2025-08-29T10:00:20.456000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756460780806,
+        "hit_time_readable": "2025-08-29T09:46:20.806000",
+        "hit_price": 0.95,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.315789473684205
+      },
+      "0.96": {
+        "hit_time": 1756460894088,
+        "hit_time_readable": "2025-08-29T09:48:14.088000",
+        "hit_price": 0.97,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.291666666666662
+      },
+      "0.97": {
+        "hit_time": 1756460894088,
+        "hit_time_readable": "2025-08-29T09:48:14.088000",
+        "hit_price": 0.97,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.247422680412367
+      },
+      "0.98": {
+        "hit_time": 1756460996288,
+        "hit_time_readable": "2025-08-29T09:49:56.288000",
+        "hit_price": 0.98,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.08999999999999997,
+        "max_drop_percentage": 9.18367346938775
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "66409773259652806953708243415513532589797683972355478032305844225366449854580",
+    "hour_end_time": 1756465222159,
+    "hour_end_readable": "2025-08-29T11:00:22.159000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756464424601,
+        "hit_time_readable": "2025-08-29T10:47:04.601000",
+        "hit_price": 0.95,
+        "lowest_price": 0.78,
+        "max_drop_amount": 0.16999999999999993,
+        "max_drop_percentage": 17.894736842105257
+      },
+      "0.96": {
+        "hit_time": 1756464447583,
+        "hit_time_readable": "2025-08-29T10:47:27.583000",
+        "hit_price": 0.96,
+        "lowest_price": 0.78,
+        "max_drop_amount": 0.17999999999999994,
+        "max_drop_percentage": 18.749999999999993
+      },
+      "0.97": {
+        "hit_time": 1756464463666,
+        "hit_time_readable": "2025-08-29T10:47:43.666000",
+        "hit_price": 0.97,
+        "lowest_price": 0.78,
+        "max_drop_amount": 0.18999999999999995,
+        "max_drop_percentage": 19.587628865979376
+      },
+      "0.98": {
+        "hit_time": 1756464941738,
+        "hit_time_readable": "2025-08-29T10:55:41.738000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756465061009,
+        "hit_time_readable": "2025-08-29T10:57:41.009000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "41700622918826961288189269557950521972092277058187771047764420666981168807660",
+    "hour_end_time": 1756468827881,
+    "hour_end_readable": "2025-08-29T12:00:27.881000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756468745810,
+        "hit_time_readable": "2025-08-29T11:59:05.810000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756468753777,
+        "hit_time_readable": "2025-08-29T11:59:13.777000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756468754736,
+        "hit_time_readable": "2025-08-29T11:59:14.736000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756468754736,
+        "hit_time_readable": "2025-08-29T11:59:14.736000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "30624528371919074970746073389671926392099364527527393884362175895077502103340",
+    "hour_end_time": 1756472432313,
+    "hour_end_readable": "2025-08-29T13:00:32.313000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756470620041,
+        "hit_time_readable": "2025-08-29T12:30:20.041000",
+        "hit_price": 0.95,
+        "lowest_price": 0.71,
+        "max_drop_amount": 0.24,
+        "max_drop_percentage": 25.263157894736842
+      },
+      "0.96": {
+        "hit_time": 1756470625059,
+        "hit_time_readable": "2025-08-29T12:30:25.059000",
+        "hit_price": 0.96,
+        "lowest_price": 0.71,
+        "max_drop_amount": 0.25,
+        "max_drop_percentage": 26.041666666666668
+      },
+      "0.97": {
+        "hit_time": 1756470628940,
+        "hit_time_readable": "2025-08-29T12:30:28.940000",
+        "hit_price": 0.97,
+        "lowest_price": 0.71,
+        "max_drop_amount": 0.26,
+        "max_drop_percentage": 26.804123711340207
+      },
+      "0.98": {
+        "hit_time": 1756470667999,
+        "hit_time_readable": "2025-08-29T12:31:07.999000",
+        "hit_price": 0.98,
+        "lowest_price": 0.71,
+        "max_drop_amount": 0.27,
+        "max_drop_percentage": 27.551020408163268
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "104524340673311640249494986082606222569810736997980796206729012258131000427448",
+    "hour_end_time": 1756476004178,
+    "hour_end_readable": "2025-08-29T14:00:04.178000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756474770837,
+        "hit_time_readable": "2025-08-29T13:39:30.837000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756474770837,
+        "hit_time_readable": "2025-08-29T13:39:30.837000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756474801707,
+        "hit_time_readable": "2025-08-29T13:40:01.707000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756474865063,
+        "hit_time_readable": "2025-08-29T13:41:05.063000",
+        "hit_price": 0.98,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.040000000000000036,
+        "max_drop_percentage": 4.081632653061228
+      },
+      "0.99": {
+        "hit_time": 1756475223526,
+        "hit_time_readable": "2025-08-29T13:47:03.526000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "18999684864686324346236393350736572848963985538149660897483571221922342951153",
+    "hour_end_time": 1756479608928,
+    "hour_end_readable": "2025-08-29T15:00:08.928000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756478975969,
+        "hit_time_readable": "2025-08-29T14:49:35.969000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756478983970,
+        "hit_time_readable": "2025-08-29T14:49:43.970000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756478995898,
+        "hit_time_readable": "2025-08-29T14:49:55.898000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756479014878,
+        "hit_time_readable": "2025-08-29T14:50:14.878000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756479062005,
+        "hit_time_readable": "2025-08-29T14:51:02.005000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "63955212747968001148479057394475224063280942947483295284444528721772704855932",
+    "hour_end_time": 1756483226128,
+    "hour_end_readable": "2025-08-29T16:00:26.128000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756482864436,
+        "hit_time_readable": "2025-08-29T15:54:24.436000",
+        "hit_price": 0.96,
+        "lowest_price": 0.88,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.368421052631574
+      },
+      "0.96": {
+        "hit_time": 1756482864436,
+        "hit_time_readable": "2025-08-29T15:54:24.436000",
+        "hit_price": 0.96,
+        "lowest_price": 0.88,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.33333333333333
+      },
+      "0.97": {
+        "hit_time": 1756482886319,
+        "hit_time_readable": "2025-08-29T15:54:46.319000",
+        "hit_price": 0.97,
+        "lowest_price": 0.88,
+        "max_drop_amount": 0.08999999999999997,
+        "max_drop_percentage": 9.278350515463915
+      },
+      "0.98": {
+        "hit_time": 1756482898492,
+        "hit_time_readable": "2025-08-29T15:54:58.492000",
+        "hit_price": 0.98,
+        "lowest_price": 0.88,
+        "max_drop_amount": 0.09999999999999998,
+        "max_drop_percentage": 10.20408163265306
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "104929705130825564781002345228143872806747649410292303158872610205512649483934",
+    "hour_end_time": 1756486830920,
+    "hour_end_readable": "2025-08-29T17:00:30.920000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756485795069,
+        "hit_time_readable": "2025-08-29T16:43:15.069000",
+        "hit_price": 0.96,
+        "lowest_price": 0.85,
+        "max_drop_amount": 0.09999999999999998,
+        "max_drop_percentage": 10.526315789473681
+      },
+      "0.96": {
+        "hit_time": 1756485795069,
+        "hit_time_readable": "2025-08-29T16:43:15.069000",
+        "hit_price": 0.96,
+        "lowest_price": 0.85,
+        "max_drop_amount": 0.10999999999999999,
+        "max_drop_percentage": 11.458333333333332
+      },
+      "0.97": {
+        "hit_time": 1756485799035,
+        "hit_time_readable": "2025-08-29T16:43:19.035000",
+        "hit_price": 0.97,
+        "lowest_price": 0.85,
+        "max_drop_amount": 0.12,
+        "max_drop_percentage": 12.371134020618557
+      },
+      "0.98": {
+        "hit_time": 1756485941416,
+        "hit_time_readable": "2025-08-29T16:45:41.416000",
+        "hit_price": 0.98,
+        "lowest_price": 0.85,
+        "max_drop_amount": 0.13,
+        "max_drop_percentage": 13.26530612244898
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "43386655693264526094222995752368001918084035681168273943175274126554219921997",
+    "hour_end_time": 1756490411862,
+    "hour_end_readable": "2025-08-29T18:00:11.862000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756489810784,
+        "hit_time_readable": "2025-08-29T17:50:10.784000",
+        "hit_price": 0.95,
+        "lowest_price": 0.8,
+        "max_drop_amount": 0.1499999999999999,
+        "max_drop_percentage": 15.789473684210517
+      },
+      "0.96": {
+        "hit_time": 1756490146547,
+        "hit_time_readable": "2025-08-29T17:55:46.547000",
+        "hit_price": 0.96,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.249999999999995
+      },
+      "0.97": {
+        "hit_time": 1756490257857,
+        "hit_time_readable": "2025-08-29T17:57:37.857000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756490267831,
+        "hit_time_readable": "2025-08-29T17:57:47.831000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756490271875,
+        "hit_time_readable": "2025-08-29T17:57:51.875000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "76375931968013138413659227121579760630518504872464075349798799656566407941096",
+    "hour_end_time": 1756494018891,
+    "hour_end_readable": "2025-08-29T19:00:18.891000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756493102306,
+        "hit_time_readable": "2025-08-29T18:45:02.306000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756493151383,
+        "hit_time_readable": "2025-08-29T18:45:51.383000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756493181430,
+        "hit_time_readable": "2025-08-29T18:46:21.430000",
+        "hit_price": 0.97,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.123711340206178
+      },
+      "0.98": {
+        "hit_time": 1756493226466,
+        "hit_time_readable": "2025-08-29T18:47:06.466000",
+        "hit_price": 0.98,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.102040816326523
+      },
+      "0.99": {
+        "hit_time": 1756493527594,
+        "hit_time_readable": "2025-08-29T18:52:07.594000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "83805926549714971985669987767063717155625829412717142463679026006205743604145",
+    "hour_end_time": 1756497617714,
+    "hour_end_readable": "2025-08-29T20:00:17.714000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756495289642,
+        "hit_time_readable": "2025-08-29T19:21:29.642000",
+        "hit_price": 0.95,
+        "lowest_price": 0.68,
+        "max_drop_amount": 0.2699999999999999,
+        "max_drop_percentage": 28.42105263157894
+      },
+      "0.96": {
+        "hit_time": 1756495331902,
+        "hit_time_readable": "2025-08-29T19:22:11.902000",
+        "hit_price": 0.96,
+        "lowest_price": 0.68,
+        "max_drop_amount": 0.2799999999999999,
+        "max_drop_percentage": 29.166666666666657
+      },
+      "0.97": {
+        "hit_time": 1756496611815,
+        "hit_time_readable": "2025-08-29T19:43:31.815000",
+        "hit_price": 0.97,
+        "lowest_price": 0.68,
+        "max_drop_amount": 0.2899999999999999,
+        "max_drop_percentage": 29.89690721649484
+      },
+      "0.98": {
+        "hit_time": 1756496733145,
+        "hit_time_readable": "2025-08-29T19:45:33.145000",
+        "hit_price": 0.98,
+        "lowest_price": 0.68,
+        "max_drop_amount": 0.29999999999999993,
+        "max_drop_percentage": 30.61224489795918
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "14632983512741906163718513763420889717134376651785113275014550369428378193011",
+    "hour_end_time": 1756501227755,
+    "hour_end_readable": "2025-08-29T21:00:27.755000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756499989257,
+        "hit_time_readable": "2025-08-29T20:39:49.257000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756499993269,
+        "hit_time_readable": "2025-08-29T20:39:53.269000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756500072480,
+        "hit_time_readable": "2025-08-29T20:41:12.480000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756500159652,
+        "hit_time_readable": "2025-08-29T20:42:39.652000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756500219791,
+        "hit_time_readable": "2025-08-29T20:43:39.791000",
+        "hit_price": 0.99,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.030303030303033
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "58982239960340278071373125248495833510223314406199101229876634648352570468670",
+    "hour_end_time": 1756504835166,
+    "hour_end_readable": "2025-08-29T22:00:35.166000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756503157480,
+        "hit_time_readable": "2025-08-29T21:32:37.480000",
+        "hit_price": 0.95,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756503315863,
+        "hit_time_readable": "2025-08-29T21:35:15.863000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756503338720,
+        "hit_time_readable": "2025-08-29T21:35:38.720000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756503536210,
+        "hit_time_readable": "2025-08-29T21:38:56.210000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756504203386,
+        "hit_time_readable": "2025-08-29T21:50:03.386000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "6070878459109879514661156769444427779040558193398775992785236599992421837985",
+    "hour_end_time": 1756508408863,
+    "hour_end_readable": "2025-08-29T23:00:08.863000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756507677751,
+        "hit_time_readable": "2025-08-29T22:47:57.751000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756507686814,
+        "hit_time_readable": "2025-08-29T22:48:06.814000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756507714860,
+        "hit_time_readable": "2025-08-29T22:48:34.860000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756507714860,
+        "hit_time_readable": "2025-08-29T22:48:34.860000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756507825136,
+        "hit_time_readable": "2025-08-29T22:50:25.136000",
+        "hit_price": 0.99,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.030303030303033
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "92809684836176198482633808463649508600584639063816268732608612453029085061124",
+    "hour_end_time": 1756512011387,
+    "hour_end_readable": "2025-08-30T00:00:11.387000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756511965382,
+        "hit_time_readable": "2025-08-29T23:59:25.382000",
+        "hit_price": 0.95,
+        "lowest_price": 0.49,
+        "max_drop_amount": 0.45999999999999996,
+        "max_drop_percentage": 48.421052631578945
+      },
+      "0.96": {
+        "hit_time": 1756511997295,
+        "hit_time_readable": "2025-08-29T23:59:57.295000",
+        "hit_price": 0.99,
+        "lowest_price": 0.49,
+        "max_drop_amount": 0.47,
+        "max_drop_percentage": 48.95833333333333
+      },
+      "0.97": {
+        "hit_time": 1756511997295,
+        "hit_time_readable": "2025-08-29T23:59:57.295000",
+        "hit_price": 0.99,
+        "lowest_price": 0.49,
+        "max_drop_amount": 0.48,
+        "max_drop_percentage": 49.48453608247423
+      },
+      "0.98": {
+        "hit_time": 1756511997295,
+        "hit_time_readable": "2025-08-29T23:59:57.295000",
+        "hit_price": 0.99,
+        "lowest_price": 0.49,
+        "max_drop_amount": 0.49,
+        "max_drop_percentage": 50.0
+      },
+      "0.99": {
+        "hit_time": 1756511997295,
+        "hit_time_readable": "2025-08-29T23:59:57.295000",
+        "hit_price": 0.99,
+        "lowest_price": 0.49,
+        "max_drop_amount": 0.5,
+        "max_drop_percentage": 50.505050505050505
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "32470627142083834417605641407048690948123249364202653123407429599738609602305",
+    "hour_end_time": 1756512011387,
+    "hour_end_readable": "2025-08-30T00:00:11.387000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756511779986,
+        "hit_time_readable": "2025-08-29T23:56:19.986000",
+        "hit_price": 0.95,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.94,
+        "max_drop_percentage": 98.94736842105263
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "53109979531336201689068176528629737975924870217064622853371761435203814607142",
+    "hour_end_time": 1756515619148,
+    "hour_end_readable": "2025-08-30T01:00:19.148000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756515305474,
+        "hit_time_readable": "2025-08-30T00:55:05.474000",
+        "hit_price": 0.95,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.263157894736835
+      },
+      "0.96": {
+        "hit_time": 1756515307410,
+        "hit_time_readable": "2025-08-30T00:55:07.410000",
+        "hit_price": 0.96,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.249999999999995
+      },
+      "0.97": {
+        "hit_time": 1756515318450,
+        "hit_time_readable": "2025-08-30T00:55:18.450000",
+        "hit_price": 0.97,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.2164948453608195
+      },
+      "0.98": {
+        "hit_time": 1756515325502,
+        "hit_time_readable": "2025-08-30T00:55:25.502000",
+        "hit_price": 0.98,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.163265306122446
+      },
+      "0.99": {
+        "hit_time": 1756515569019,
+        "hit_time_readable": "2025-08-30T00:59:29.019000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "5889491953245170380985380217309928387069094769489089219894269975015736964828",
+    "hour_end_time": 1756519230139,
+    "hour_end_readable": "2025-08-30T02:00:30.139000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756517831541,
+        "hit_time_readable": "2025-08-30T01:37:11.541000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756518307601,
+        "hit_time_readable": "2025-08-30T01:45:07.601000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756518335561,
+        "hit_time_readable": "2025-08-30T01:45:35.561000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756518382794,
+        "hit_time_readable": "2025-08-30T01:46:22.794000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756518524156,
+        "hit_time_readable": "2025-08-30T01:48:44.156000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "14203063723946635796322144336960272146140143143718677564563082405550954210091",
+    "hour_end_time": 1756522816028,
+    "hour_end_readable": "2025-08-30T03:00:16.028000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756521116370,
+        "hit_time_readable": "2025-08-30T02:31:56.370000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756521144626,
+        "hit_time_readable": "2025-08-30T02:32:24.626000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756521158677,
+        "hit_time_readable": "2025-08-30T02:32:38.677000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756521592704,
+        "hit_time_readable": "2025-08-30T02:39:52.704000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756522418633,
+        "hit_time_readable": "2025-08-30T02:53:38.633000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "4929634852694061712075144988683137872315955318400902695192225809573832440160",
+    "hour_end_time": 1756526430617,
+    "hour_end_readable": "2025-08-30T04:00:30.617000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756524133127,
+        "hit_time_readable": "2025-08-30T03:22:13.127000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756524182286,
+        "hit_time_readable": "2025-08-30T03:23:02.286000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756524193300,
+        "hit_time_readable": "2025-08-30T03:23:13.300000",
+        "hit_price": 0.97,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.092783505154642
+      },
+      "0.98": {
+        "hit_time": 1756524234280,
+        "hit_time_readable": "2025-08-30T03:23:54.280000",
+        "hit_price": 0.98,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.040000000000000036,
+        "max_drop_percentage": 4.081632653061228
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "77854422736010293118898233701837285316724977473135389376380202793993396950614",
+    "hour_end_time": 1756532078627,
+    "hour_end_readable": "2025-08-30T05:34:38.627000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756530001132,
+        "hit_time_readable": "2025-08-30T05:00:01.132000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756530001132,
+        "hit_time_readable": "2025-08-30T05:00:01.132000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756530001132,
+        "hit_time_readable": "2025-08-30T05:00:01.132000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756530001132,
+        "hit_time_readable": "2025-08-30T05:00:01.132000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756530001132,
+        "hit_time_readable": "2025-08-30T05:00:01.132000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "29227674465264639850491512553922664787826946269925860034073063475599220535713",
+    "hour_end_time": 1756533624437,
+    "hour_end_readable": "2025-08-30T06:00:24.437000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756533417797,
+        "hit_time_readable": "2025-08-30T05:56:57.797000",
+        "hit_price": 0.95,
+        "lowest_price": 0.92,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.1578947368420964
+      },
+      "0.96": {
+        "hit_time": 1756533478109,
+        "hit_time_readable": "2025-08-30T05:57:58.109000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756533482118,
+        "hit_time_readable": "2025-08-30T05:58:02.118000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756533518168,
+        "hit_time_readable": "2025-08-30T05:58:38.168000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756533603841,
+        "hit_time_readable": "2025-08-30T06:00:03.841000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "26850270013299944091865141105615332907240717898442268050568482092056695531086",
+    "hour_end_time": 1756537225037,
+    "hour_end_readable": "2025-08-30T07:00:25.037000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756536778766,
+        "hit_time_readable": "2025-08-30T06:52:58.766000",
+        "hit_price": 0.95,
+        "lowest_price": 0.9,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.263157894736835
+      },
+      "0.96": {
+        "hit_time": 1756536981322,
+        "hit_time_readable": "2025-08-30T06:56:21.322000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756536981322,
+        "hit_time_readable": "2025-08-30T06:56:21.322000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756536991064,
+        "hit_time_readable": "2025-08-30T06:56:31.064000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756537174429,
+        "hit_time_readable": "2025-08-30T06:59:34.429000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "104408008536222814003710609886998363452761283382390545236701432855680793208281",
+    "hour_end_time": 1756540829557,
+    "hour_end_readable": "2025-08-30T08:00:29.557000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756539973020,
+        "hit_time_readable": "2025-08-30T07:46:13.020000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756539976032,
+        "hit_time_readable": "2025-08-30T07:46:16.032000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756540213502,
+        "hit_time_readable": "2025-08-30T07:50:13.502000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756540432791,
+        "hit_time_readable": "2025-08-30T07:53:52.791000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "50610453931151767108118493796873335670721700514296621281583608347321376303621",
+    "hour_end_time": 1756544404392,
+    "hour_end_readable": "2025-08-30T09:00:04.392000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756544152942,
+        "hit_time_readable": "2025-08-30T08:55:52.942000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756544168023,
+        "hit_time_readable": "2025-08-30T08:56:08.023000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756544175056,
+        "hit_time_readable": "2025-08-30T08:56:15.056000",
+        "hit_price": 0.97,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.123711340206178
+      },
+      "0.98": {
+        "hit_time": 1756544228217,
+        "hit_time_readable": "2025-08-30T08:57:08.217000",
+        "hit_price": 0.98,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.102040816326523
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "7833981336488646292899817758117625719833704014825506036204508246963652644059",
+    "hour_end_time": 1756548008698,
+    "hour_end_readable": "2025-08-30T10:00:08.698000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756547929463,
+        "hit_time_readable": "2025-08-30T09:58:49.463000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756547929463,
+        "hit_time_readable": "2025-08-30T09:58:49.463000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756547929463,
+        "hit_time_readable": "2025-08-30T09:58:49.463000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756547933426,
+        "hit_time_readable": "2025-08-30T09:58:53.426000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756547978159,
+        "hit_time_readable": "2025-08-30T09:59:38.159000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "105509981319934511110079136856335632456477764972038153369115915597404448772742",
+    "hour_end_time": 1756551615761,
+    "hour_end_readable": "2025-08-30T11:00:15.761000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756551394017,
+        "hit_time_readable": "2025-08-30T10:56:34.017000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756551403289,
+        "hit_time_readable": "2025-08-30T10:56:43.289000",
+        "hit_price": 0.99,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756551403289,
+        "hit_time_readable": "2025-08-30T10:56:43.289000",
+        "hit_price": 0.99,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756551403289,
+        "hit_time_readable": "2025-08-30T10:56:43.289000",
+        "hit_price": 0.99,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756551403289,
+        "hit_time_readable": "2025-08-30T10:56:43.289000",
+        "hit_price": 0.99,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.030303030303033
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "109567829243558152503873629804481695549319246911599306199490640894414225343105",
+    "hour_end_time": 1756555218018,
+    "hour_end_readable": "2025-08-30T12:00:18.018000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756554456673,
+        "hit_time_readable": "2025-08-30T11:47:36.673000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756554495255,
+        "hit_time_readable": "2025-08-30T11:48:15.255000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756554575221,
+        "hit_time_readable": "2025-08-30T11:49:35.221000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756554575221,
+        "hit_time_readable": "2025-08-30T11:49:35.221000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "817951312007488047971547029112389590235699954077010426300814741109333191345",
+    "hour_end_time": 1756558824229,
+    "hour_end_readable": "2025-08-30T13:00:24.229000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756557088874,
+        "hit_time_readable": "2025-08-30T12:31:28.874000",
+        "hit_price": 0.95,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.15999999999999992,
+        "max_drop_percentage": 16.842105263157887
+      },
+      "0.96": {
+        "hit_time": 1756557103875,
+        "hit_time_readable": "2025-08-30T12:31:43.875000",
+        "hit_price": 0.96,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.16999999999999993,
+        "max_drop_percentage": 17.708333333333325
+      },
+      "0.97": {
+        "hit_time": 1756557472794,
+        "hit_time_readable": "2025-08-30T12:37:52.794000",
+        "hit_price": 0.97,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.17999999999999994,
+        "max_drop_percentage": 18.55670103092783
+      },
+      "0.98": {
+        "hit_time": 1756557480822,
+        "hit_time_readable": "2025-08-30T12:38:00.822000",
+        "hit_price": 0.98,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.18999999999999995,
+        "max_drop_percentage": 19.38775510204081
+      },
+      "0.99": {
+        "hit_time": 1756558704021,
+        "hit_time_readable": "2025-08-30T12:58:24.021000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "92490062121331837283982470408605335873292379457208588237758940464316522838797",
+    "hour_end_time": 1756562427190,
+    "hour_end_readable": "2025-08-30T14:00:27.190000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756561479072,
+        "hit_time_readable": "2025-08-30T13:44:39.072000",
+        "hit_price": 0.95,
+        "lowest_price": 0.87,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.421052631578943
+      },
+      "0.96": {
+        "hit_time": 1756561532147,
+        "hit_time_readable": "2025-08-30T13:45:32.147000",
+        "hit_price": 0.96,
+        "lowest_price": 0.87,
+        "max_drop_amount": 0.08999999999999997,
+        "max_drop_percentage": 9.374999999999996
+      },
+      "0.97": {
+        "hit_time": 1756561536192,
+        "hit_time_readable": "2025-08-30T13:45:36.192000",
+        "hit_price": 0.97,
+        "lowest_price": 0.87,
+        "max_drop_amount": 0.09999999999999998,
+        "max_drop_percentage": 10.309278350515463
+      },
+      "0.98": {
+        "hit_time": 1756562155526,
+        "hit_time_readable": "2025-08-30T13:55:55.526000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756562226492,
+        "hit_time_readable": "2025-08-30T13:57:06.492000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "31847045321669516063624333716437245658419462802266653686865306071554253219195",
+    "hour_end_time": 1756566032348,
+    "hour_end_readable": "2025-08-30T15:00:32.348000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756565253655,
+        "hit_time_readable": "2025-08-30T14:47:33.655000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756565300014,
+        "hit_time_readable": "2025-08-30T14:48:20.014000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756565324024,
+        "hit_time_readable": "2025-08-30T14:48:44.024000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756565346063,
+        "hit_time_readable": "2025-08-30T14:49:06.063000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756565821101,
+        "hit_time_readable": "2025-08-30T14:57:01.101000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "93808868689845495918460549854138437777612792425459572310107253181060463954703",
+    "hour_end_time": 1756569632578,
+    "hour_end_readable": "2025-08-30T16:00:32.578000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756568633850,
+        "hit_time_readable": "2025-08-30T15:43:53.850000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756568821288,
+        "hit_time_readable": "2025-08-30T15:47:01.288000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756568956043,
+        "hit_time_readable": "2025-08-30T15:49:16.043000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756568989091,
+        "hit_time_readable": "2025-08-30T15:49:49.091000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "82157143072034990470381303322726275460683960156290471935002822198738641139167",
+    "hour_end_time": 1756573204485,
+    "hour_end_readable": "2025-08-30T17:00:04.485000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756573083234,
+        "hit_time_readable": "2025-08-30T16:58:03.234000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756573094339,
+        "hit_time_readable": "2025-08-30T16:58:14.339000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756573115275,
+        "hit_time_readable": "2025-08-30T16:58:35.275000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756573134399,
+        "hit_time_readable": "2025-08-30T16:58:54.399000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756573159237,
+        "hit_time_readable": "2025-08-30T16:59:19.237000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "25255369028026792284990703016935689646400153063874994777929755410173736844004",
+    "hour_end_time": 1756576810270,
+    "hour_end_readable": "2025-08-30T18:00:10.270000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756575947014,
+        "hit_time_readable": "2025-08-30T17:45:47.014000",
+        "hit_price": 0.96,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.15999999999999992,
+        "max_drop_percentage": 16.842105263157887
+      },
+      "0.96": {
+        "hit_time": 1756575947014,
+        "hit_time_readable": "2025-08-30T17:45:47.014000",
+        "hit_price": 0.96,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.16999999999999993,
+        "max_drop_percentage": 17.708333333333325
+      },
+      "0.97": {
+        "hit_time": 1756575949040,
+        "hit_time_readable": "2025-08-30T17:45:49.040000",
+        "hit_price": 0.97,
+        "lowest_price": 0.79,
+        "max_drop_amount": 0.17999999999999994,
+        "max_drop_percentage": 18.55670103092783
+      },
+      "0.98": {
+        "hit_time": 1756576774046,
+        "hit_time_readable": "2025-08-30T17:59:34.046000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756576779997,
+        "hit_time_readable": "2025-08-30T17:59:39.997000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "72826219571599574609826381821285004378699274566325495565641453779715196411377",
+    "hour_end_time": 1756580414373,
+    "hour_end_readable": "2025-08-30T19:00:14.373000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756580249864,
+        "hit_time_readable": "2025-08-30T18:57:29.864000",
+        "hit_price": 0.95,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.315789473684205
+      },
+      "0.96": {
+        "hit_time": 1756580285051,
+        "hit_time_readable": "2025-08-30T18:58:05.051000",
+        "hit_price": 0.97,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.291666666666662
+      },
+      "0.97": {
+        "hit_time": 1756580285051,
+        "hit_time_readable": "2025-08-30T18:58:05.051000",
+        "hit_price": 0.97,
+        "lowest_price": 0.89,
+        "max_drop_amount": 0.07999999999999996,
+        "max_drop_percentage": 8.247422680412367
+      },
+      "0.98": {
+        "hit_time": 1756580352261,
+        "hit_time_readable": "2025-08-30T18:59:12.261000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.061224489795921
+      },
+      "0.99": {
+        "hit_time": 1756580383899,
+        "hit_time_readable": "2025-08-30T18:59:43.899000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "51313027719245120484043362701790197553319708797857758091462193056754165373556",
+    "hour_end_time": 1756584016305,
+    "hour_end_readable": "2025-08-30T20:00:16.305000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756583115889,
+        "hit_time_readable": "2025-08-30T19:45:15.889000",
+        "hit_price": 0.95,
+        "lowest_price": 0.64,
+        "max_drop_amount": 0.30999999999999994,
+        "max_drop_percentage": 32.63157894736842
+      },
+      "0.96": {
+        "hit_time": 1756583880094,
+        "hit_time_readable": "2025-08-30T19:58:00.094000",
+        "hit_price": 0.96,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.208333333333327
+      },
+      "0.97": {
+        "hit_time": 1756583885092,
+        "hit_time_readable": "2025-08-30T19:58:05.092000",
+        "hit_price": 0.97,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.185567010309272
+      },
+      "0.98": {
+        "hit_time": 1756583888083,
+        "hit_time_readable": "2025-08-30T19:58:08.083000",
+        "hit_price": 0.98,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.142857142857138
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "80797278979058578778844659397761132815966409534159552015746147076864262653579",
+    "hour_end_time": 1756587621561,
+    "hour_end_readable": "2025-08-30T21:00:21.561000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756586536281,
+        "hit_time_readable": "2025-08-30T20:42:16.281000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756586581503,
+        "hit_time_readable": "2025-08-30T20:43:01.503000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756586804342,
+        "hit_time_readable": "2025-08-30T20:46:44.342000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756586804342,
+        "hit_time_readable": "2025-08-30T20:46:44.342000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.061224489795921
+      },
+      "0.99": {
+        "hit_time": 1756587041031,
+        "hit_time_readable": "2025-08-30T20:50:41.031000",
+        "hit_price": 0.99,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.010101010101011
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "83581419444350930301587588852963572937005127051305405222273647287895854775198",
+    "hour_end_time": 1756591221479,
+    "hour_end_readable": "2025-08-30T22:00:21.479000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756590817225,
+        "hit_time_readable": "2025-08-30T21:53:37.225000",
+        "hit_price": 0.95,
+        "lowest_price": 0.69,
+        "max_drop_amount": 0.26,
+        "max_drop_percentage": 27.368421052631582
+      },
+      "0.96": {
+        "hit_time": 1756590822260,
+        "hit_time_readable": "2025-08-30T21:53:42.260000",
+        "hit_price": 0.96,
+        "lowest_price": 0.69,
+        "max_drop_amount": 0.27,
+        "max_drop_percentage": 28.125000000000007
+      },
+      "0.97": {
+        "hit_time": 1756590847480,
+        "hit_time_readable": "2025-08-30T21:54:07.480000",
+        "hit_price": 0.97,
+        "lowest_price": 0.69,
+        "max_drop_amount": 0.28,
+        "max_drop_percentage": 28.865979381443303
+      },
+      "0.98": {
+        "hit_time": 1756591153335,
+        "hit_time_readable": "2025-08-30T21:59:13.335000",
+        "hit_price": 0.98,
+        "lowest_price": 0.69,
+        "max_drop_amount": 0.29000000000000004,
+        "max_drop_percentage": 29.59183673469388
+      },
+      "0.99": {
+        "hit_time": 1756591200673,
+        "hit_time_readable": "2025-08-30T22:00:00.673000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "112160956903385888983438768829525950510399276320902923368223901599462916908911",
+    "hour_end_time": 1756594826617,
+    "hour_end_readable": "2025-08-30T23:00:26.617000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756594586068,
+        "hit_time_readable": "2025-08-30T22:56:26.068000",
+        "hit_price": 0.95,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.039999999999999925,
+        "max_drop_percentage": 4.210526315789466
+      },
+      "0.96": {
+        "hit_time": 1756594597023,
+        "hit_time_readable": "2025-08-30T22:56:37.023000",
+        "hit_price": 0.96,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.04999999999999993,
+        "max_drop_percentage": 5.208333333333327
+      },
+      "0.97": {
+        "hit_time": 1756594605029,
+        "hit_time_readable": "2025-08-30T22:56:45.029000",
+        "hit_price": 0.97,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.05999999999999994,
+        "max_drop_percentage": 6.185567010309272
+      },
+      "0.98": {
+        "hit_time": 1756594640245,
+        "hit_time_readable": "2025-08-30T22:57:20.245000",
+        "hit_price": 0.98,
+        "lowest_price": 0.91,
+        "max_drop_amount": 0.06999999999999995,
+        "max_drop_percentage": 7.142857142857138
+      },
+      "0.99": {
+        "hit_time": 1756594801276,
+        "hit_time_readable": "2025-08-30T23:00:01.276000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "86470772264959586580089007665311958101529780684967198497859200772003749268196",
+    "hour_end_time": 1756598435526,
+    "hour_end_readable": "2025-08-31T00:00:35.526000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756596899710,
+        "hit_time_readable": "2025-08-30T23:34:59.710000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756596960937,
+        "hit_time_readable": "2025-08-30T23:36:00.937000",
+        "hit_price": 0.96,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0416666666666676
+      },
+      "0.97": {
+        "hit_time": 1756596964869,
+        "hit_time_readable": "2025-08-30T23:36:04.869000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756597141385,
+        "hit_time_readable": "2025-08-30T23:39:01.385000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756597697950,
+        "hit_time_readable": "2025-08-30T23:48:17.950000",
+        "hit_price": 0.99,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.020202020202022
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "44013522042798281925446292084847387716560897378638847837378312875479389074698",
+    "hour_end_time": 1756602023175,
+    "hour_end_readable": "2025-08-31T01:00:23.175000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756600663815,
+        "hit_time_readable": "2025-08-31T00:37:43.815000",
+        "hit_price": 0.95,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.019999999999999907,
+        "max_drop_percentage": 2.105263157894727
+      },
+      "0.96": {
+        "hit_time": 1756600743265,
+        "hit_time_readable": "2025-08-31T00:39:03.265000",
+        "hit_price": 0.96,
+        "lowest_price": 0.93,
+        "max_drop_amount": 0.029999999999999916,
+        "max_drop_percentage": 3.124999999999991
+      },
+      "0.97": {
+        "hit_time": 1756600939471,
+        "hit_time_readable": "2025-08-31T00:42:19.471000",
+        "hit_price": 0.97,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.061855670103095
+      },
+      "0.98": {
+        "hit_time": 1756600954706,
+        "hit_time_readable": "2025-08-31T00:42:34.706000",
+        "hit_price": 0.98,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.030000000000000027,
+        "max_drop_percentage": 3.061224489795921
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "52419017600814589626875446247070901055715196702575713718059041206350706418784",
+    "hour_end_time": 1756605632492,
+    "hour_end_readable": "2025-08-31T02:00:32.492000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756605529194,
+        "hit_time_readable": "2025-08-31T01:58:49.194000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756605531220,
+        "hit_time_readable": "2025-08-31T01:58:51.220000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756605531220,
+        "hit_time_readable": "2025-08-31T01:58:51.220000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "17774998601804427672925687034019599162237169554628825491334421644879890785141",
+    "hour_end_time": 1756609216111,
+    "hour_end_readable": "2025-08-31T03:00:16.111000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756608099721,
+        "hit_time_readable": "2025-08-31T02:41:39.721000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756608135892,
+        "hit_time_readable": "2025-08-31T02:42:15.892000",
+        "hit_price": 0.96,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756608228104,
+        "hit_time_readable": "2025-08-31T02:43:48.104000",
+        "hit_price": 0.97,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756608232112,
+        "hit_time_readable": "2025-08-31T02:43:52.112000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756608511869,
+        "hit_time_readable": "2025-08-31T02:48:31.869000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "102415415863596163654893270925698155505202828083942813002524056168215332071491",
+    "hour_end_time": 1756612827678,
+    "hour_end_readable": "2025-08-31T04:00:27.678000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756612640124,
+        "hit_time_readable": "2025-08-31T03:57:20.124000",
+        "hit_price": 0.95,
+        "lowest_price": 0.53,
+        "max_drop_amount": 0.41999999999999993,
+        "max_drop_percentage": 44.210526315789465
+      },
+      "0.96": {
+        "hit_time": 1756612650060,
+        "hit_time_readable": "2025-08-31T03:57:30.060000",
+        "hit_price": 0.96,
+        "lowest_price": 0.53,
+        "max_drop_amount": 0.42999999999999994,
+        "max_drop_percentage": 44.791666666666664
+      },
+      "0.97": {
+        "hit_time": 1756612784196,
+        "hit_time_readable": "2025-08-31T03:59:44.196000",
+        "hit_price": 0.97,
+        "lowest_price": 0.53,
+        "max_drop_amount": 0.43999999999999995,
+        "max_drop_percentage": 45.360824742268036
+      },
+      "0.98": {
+        "hit_time": 1756612787439,
+        "hit_time_readable": "2025-08-31T03:59:47.439000",
+        "hit_price": 0.98,
+        "lowest_price": 0.53,
+        "max_drop_amount": 0.44999999999999996,
+        "max_drop_percentage": 45.91836734693877
+      },
+      "0.99": {
+        "hit_time": 1756612802625,
+        "hit_time_readable": "2025-08-31T04:00:02.625000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "CALL",
+    "asset_id": "27107270917015982645453818894542311384280149430606666135921436671957744932536",
+    "hour_end_time": 1756612827678,
+    "hour_end_readable": "2025-08-31T04:00:27.678000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756612202809,
+        "hit_time_readable": "2025-08-31T03:50:02.809000",
+        "hit_price": 0.96,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.94,
+        "max_drop_percentage": 98.94736842105263
+      },
+      "0.96": {
+        "hit_time": 1756612202809,
+        "hit_time_readable": "2025-08-31T03:50:02.809000",
+        "hit_price": 0.96,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.95,
+        "max_drop_percentage": 98.95833333333334
+      },
+      "0.97": {
+        "hit_time": 1756612221855,
+        "hit_time_readable": "2025-08-31T03:50:21.855000",
+        "hit_price": 0.98,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.96,
+        "max_drop_percentage": 98.96907216494846
+      },
+      "0.98": {
+        "hit_time": 1756612221855,
+        "hit_time_readable": "2025-08-31T03:50:21.855000",
+        "hit_price": 0.98,
+        "lowest_price": 0.01,
+        "max_drop_amount": 0.97,
+        "max_drop_percentage": 98.9795918367347
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "45391569322863935387030386489534677076320593004508932301001027365958631869474",
+    "hour_end_time": 1756616431017,
+    "hour_end_readable": "2025-08-31T05:00:31.017000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756614118329,
+        "hit_time_readable": "2025-08-31T04:21:58.329000",
+        "hit_price": 0.95,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0526315789473695
+      },
+      "0.96": {
+        "hit_time": 1756614175388,
+        "hit_time_readable": "2025-08-31T04:22:55.388000",
+        "hit_price": 0.96,
+        "lowest_price": 0.94,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.0833333333333353
+      },
+      "0.97": {
+        "hit_time": 1756614426380,
+        "hit_time_readable": "2025-08-31T04:27:06.380000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756614555629,
+        "hit_time_readable": "2025-08-31T04:29:15.629000",
+        "hit_price": 0.98,
+        "lowest_price": 0.97,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.020408163265307
+      },
+      "0.99": {
+        "hit_time": 1756615442408,
+        "hit_time_readable": "2025-08-31T04:44:02.408000",
+        "hit_price": 0.992,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.010101010101011
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "106731355369675042456030403729711102463131740799517034522319224841579297975653",
+    "hour_end_time": 1756620006285,
+    "hour_end_readable": "2025-08-31T06:00:06.285000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756619732874,
+        "hit_time_readable": "2025-08-31T05:55:32.874000",
+        "hit_price": 0.95,
+        "lowest_price": 0.95,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.96": {
+        "hit_time": 1756619794188,
+        "hit_time_readable": "2025-08-31T05:56:34.188000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.97": {
+        "hit_time": 1756619794188,
+        "hit_time_readable": "2025-08-31T05:56:34.188000",
+        "hit_price": 0.97,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.010000000000000009,
+        "max_drop_percentage": 1.0309278350515474
+      },
+      "0.98": {
+        "hit_time": 1756619837334,
+        "hit_time_readable": "2025-08-31T05:57:17.334000",
+        "hit_price": 0.98,
+        "lowest_price": 0.96,
+        "max_drop_amount": 0.020000000000000018,
+        "max_drop_percentage": 2.040816326530614
+      },
+      "0.99": {
+        "hit_time": 1756619956370,
+        "hit_time_readable": "2025-08-31T05:59:16.370000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  },
+  {
+    "asset_type": "PUT",
+    "asset_id": "44391398172761597720622122012883330285088501536579953955879265559492284709364",
+    "hour_end_time": 1756623617388,
+    "hour_end_readable": "2025-08-31T07:00:17.388000",
+    "thresholds": {
+      "0.95": {
+        "hit_time": 1756622040058,
+        "hit_time_readable": "2025-08-31T06:34:00.058000",
+        "hit_price": 0.95,
+        "lowest_price": 0.55,
+        "max_drop_amount": 0.3999999999999999,
+        "max_drop_percentage": 42.105263157894726
+      },
+      "0.96": {
+        "hit_time": 1756622046202,
+        "hit_time_readable": "2025-08-31T06:34:06.202000",
+        "hit_price": 0.96,
+        "lowest_price": 0.55,
+        "max_drop_amount": 0.4099999999999999,
+        "max_drop_percentage": 42.70833333333333
+      },
+      "0.97": {
+        "hit_time": 1756623567613,
+        "hit_time_readable": "2025-08-31T06:59:27.613000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.98": {
+        "hit_time": 1756623567613,
+        "hit_time_readable": "2025-08-31T06:59:27.613000",
+        "hit_price": 0.98,
+        "lowest_price": 0.98,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      },
+      "0.99": {
+        "hit_time": 1756623587660,
+        "hit_time_readable": "2025-08-31T06:59:47.660000",
+        "hit_price": 0.99,
+        "lowest_price": 0.99,
+        "max_drop_amount": 0.0,
+        "max_drop_percentage": 0.0
+      }
+    }
+  }
+]

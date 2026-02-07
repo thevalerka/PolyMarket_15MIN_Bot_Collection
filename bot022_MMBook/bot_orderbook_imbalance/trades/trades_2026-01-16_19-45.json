@@ -1,0 +1,79 @@
+{
+  "period_id": "2026-01-16_19:45",
+  "start_time": "2026-01-16T19:45:00",
+  "end_time": "2026-01-16T20:00:10.850441",
+  "summary": {
+    "total_trades": 5,
+    "wins": 4,
+    "losses": 1,
+    "pnl": 2.65,
+    "win_rate": 80.0
+  },
+  "trades": [
+    {
+      "trade_id": 29,
+      "period_id": "2026-01-16_19:45",
+      "asset_type": "PUT",
+      "entry_price": 0.42,
+      "exit_price": 0.21,
+      "entry_time": "2026-01-16T19:45:52.471447",
+      "exit_time": "2026-01-16T19:50:12.968292",
+      "size": 5.2,
+      "pnl": -1.09,
+      "pnl_percent": -50.0,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 31,
+      "period_id": "2026-01-16_19:45",
+      "asset_type": "PUT",
+      "entry_price": 0.21,
+      "exit_price": 0.33,
+      "entry_time": "2026-01-16T19:51:33.379672",
+      "exit_time": "2026-01-16T19:51:48.322788",
+      "size": 5.2,
+      "pnl": 0.62,
+      "pnl_percent": 57.14,
+      "exit_reason": "signal"
+    },
+    {
+      "trade_id": 32,
+      "period_id": "2026-01-16_19:45",
+      "asset_type": "CALL",
+      "entry_price": 0.61,
+      "exit_price": 0.76,
+      "entry_time": "2026-01-16T19:52:15.046973",
+      "exit_time": "2026-01-16T19:53:12.320565",
+      "size": 5.2,
+      "pnl": 0.78,
+      "pnl_percent": 24.59,
+      "exit_reason": "signal_switch"
+    },
+    {
+      "trade_id": 33,
+      "period_id": "2026-01-16_19:45",
+      "asset_type": "PUT",
+      "entry_price": 0.24,
+      "exit_price": 0.41,
+      "entry_time": "2026-01-16T19:53:12.199326",
+      "exit_time": "2026-01-16T19:56:22.346589",
+      "size": 5.2,
+      "pnl": 0.88,
+      "pnl_percent": 70.83,
+      "exit_reason": "signal_switch"
+    },
+    {
+      "trade_id": 34,
+      "period_id": "2026-01-16_19:45",
+      "asset_type": "CALL",
+      "entry_price": 0.59,
+      "exit_price": 0.87,
+      "entry_time": "2026-01-16T19:56:22.235054",
+      "exit_time": "2026-01-16T19:57:02.689490",
+      "size": 5.2,
+      "pnl": 1.46,
+      "pnl_percent": 47.46,
+      "exit_reason": "signal_switch"
+    }
+  ]
+}

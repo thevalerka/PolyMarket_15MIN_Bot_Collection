@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15M CALL Order Book - Clean vs Raw</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0e27;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00ff88;
+            font-size: 2em;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+        }
+        
+        .row-wrapper {
+            background: #151b3d;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        .row-title {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .clean-title {
+            color: #00ff88;
+        }
+        
+        .raw-title {
+            color: #ff8800;
+        }
+        
+        .chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            height: 400px;
+            border-bottom: 2px solid #333;
+            border-left: 2px solid #333;
+            padding: 10px;
+            position: relative;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .bar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: calc(100% / 91);  /* 91 levels from 0.05 to 0.95 */
+            height: 100%;
+            justify-content: flex-end;
+            position: relative;
+        }
+        
+        .bar {
+            width: 100%;
+            transition: height 0.3s ease, background 0.3s ease;
+            position: relative;
+            border-radius: 2px 2px 0 0;
+            min-height: 1px;
+        }
+        
+        .bar.bid {
+            background: linear-gradient(180deg, #00ff88 0%, #00aa55 100%);
+            box-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+        }
+        
+        .bar.ask {
+            background: linear-gradient(180deg, #ff4444 0%, #aa0000 100%);
+            box-shadow: 0 0 8px rgba(255, 68, 68, 0.3);
+        }
+        
+        .bar.neutral {
+            background: linear-gradient(180deg, #444 0%, #222 100%);
+        }
+        
+        .price-label {
+            font-size: 8px;
+            margin-top: 3px;
+            color: #666;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            white-space: nowrap;
+        }
+        
+        .price-label.major {
+            color: #aaa;
+            font-weight: bold;
+        }
+        
+        .size-label {
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 8px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1px 3px;
+            border-radius: 2px;
+            white-space: nowrap;
+            display: none;
+        }
+        
+        .bar-container:hover .size-label {
+            display: block;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .stat-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        
+        .stat-label {
+            color: #888;
+            margin-bottom: 3px;
+            font-size: 10px;
+        }
+        
+        .stat-value {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .last-update {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+        
+        .legend-color.bid {
+            background: #00ff88;
+        }
+        
+        .legend-color.ask {
+            background: #ff4444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 15M CALL ORDER BOOK</h1>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color bid"></div>
+                <span>Bids (Buy Orders)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color ask"></div>
+                <span>Asks (Sell Orders)</span>
+            </div>
+        </div>
+        
+        <!-- CLEAN DATA ROW -->
+        <div class="row-wrapper">
+            <div class="row-title clean-title">🧹 DENOISED (Clean)</div>
+            <div class="chart" id="clean-chart"></div>
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-label">Best Bid</div>
+                    <div class="stat-value" style="color: #00ff88;" id="clean-best-bid">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Best Ask</div>
+                    <div class="stat-value" style="color: #ff4444;" id="clean-best-ask">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Spread</div>
+                    <div class="stat-value" id="clean-spread">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Total Volume</div>
+                    <div class="stat-value" id="clean-volume">-</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- RAW DATA ROW -->
+        <div class="row-wrapper">
+            <div class="row-title raw-title">📦 RAW (With Noise)</div>
+            <div class="chart" id="raw-chart"></div>
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-label">Best Bid</div>
+                    <div class="stat-value" style="color: #00ff88;" id="raw-best-bid">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Best Ask</div>
+                    <div class="stat-value" style="color: #ff4444;" id="raw-best-ask">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Spread</div>
+                    <div class="stat-value" id="raw-spread">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Total Volume</div>
+                    <div class="stat-value" id="raw-volume">-</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="last-update" id="last-update">Loading...</div>
+    </div>
+
+    <script>
+        const DATA_DIR = '';
+        const REFRESH_INTERVAL = 500; // 0.5 seconds
+        
+        // Generate all price levels from 0.05 to 0.95 in 0.01 increments
+        const ALL_PRICES = [];
+        for (let p = 0.05; p <= 0.95; p += 0.01) {
+            ALL_PRICES.push(parseFloat(p.toFixed(2)));
+        }
+        
+        function formatNumber(num) {
+            return parseFloat(num).toLocaleString('en-US', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+        }
+        
+        function createFixedChart(data, chartId) {
+            const chart = document.getElementById(chartId);
+            chart.innerHTML = '';
+            
+            if (!data || !data.complete_book) {
+                chart.innerHTML = '<div style="text-align: center; padding: 50px;">No data available</div>';
+                return;
+            }
+            
+            // Create a map of price -> size
+            const bidMap = {};
+            const askMap = {};
+            
+            data.complete_book.bids.forEach(bid => {
+                const price = parseFloat(bid.price);
+                bidMap[price] = parseFloat(bid.size);
+            });
+            
+            data.complete_book.asks.forEach(ask => {
+                const price = parseFloat(ask.price);
+                askMap[price] = parseFloat(ask.size);
+            });
+            
+            // Find max size for scaling
+            const allSizes = [...Object.values(bidMap), ...Object.values(askMap)];
+            const maxSize = allSizes.length > 0 ? Math.max(...allSizes) : 1;
+            
+            // Get best bid and ask for coloring
+            const bestBid = data.best_bid ? data.best_bid.price : 0;
+            const bestAsk = data.best_ask ? data.best_ask.price : 1;
+            
+            // Create a bar for each price level
+            ALL_PRICES.forEach(price => {
+                const barContainer = document.createElement('div');
+                barContainer.className = 'bar-container';
+                
+                const bar = document.createElement('div');
+                
+                // Determine if this price has a bid or ask
+                const hasBid = bidMap[price] !== undefined;
+                const hasAsk = askMap[price] !== undefined;
+                const size = hasBid ? bidMap[price] : (hasAsk ? askMap[price] : 0);
+                
+                // Set color based on whether it's bid or ask
+                if (hasBid) {
+                    bar.className = 'bar bid';
+                } else if (hasAsk) {
+                    bar.className = 'bar ask';
+                } else {
+                    bar.className = 'bar neutral';
+                }
+                
+                // Set height
+                const heightPercent = size > 0 ? (size / maxSize) * 90 : 0;
+                bar.style.height = `${heightPercent}%`;
+                
+                // Size label (shown on hover)
+                if (size > 0) {
+                    const sizeLabel = document.createElement('div');
+                    sizeLabel.className = 'size-label';
+                    sizeLabel.textContent = formatNumber(size);
+                    bar.appendChild(sizeLabel);
+                }
+                
+                // Price label (show every 0.10)
+                const priceLabel = document.createElement('div');
+                priceLabel.className = 'price-label';
+                if (price % 0.10 === 0) {
+                    priceLabel.textContent = `$${price.toFixed(2)}`;
+                    priceLabel.classList.add('major');
+                } else if (price % 0.05 === 0) {
+                    priceLabel.textContent = `$${price.toFixed(2)}`;
+                }
+                
+                barContainer.appendChild(bar);
+                barContainer.appendChild(priceLabel);
+                chart.appendChild(barContainer);
+            });
+        }
+        
+        function updateStats(data, prefix) {
+            if (!data) return;
+            
+            document.getElementById(`${prefix}-best-bid`).textContent = 
+                data.best_bid ? `$${data.best_bid.price.toFixed(2)} (${formatNumber(data.best_bid.size)})` : '-';
+            
+            document.getElementById(`${prefix}-best-ask`).textContent = 
+                data.best_ask ? `$${data.best_ask.price.toFixed(2)} (${formatNumber(data.best_ask.size)})` : '-';
+            
+            document.getElementById(`${prefix}-spread`).textContent = 
+                data.spread ? `$${data.spread.toFixed(4)}` : '-';
+            
+            // Calculate total volume
+            const totalBids = data.complete_book?.bids?.reduce((sum, b) => sum + parseFloat(b.size), 0) || 0;
+            const totalAsks = data.complete_book?.asks?.reduce((sum, a) => sum + parseFloat(a.size), 0) || 0;
+            document.getElementById(`${prefix}-volume`).textContent = formatNumber(totalBids + totalAsks);
+        }
+        
+        async function loadData() {
+            try {
+                // Load CLEAN CALL data
+                const cleanResponse = await fetch(`${DATA_DIR}15M_CALL_nonoise.json?t=${Date.now()}`);
+                const cleanData = await cleanResponse.json();
+                createFixedChart(cleanData, 'clean-chart');
+                updateStats(cleanData, 'clean');
+                
+                // Load RAW CALL data
+                const rawResponse = await fetch(`${DATA_DIR}15M_CALL.json?t=${Date.now()}`);
+                const rawData = await rawResponse.json();
+                createFixedChart(rawData, 'raw-chart');
+                updateStats(rawData, 'raw');
+                
+                // Update timestamp
+                const now = new Date();
+                document.getElementById('last-update').textContent = 
+                    `Last updated: ${now.toLocaleTimeString()}`;
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('last-update').textContent = 
+                    `Error loading data: ${error.message}`;
+            }
+        }
+        
+        // Initial load
+        loadData();
+        
+        // Refresh every 0.5 seconds
+        setInterval(loadData, REFRESH_INTERVAL);
+    </script>
+</body>
+</html>

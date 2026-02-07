@@ -1,0 +1,102 @@
+
+🔵 LEG 1: Buying PUT...
+   🔍 DEBUG place_buy_order response: {'errorMsg': '', 'orderID': '0x2570d21ecedcc02543750be676c48ee41e489398ff84cf818265a6762be90027', 'takingAmount': '', 'makingAmount': '', 'status': 'live', 'success': True}
+✅ BUY order placed: 5 tokens @ $0.4400 = $2.20
+   Order ID: 0x2570d21ecedcc02543750be676c48ee41e489398ff84cf818265a6762be90027
+   ✅ PUT order submitted: 0x2570d21ecedcc0...
+
+🔵 LEG 2: Buying CALL...
+   🔍 DEBUG place_buy_order response: {'errorMsg': '', 'orderID': '0xb923b5979f9b446e523ebf67cf14cfeb705a3f57839311e90eea630bb56861a8', 'takingAmount': '5', 'makingAmount': '1.5', 'status': 'matched', 'transactionsHashes': ['0x65f2baca9bd4a1eccb84d14c1503d2f099cee1b7816137ca9345caf9bd3771cc'], 'success': True}
+✅ BUY order placed: 5 tokens @ $0.3200 = $1.60
+   Order ID: 0xb923b5979f9b446e523ebf67cf14cfeb705a3f57839311e90eea630bb56861a8
+   ✅ CALL order submitted: 0xb923b5979f9b44...
+
+🔍 PHASE 2: Verifying positions (laggy API handling)...
+
+⏳ Waiting 5 seconds for API to update...
+
+📊 Verification at 5s mark:
+   💰 USDC: $4.85 → $3.35 (spent: $1.50)
+   🔍 DEBUG check_token_balance: token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '0', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=0, balance_tokens=0.000000
+   🔍 DEBUG check_token_balance: raw=0, tokens=0.000000
+   🔍 DEBUG check_token_balance: token_id=5681908923899583...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=5681908923899583...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '10000000', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=10000000, balance_tokens=10.000000
+   🔍 DEBUG check_token_balance: raw=10000000, tokens=10.000000
+   🪙 PUT balance: 0.00 tokens
+   🪙 CALL balance: 10.00 tokens
+   ✅ CALL position confirmed
+
+⏳ Waiting 10 seconds for API to update...
+
+📊 Verification at 10s mark:
+   💰 USDC: $4.85 → $1.15 (spent: $3.70)
+   🔍 DEBUG check_token_balance: token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '5000000', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=5000000, balance_tokens=5.000000
+   🔍 DEBUG check_token_balance: raw=5000000, tokens=5.000000
+   🔍 DEBUG check_token_balance: token_id=5681908923899583...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=5681908923899583...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '10000000', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=10000000, balance_tokens=10.000000
+   🔍 DEBUG check_token_balance: raw=10000000, tokens=10.000000
+   🪙 PUT balance: 5.00 tokens
+   🪙 CALL balance: 10.00 tokens
+   ✅ PUT position confirmed
+   ✅ CALL position confirmed
+
+✅ Both positions confirmed at 10s!
+
+🎲 PHASE 3: Final status check...
+   PUT confirmed: True
+   CALL confirmed: True
+   USDC spent: $3.70 (expected: $3.80)
+
+✅ SUCCESS: Both positions opened
+
+📤 PHASE 4: Placing sell orders...
+📤 Placing sell order for ETH PUT @ $0.99...
+      🔍 DEBUG get_open_orders: response type=<class 'list'>
+      🔍 DEBUG get_open_orders: Got list directly with 1 orders
+      🔍 DEBUG verify_sell_order: Checking 1 open orders
+      ℹ️  No matching SELL order found
+   🔍 DEBUG check_token_balance: token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '5000000', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=5000000, balance_tokens=5.000000
+   🔍 DEBUG check_token_balance: raw=5000000, tokens=5.000000
+   📊 Selling 5.00 tokens (balance: 5.00)
+      🔍 DEBUG get_token_balance: Requesting balance for token_id=6187486510529393...
+      🔍 DEBUG get_token_balance: API response type=<class 'dict'>
+      🔍 DEBUG get_token_balance: API response={'balance': '5000000', 'allowances': {'0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xC5d563A36AE78145C45a50134d48A1215220f80a': '115792089237316195398462578067141184799968521174335529155754622898352762650625', '0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296': '115792089237316195398462578067141184799968521174335529155754622898352762650625'}}
+      🔍 DEBUG get_token_balance: balance_raw=5000000, balance_tokens=5.000000
+   🔍 DEBUG place_sell_order response: {'errorMsg': '', 'orderID': '0x359222dfaea00421ade0e1ebea882ea790ac161f2095061e67e38d1c756173bd', 'takingAmount': '', 'makingAmount': '', 'status': 'live', 'success': True}
+✅ SELL order placed: 5.0 tokens @ $0.9900 = $4.95
+   Order ID: 0x359222dfaea00421ade0e1ebea882ea790ac161f2095061e67e38d1c756173bd
+      🔍 DEBUG get_open_orders: response type=<class 'list'>
+      🔍 DEBUG get_open_orders: Got list directly with 2 orders
+      🔍 DEBUG verify_sell_order: Checking 2 open orders
+      🔍 DEBUG: Found order for this token - side=SELL, status=LIVE
+      ✅ Found matching SELL order
+   ✅ Sell order verified @ $0.99
+📤 Placing sell order for BTC CALL @ $0.99...
+      🔍 DEBUG get_open_orders: response type=<class 'list'>
+      🔍 DEBUG get_open_orders: Got list directly with 2 orders
+      🔍 DEBUG verify_sell_order: Checking 2 open orders
+      🔍 DEBUG: Found order for this token - side=SELL, status=LIVE
+      ✅ Found matching SELL order
+   ℹ️  Sell order already exists
+
+======================================================================
+🎉 PAIR TRADE COMPLETED
+======================================================================

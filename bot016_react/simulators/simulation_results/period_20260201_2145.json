@@ -1,0 +1,3404 @@
+{
+  "period_start": "2026-02-01T21:45:00",
+  "period_end": "2026-02-01T22:00:00",
+  "saved_at": "2026-02-01T22:00:00.030567",
+  "strategies": {
+    "strategy1": {
+      "strategy_config": {
+        "tp": 0.1,
+        "sl": 0.08,
+        "tp_type": "fixed",
+        "sl_type": "fixed",
+        "max_buy_price": 0.99,
+        "description": "TP=$0.10, SL=$0.08"
+      },
+      "period_pnl": {
+        "CALL": -0.33000000000000024,
+        "PUT": 0.2699999999999999,
+        "TOTAL": -0.06000000000000027
+      },
+      "overall_pnl": {
+        "CALL": -2.8899999999999935,
+        "PUT": 1.7399999999999998,
+        "TOTAL": -1.1500000000000006
+      },
+      "statistics": {
+        "total_trades": 55,
+        "tp_trades": 18,
+        "sl_trades": 26,
+        "expiry_trades": 11,
+        "winning_trades": 19,
+        "losing_trades": 36,
+        "win_rate": 0.34545454545454546,
+        "avg_win": 0.12684210526315787,
+        "avg_loss": -0.06861111111111112,
+        "profit_factor": 0.9757085020242909
+      },
+      "trades": [
+        {
+          "timestamp": "2026-02-01T21:45:00.953636",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.54,
+          "pnl": 0.53,
+          "reason": "TP",
+          "seconds_to_expiry": -0.953637,
+          "expiry_time": "2026-02-01T21:45:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:00.953671",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.55,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:01.454324",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:13.961267",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.55,
+          "close_price": 0.47,
+          "pnl": -0.08000000000000007,
+          "reason": "SL",
+          "seconds_to_expiry": 886.038731,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:13.961312",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963060",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.58,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 885.036939,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963092",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.59,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.964558",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.37,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 883.035441,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.964591",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.38,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.466141",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.38,
+          "close_price": 0.29,
+          "pnl": -0.09000000000000002,
+          "reason": "SL",
+          "seconds_to_expiry": 880.533858,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.466170",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.31,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.966495",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.59,
+          "close_price": 0.7,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 880.033504,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.966526",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.72,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.469726",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.31,
+          "close_price": 0.21,
+          "pnl": -0.1,
+          "reason": "SL",
+          "seconds_to_expiry": 875.530273,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.469757",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.21,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:26.971306",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.72,
+          "close_price": 0.83,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 873.028692,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:26.971348",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.84,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:29.472920",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.21,
+          "close_price": 0.13,
+          "pnl": -0.07999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 870.527079,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:29.472953",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.14,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:56.488890",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.84,
+          "close_price": 0.76,
+          "pnl": -0.07999999999999996,
+          "reason": "SL",
+          "seconds_to_expiry": 843.511109,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:56.488922",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.77,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.991914",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.14,
+          "close_price": 0.25,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 838.008085,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992000",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.26,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.496985",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.77,
+          "close_price": 0.67,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 829.503014,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.497020",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.68,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997308",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.26,
+          "close_price": 0.36,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 829.002691,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997342",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.37,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:12.998645",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.68,
+          "close_price": 0.59,
+          "pnl": -0.09000000000000008,
+          "reason": "SL",
+          "seconds_to_expiry": 827.001355,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:12.998674",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.62,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.501840",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.37,
+          "close_price": 0.47,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 823.498159,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.501895",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.48,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.501951",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.62,
+          "close_price": 0.52,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 823.498048,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.501967",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.007862",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.48,
+          "close_price": 0.35,
+          "pnl": -0.13,
+          "reason": "SL",
+          "seconds_to_expiry": 812.992136,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.007907",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.36,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.508262",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.64,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 812.491737,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.508294",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.65,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:40.516006",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.36,
+          "close_price": 0.27,
+          "pnl": -0.08999999999999997,
+          "reason": "SL",
+          "seconds_to_expiry": 799.483993,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:40.516055",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.28,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:52.524478",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.65,
+          "close_price": 0.75,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 787.475521,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:52.524510",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.77,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:28.046015",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.77,
+          "close_price": 0.69,
+          "pnl": -0.08000000000000007,
+          "reason": "SL",
+          "seconds_to_expiry": 751.953984,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:28.046047",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.7,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.052990",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.7,
+          "close_price": 0.61,
+          "pnl": -0.08999999999999997,
+          "reason": "SL",
+          "seconds_to_expiry": 739.947009,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.053023",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.62,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.553532",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.28,
+          "close_price": 0.41,
+          "pnl": 0.12999999999999995,
+          "reason": "TP",
+          "seconds_to_expiry": 739.446466,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.553580",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.42,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:48:34.087583",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.42,
+          "close_price": 0.33,
+          "pnl": -0.08999999999999997,
+          "reason": "SL",
+          "seconds_to_expiry": 685.912416,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:48:34.087625",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.34,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617681",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.34,
+          "close_price": 0.47,
+          "pnl": 0.12999999999999995,
+          "reason": "TP",
+          "seconds_to_expiry": 641.382318,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617711",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.48,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617750",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.62,
+          "close_price": 0.52,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 641.38225,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617760",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:26.122069",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.45,
+          "pnl": -0.08000000000000002,
+          "reason": "SL",
+          "seconds_to_expiry": 633.87793,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:26.122195",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.46,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:06.182837",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.46,
+          "close_price": 0.56,
+          "pnl": 0.10000000000000003,
+          "reason": "TP",
+          "seconds_to_expiry": 533.817162,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:06.182869",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.57,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:19.191703",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.48,
+          "close_price": 0.38,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 520.808297,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:19.191735",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.39,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:37.202632",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.57,
+          "close_price": 0.67,
+          "pnl": 0.10000000000000009,
+          "reason": "TP",
+          "seconds_to_expiry": 502.797367,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:37.202662",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.68,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:40.704702",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.39,
+          "close_price": 0.31,
+          "pnl": -0.08000000000000002,
+          "reason": "SL",
+          "seconds_to_expiry": 499.295297,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:40.704738",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.32,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:47.209739",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.68,
+          "close_price": 0.6,
+          "pnl": -0.08000000000000007,
+          "reason": "SL",
+          "seconds_to_expiry": 492.79026,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:47.209776",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.61,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.211310",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.32,
+          "close_price": 0.47,
+          "pnl": 0.14999999999999997,
+          "reason": "TP",
+          "seconds_to_expiry": 489.788689,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.211343",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.48,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.711666",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.61,
+          "close_price": 0.52,
+          "pnl": -0.08999999999999997,
+          "reason": "SL",
+          "seconds_to_expiry": 489.288334,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.711700",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:52.712934",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.48,
+          "close_price": 0.39,
+          "pnl": -0.08999999999999997,
+          "reason": "SL",
+          "seconds_to_expiry": 487.287065,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:52.712977",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.4,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:24.268745",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.63,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 395.731254,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:24.268780",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.64,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:26.270075",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.4,
+          "close_price": 0.31,
+          "pnl": -0.09000000000000002,
+          "reason": "SL",
+          "seconds_to_expiry": 393.729924,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:26.270120",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.32,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.302198",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.64,
+          "close_price": 0.74,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 342.697801,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.302233",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.76,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.802586",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.32,
+          "close_price": 0.22,
+          "pnl": -0.1,
+          "reason": "SL",
+          "seconds_to_expiry": 342.197413,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.802617",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.24,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.309219",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.24,
+          "close_price": 0.15,
+          "pnl": -0.09,
+          "reason": "SL",
+          "seconds_to_expiry": 330.69078,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.309249",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.16,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.809544",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.76,
+          "close_price": 0.86,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 330.190456,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.809573",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.87,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:02.330196",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.16,
+          "close_price": 0.08,
+          "pnl": -0.08,
+          "reason": "SL",
+          "seconds_to_expiry": 297.669803,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:02.330237",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.09,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:16.879411",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.87,
+          "close_price": 0.97,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 223.120588,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:16.879452",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.98,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:57:52.940295",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.09,
+          "close_price": 0.0,
+          "pnl": -0.09,
+          "reason": "SL",
+          "seconds_to_expiry": 127.059704,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:57:52.940324",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.019823",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.980176,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.019844",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.019886",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.98,
+          "close_price": 1.0,
+          "pnl": 0.020000000000000018,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.980113,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521420",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.478579,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521444",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022043",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.977956,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022070",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522631",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.477368,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522653",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023110",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.976889,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023133",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523662",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.476337,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523687",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024189",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.97581,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024218",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.524749",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.47525,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.524814",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.025750",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.974249,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.025819",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.526785",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.473214,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.526858",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        }
+      ]
+    },
+    "strategy2": {
+      "strategy_config": {
+        "tp": 0.1,
+        "sl": 0.1,
+        "tp_type": "fixed",
+        "sl_type": "fixed",
+        "max_buy_price": 0.99,
+        "description": "TP=$0.10, SL=$0.10"
+      },
+      "period_pnl": {
+        "CALL": -0.35000000000000014,
+        "PUT": 0.32999999999999985,
+        "TOTAL": -0.020000000000000254
+      },
+      "overall_pnl": {
+        "CALL": -2.1499999999999955,
+        "PUT": 2.381000000000003,
+        "TOTAL": 0.23100000000000037
+      },
+      "statistics": {
+        "total_trades": 49,
+        "tp_trades": 18,
+        "sl_trades": 20,
+        "expiry_trades": 11,
+        "winning_trades": 19,
+        "losing_trades": 30,
+        "win_rate": 0.3877551020408163,
+        "avg_win": 0.12526315789473683,
+        "avg_loss": -0.08,
+        "profit_factor": 0.9916666666666667
+      },
+      "trades": [
+        {
+          "timestamp": "2026-02-01T21:45:00.953719",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.54,
+          "pnl": 0.53,
+          "reason": "TP",
+          "seconds_to_expiry": -0.953719,
+          "expiry_time": "2026-02-01T21:45:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:00.953730",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.55,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:01.454403",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963130",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.55,
+          "close_price": 0.41,
+          "pnl": -0.14000000000000007,
+          "reason": "SL",
+          "seconds_to_expiry": 885.03687,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963141",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.42,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963162",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.58,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 885.036837,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963177",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.59,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:18.965606",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.42,
+          "close_price": 0.31,
+          "pnl": -0.10999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 881.034393,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:18.965639",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.33,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.966566",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.59,
+          "close_price": 0.7,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 880.033433,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.966577",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.72,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:21.967757",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.33,
+          "close_price": 0.23,
+          "pnl": -0.1,
+          "reason": "SL",
+          "seconds_to_expiry": 878.032242,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:21.967790",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.24,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:26.971416",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.72,
+          "close_price": 0.83,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 873.028583,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:26.971434",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.84,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:29.473004",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.24,
+          "close_price": 0.13,
+          "pnl": -0.10999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 870.526995,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:29.473018",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.14,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992113",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.14,
+          "close_price": 0.25,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 838.007886,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992133",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.26,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992224",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.84,
+          "close_price": 0.73,
+          "pnl": -0.10999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 838.007776,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992238",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.74,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997386",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.26,
+          "close_price": 0.36,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 829.002613,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997400",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.37,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997422",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.74,
+          "close_price": 0.64,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 829.002578,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997431",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.65,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.502002",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.37,
+          "close_price": 0.47,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 823.497998,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.502016",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.48,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.502046",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.65,
+          "close_price": 0.52,
+          "pnl": -0.13,
+          "reason": "SL",
+          "seconds_to_expiry": 823.497953,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.502059",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.007986",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.48,
+          "close_price": 0.35,
+          "pnl": -0.13,
+          "reason": "SL",
+          "seconds_to_expiry": 812.992013,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.008003",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.36,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.508339",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.64,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 812.49166,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:27.508354",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.65,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:46.521018",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.36,
+          "close_price": 0.26,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 793.478981,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:46.521060",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.27,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:52.524554",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.65,
+          "close_price": 0.75,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 787.475445,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:52.524565",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.77,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:39.052230",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.77,
+          "close_price": 0.65,
+          "pnl": -0.12,
+          "reason": "SL",
+          "seconds_to_expiry": 740.947769,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:39.052265",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.66,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.553811",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.27,
+          "close_price": 0.41,
+          "pnl": 0.13999999999999996,
+          "reason": "TP",
+          "seconds_to_expiry": 739.446188,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.553842",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.42,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:48:41.591783",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.42,
+          "close_price": 0.31,
+          "pnl": -0.10999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 678.408216,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:48:41.591821",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.33,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617782",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.33,
+          "close_price": 0.47,
+          "pnl": 0.13999999999999996,
+          "reason": "TP",
+          "seconds_to_expiry": 641.382218,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617791",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.48,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617809",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.66,
+          "close_price": 0.52,
+          "pnl": -0.14,
+          "reason": "SL",
+          "seconds_to_expiry": 641.38219,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:18.617817",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:19.191785",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.48,
+          "close_price": 0.38,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 520.808214,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:19.191809",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.39,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:21.192996",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.63,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 518.807002,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:21.193037",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.65,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.711746",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.65,
+          "close_price": 0.52,
+          "pnl": -0.13,
+          "reason": "SL",
+          "seconds_to_expiry": 489.288253,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.711759",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:52:23.231679",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.39,
+          "close_price": 0.49,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 456.76832,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:52:23.231710",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.5,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:52:26.733603",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.5,
+          "close_price": 0.4,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 453.266396,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:52:26.733637",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.41,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:24.268825",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.63,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 395.731174,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:24.268839",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.64,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:31.773267",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.41,
+          "close_price": 0.29,
+          "pnl": -0.12,
+          "reason": "SL",
+          "seconds_to_expiry": 388.226733,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:31.773302",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.3,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:43.780381",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.3,
+          "close_price": 0.4,
+          "pnl": 0.10000000000000003,
+          "reason": "TP",
+          "seconds_to_expiry": 376.219618,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:43.780429",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.41,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:02.792623",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.41,
+          "close_price": 0.3,
+          "pnl": -0.10999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 357.207376,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:02.792658",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.31,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.302284",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.64,
+          "close_price": 0.74,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 342.697715,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.302299",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.76,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:23.305864",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.31,
+          "close_price": 0.21,
+          "pnl": -0.1,
+          "reason": "SL",
+          "seconds_to_expiry": 336.694136,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:23.305898",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.22,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.809612",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.76,
+          "close_price": 0.86,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 330.190388,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.809622",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.87,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:30.810190",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.22,
+          "close_price": 0.11,
+          "pnl": -0.11,
+          "reason": "SL",
+          "seconds_to_expiry": 329.189809,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:30.810224",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.13,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:42.855715",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.13,
+          "close_price": 0.03,
+          "pnl": -0.1,
+          "reason": "SL",
+          "seconds_to_expiry": 257.144284,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:42.855748",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.04,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:16.879504",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.87,
+          "close_price": 0.97,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 223.120496,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:16.879519",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.98,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.019907",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.04,
+          "close_price": 0.0,
+          "pnl": -0.04,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.980092,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.019917",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.020059",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.98,
+          "close_price": 1.0,
+          "pnl": 0.020000000000000018,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.97994,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521561",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.478438,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521579",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022131",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.977868,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022146",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522700",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.4773,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522711",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023183",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.976817,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023193",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523747",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.476252,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523762",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024290",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.975709,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024309",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.524918",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.475081,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.524934",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.025981",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.974018,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.026021",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.526988",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.473011,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.527025",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        }
+      ]
+    },
+    "strategy3": {
+      "strategy_config": {
+        "tp": 0.1,
+        "sl": null,
+        "tp_type": "fixed",
+        "sl_type": "never",
+        "max_buy_price": 0.99,
+        "description": "TP=$0.10, No SL"
+      },
+      "period_pnl": {
+        "CALL": 0.0,
+        "PUT": 0.48,
+        "TOTAL": 0.48
+      },
+      "overall_pnl": {
+        "CALL": 1.0199999999999996,
+        "PUT": 4.520000000000004,
+        "TOTAL": 5.54
+      },
+      "statistics": {
+        "total_trades": 5,
+        "tp_trades": 4,
+        "sl_trades": 0,
+        "expiry_trades": 1,
+        "winning_trades": 5,
+        "losing_trades": 0,
+        "win_rate": 1.0,
+        "avg_win": 0.096,
+        "avg_loss": 0,
+        "profit_factor": 0
+      },
+      "trades": [
+        {
+          "timestamp": "2026-02-01T21:45:01.454441",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963199",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.58,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 885.036801,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963207",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.59,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.966602",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.59,
+          "close_price": 0.7,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 880.033398,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:19.966612",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.72,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:26.971479",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.72,
+          "close_price": 0.83,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 873.02852,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:26.971500",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.84,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:11.335590",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.84,
+          "close_price": 0.94,
+          "pnl": 0.09999999999999998,
+          "reason": "TP",
+          "seconds_to_expiry": 288.664409,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:11.335622",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.95,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.020213",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.95,
+          "close_price": 1.0,
+          "pnl": 0.050000000000000044,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.979786,
+          "expiry_time": "2026-02-01T22:00:00"
+        }
+      ]
+    },
+    "strategy3B": {
+      "strategy_config": {
+        "tp": 0.15,
+        "sl": null,
+        "tp_type": "fixed",
+        "sl_type": "never",
+        "max_buy_price": 0.99,
+        "description": "TP=$0.15, No SL"
+      },
+      "period_pnl": {
+        "CALL": 0.0,
+        "PUT": 0.5,
+        "TOTAL": 0.5
+      },
+      "overall_pnl": {
+        "CALL": 1.0399999999999991,
+        "PUT": 4.730000000000003,
+        "TOTAL": 5.770000000000002
+      },
+      "statistics": {
+        "total_trades": 4,
+        "tp_trades": 3,
+        "sl_trades": 0,
+        "expiry_trades": 1,
+        "winning_trades": 4,
+        "losing_trades": 0,
+        "win_rate": 1.0,
+        "avg_win": 0.125,
+        "avg_loss": 0,
+        "profit_factor": 0
+      },
+      "trades": [
+        {
+          "timestamp": "2026-02-01T21:45:01.454471",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.464094",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.62,
+          "pnl": 0.15000000000000002,
+          "reason": "TP",
+          "seconds_to_expiry": 883.535905,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.464133",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.63,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:23.969458",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.63,
+          "close_price": 0.78,
+          "pnl": 0.15000000000000002,
+          "reason": "TP",
+          "seconds_to_expiry": 876.030541,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:23.969488",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.79,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:38.852749",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.79,
+          "close_price": 0.95,
+          "pnl": 0.15999999999999992,
+          "reason": "TP",
+          "seconds_to_expiry": 261.14725,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:38.852803",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.96,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.020613",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.96,
+          "close_price": 1.0,
+          "pnl": 0.040000000000000036,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.979385,
+          "expiry_time": "2026-02-01T22:00:00"
+        }
+      ]
+    },
+    "strategy3C": {
+      "strategy_config": {
+        "tp": 0.03,
+        "sl": null,
+        "tp_type": "fixed",
+        "sl_type": "never",
+        "max_buy_price": 0.99,
+        "description": "TP=$0.03, No SL"
+      },
+      "period_pnl": {
+        "CALL": -0.11,
+        "PUT": 0.41999999999999993,
+        "TOTAL": 0.30999999999999983
+      },
+      "overall_pnl": {
+        "CALL": 0.42999999999999927,
+        "PUT": 3.6110000000000078,
+        "TOTAL": 4.041000000000016
+      },
+      "statistics": {
+        "total_trades": 21,
+        "tp_trades": 11,
+        "sl_trades": 0,
+        "expiry_trades": 10,
+        "winning_trades": 11,
+        "losing_trades": 10,
+        "win_rate": 0.5238095238095238,
+        "avg_win": 0.08636363636363636,
+        "avg_loss": -0.064,
+        "profit_factor": 1.484375
+      },
+      "trades": [
+        {
+          "timestamp": "2026-02-01T21:45:00.953770",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.54,
+          "pnl": 0.53,
+          "reason": "TP",
+          "seconds_to_expiry": -0.953771,
+          "expiry_time": "2026-02-01T21:45:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:00.953781",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.55,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:01.454501",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:04.456128",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.51,
+          "pnl": 0.040000000000000036,
+          "reason": "TP",
+          "seconds_to_expiry": 895.543871,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:04.456160",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.52,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963233",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.52,
+          "close_price": 0.58,
+          "pnl": 0.05999999999999994,
+          "reason": "TP",
+          "seconds_to_expiry": 885.036767,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:14.963242",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.59,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.464174",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.59,
+          "close_price": 0.62,
+          "pnl": 0.030000000000000027,
+          "reason": "TP",
+          "seconds_to_expiry": 883.535825,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.464229",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.63,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:18.965701",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.63,
+          "close_price": 0.67,
+          "pnl": 0.040000000000000036,
+          "reason": "TP",
+          "seconds_to_expiry": 881.034298,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:18.965744",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.68,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:20.466868",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.68,
+          "close_price": 0.74,
+          "pnl": 0.05999999999999994,
+          "reason": "TP",
+          "seconds_to_expiry": 879.533131,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:20.466900",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.76,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.970046",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.76,
+          "close_price": 0.79,
+          "pnl": 0.030000000000000027,
+          "reason": "TP",
+          "seconds_to_expiry": 875.029954,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.970079",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.8,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:28.972586",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.8,
+          "close_price": 0.86,
+          "pnl": 0.05999999999999994,
+          "reason": "TP",
+          "seconds_to_expiry": 871.027413,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:28.972618",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.87,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:00.829075",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.87,
+          "close_price": 0.9,
+          "pnl": 0.030000000000000027,
+          "reason": "TP",
+          "seconds_to_expiry": 299.170925,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:00.829105",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.91,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:38.852848",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.91,
+          "close_price": 0.95,
+          "pnl": 0.039999999999999925,
+          "reason": "TP",
+          "seconds_to_expiry": 261.147151,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:38.852862",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.96,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:57:52.940391",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.96,
+          "close_price": 0.99,
+          "pnl": 0.030000000000000027,
+          "reason": "TP",
+          "seconds_to_expiry": 127.059608,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.020802",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.55,
+          "close_price": 0.0,
+          "pnl": -0.55,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.979197,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.020853",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521651",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.478348,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521668",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022203",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.977796,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022218",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522752",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.477247,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522762",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023259",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.976741,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023269",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523818",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.476181,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523831",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024404",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.975595,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024422",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.525111",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.474888,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.525155",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.026206",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.973793,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.026244",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.527175",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.472825,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.527211",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        }
+      ]
+    },
+    "strategy4": {
+      "strategy_config": {
+        "tp": null,
+        "sl": null,
+        "tp_type": "one_third_distance",
+        "sl_type": "one_third_distance",
+        "min_distance": 0.05,
+        "max_buy_price": 0.95,
+        "description": "TP/SL at 1/3 distance (min $0.05), max buy $0.95"
+      },
+      "period_pnl": {
+        "CALL": -0.17,
+        "PUT": 0.31999999999999984,
+        "TOTAL": 0.1499999999999998
+      },
+      "overall_pnl": {
+        "CALL": -1.4299999999999966,
+        "PUT": 2.820000000000001,
+        "TOTAL": 1.3900000000000023
+      },
+      "statistics": {
+        "total_trades": 34,
+        "tp_trades": 12,
+        "sl_trades": 12,
+        "expiry_trades": 10,
+        "winning_trades": 12,
+        "losing_trades": 22,
+        "win_rate": 0.35294117647058826,
+        "avg_win": 0.1633333333333333,
+        "avg_loss": -0.08227272727272728,
+        "profit_factor": 1.0828729281767953
+      },
+      "trades": [
+        {
+          "timestamp": "2026-02-01T21:45:00.953804",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.54,
+          "pnl": 0.53,
+          "reason": "TP",
+          "seconds_to_expiry": -0.953804,
+          "expiry_time": "2026-02-01T21:45:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:00.953854",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.55,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:01.454528",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.47,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.464266",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.55,
+          "close_price": 0.39,
+          "pnl": -0.16000000000000003,
+          "reason": "SL",
+          "seconds_to_expiry": 883.535733,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:16.464277",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.4,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:18.965829",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.47,
+          "close_price": 0.67,
+          "pnl": 0.20000000000000007,
+          "reason": "TP",
+          "seconds_to_expiry": 881.03417,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:18.965845",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.68,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.970121",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.4,
+          "close_price": 0.2,
+          "pnl": -0.2,
+          "reason": "SL",
+          "seconds_to_expiry": 875.029879,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.970132",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.21,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.970160",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.68,
+          "close_price": 0.79,
+          "pnl": 0.10999999999999999,
+          "reason": "TP",
+          "seconds_to_expiry": 875.029839,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:45:24.970170",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.8,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992286",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.8,
+          "close_price": 0.73,
+          "pnl": -0.07000000000000006,
+          "reason": "SL",
+          "seconds_to_expiry": 838.007713,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:01.992310",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.74,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997468",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.74,
+          "close_price": 0.64,
+          "pnl": -0.09999999999999998,
+          "reason": "SL",
+          "seconds_to_expiry": 829.002532,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:10.997486",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.65,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.502105",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.65,
+          "close_price": 0.52,
+          "pnl": -0.13,
+          "reason": "SL",
+          "seconds_to_expiry": 823.497894,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:16.502119",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:37.013984",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.69,
+          "pnl": 0.15999999999999992,
+          "reason": "TP",
+          "seconds_to_expiry": 802.986015,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:46:37.014018",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.7,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.554034",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.7,
+          "close_price": 0.58,
+          "pnl": -0.12,
+          "reason": "SL",
+          "seconds_to_expiry": 739.445965,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:47:40.554065",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.6,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:19.618390",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.21,
+          "close_price": 0.48,
+          "pnl": 0.27,
+          "reason": "TP",
+          "seconds_to_expiry": 640.381609,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:19.618429",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.49,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:26.122313",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.6,
+          "close_price": 0.45,
+          "pnl": -0.14999999999999997,
+          "reason": "SL",
+          "seconds_to_expiry": 633.877686,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:49:26.122333",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.46,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:21.693412",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.46,
+          "close_price": 0.64,
+          "pnl": 0.18,
+          "reason": "TP",
+          "seconds_to_expiry": 518.306587,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:21.693505",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.65,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:40.704796",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.49,
+          "close_price": 0.31,
+          "pnl": -0.18,
+          "reason": "SL",
+          "seconds_to_expiry": 499.295204,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:40.704808",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.32,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.711794",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.65,
+          "close_price": 0.52,
+          "pnl": -0.13,
+          "reason": "SL",
+          "seconds_to_expiry": 489.288205,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:51:50.711806",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.53,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:31.773378",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.53,
+          "close_price": 0.7,
+          "pnl": 0.16999999999999993,
+          "reason": "TP",
+          "seconds_to_expiry": 388.226621,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:31.773395",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.73,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:43.280037",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.73,
+          "close_price": 0.62,
+          "pnl": -0.10999999999999999,
+          "reason": "SL",
+          "seconds_to_expiry": 376.719963,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:53:43.280069",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.63,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.802672",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.63,
+          "close_price": 0.76,
+          "pnl": 0.13,
+          "reason": "TP",
+          "seconds_to_expiry": 342.197327,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:17.802684",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.77,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.809654",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.77,
+          "close_price": 0.86,
+          "pnl": 0.08999999999999997,
+          "reason": "TP",
+          "seconds_to_expiry": 330.190346,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:54:29.809666",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.87,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:00.829158",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.32,
+          "close_price": 0.09,
+          "pnl": -0.23,
+          "reason": "SL",
+          "seconds_to_expiry": 299.170841,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:00.829172",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.11,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:08.834093",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.87,
+          "close_price": 0.92,
+          "pnl": 0.050000000000000044,
+          "reason": "TP",
+          "seconds_to_expiry": 291.165906,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:08.834135",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.93,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:55:42.355397",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.93,
+          "close_price": 0.96,
+          "pnl": 0.029999999999999916,
+          "reason": "TP",
+          "seconds_to_expiry": 257.644602,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:42.895815",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.94,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:43.896473",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.94,
+          "close_price": 0.91,
+          "pnl": -0.029999999999999916,
+          "reason": "SL",
+          "seconds_to_expiry": 196.103526,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:56:43.896508",
+          "option_type": "PUT",
+          "action": "BUY",
+          "price": 0.92,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:57:07.911648",
+          "option_type": "PUT",
+          "action": "SELL",
+          "open_price": 0.92,
+          "close_price": 0.96,
+          "pnl": 0.039999999999999925,
+          "reason": "TP",
+          "seconds_to_expiry": 172.088351,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.021015",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.11,
+          "close_price": 0.0,
+          "pnl": -0.11,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.978984,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.021059",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521709",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 4.47829,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:55.521722",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022309",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.97769,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.022325",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522788",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 3.477212,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:56.522797",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023297",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.976703,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.023306",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523869",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 2.47613,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:57.523882",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024471",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.975528,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.024488",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.525302",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 1.474697,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:58.525346",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.026422",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.973577,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.026499",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.527327",
+          "option_type": "CALL",
+          "action": "SELL",
+          "open_price": 0.01,
+          "close_price": 0.0,
+          "pnl": -0.01,
+          "reason": "EXPIRY",
+          "seconds_to_expiry": 0.472672,
+          "expiry_time": "2026-02-01T22:00:00"
+        },
+        {
+          "timestamp": "2026-02-01T21:59:59.527363",
+          "option_type": "CALL",
+          "action": "BUY",
+          "price": 0.01,
+          "reason": "OPEN",
+          "expiry_time": "2026-02-01T22:00:00"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket 15M Order Book</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0e27;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #00ff88;
+            font-size: 2em;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+        }
+
+        .charts-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        .chart-wrapper {
+            background: #151b3d;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .chart-title {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .call-title {
+            color: #00ff88;
+        }
+
+        .put-title {
+            color: #ff4444;
+        }
+
+        .chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 500px;
+            border-bottom: 2px solid #333;
+            border-left: 2px solid #333;
+            padding: 10px;
+            position: relative;
+            gap: 2px;
+        }
+
+        .bar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            height: 100%;
+            justify-content: flex-end;
+        }
+
+        .bar {
+            width: 100%;
+            transition: height 0.3s ease;
+            position: relative;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .bar.bid {
+            background: linear-gradient(180deg, #00ff88 0%, #00aa55 100%);
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+        }
+
+        .bar.ask {
+            background: linear-gradient(180deg, #ff4444 0%, #aa0000 100%);
+            box-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+        }
+
+        .price-label {
+            font-size: 10px;
+            margin-top: 5px;
+            color: #888;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            white-space: nowrap;
+        }
+
+        .size-label {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 9px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2px 4px;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .stat-box {
+            background: #151b3d;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .stat-label {
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .last-update {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 12px;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+
+        .legend-color.bid {
+            background: #00ff88;
+        }
+
+        .legend-color.ask {
+            background: #ff4444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 POLYMARKET 15M OPTIONS ORDER BOOK</h1>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color bid"></div>
+                <span>Bids (Buy Orders)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color ask"></div>
+                <span>Asks (Sell Orders)</span>
+            </div>
+        </div>
+
+        <!-- DENOISED DATA - TOP ROW -->
+        <h2 style="text-align: center; color: #00ff88; margin: 30px 0 15px 0; font-size: 1.3em;">
+            🧹 DENOISED ORDER BOOK (Noise Removed)
+        </h2>
+        <div class="charts-container">
+            <!-- CALL Chart - Denoised -->
+            <div class="chart-wrapper">
+                <div class="chart-title call-title">15M CALL (Clean)</div>
+                <div class="chart" id="call-chart-clean"></div>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-label">Best Bid</div>
+                        <div class="stat-value" style="color: #00ff88;" id="call-best-bid-clean">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Best Ask</div>
+                        <div class="stat-value" style="color: #ff4444;" id="call-best-ask-clean">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Spread</div>
+                        <div class="stat-value" id="call-spread-clean">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Total Volume</div>
+                        <div class="stat-value" id="call-volume-clean">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PUT Chart - Denoised -->
+            <div class="chart-wrapper">
+                <div class="chart-title put-title">15M PUT (Clean)</div>
+                <div class="chart" id="put-chart-clean"></div>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-label">Best Bid</div>
+                        <div class="stat-value" style="color: #00ff88;" id="put-best-bid-clean">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Best Ask</div>
+                        <div class="stat-value" style="color: #ff4444;" id="put-best-ask-clean">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Spread</div>
+                        <div class="stat-value" id="put-spread-clean">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Total Volume</div>
+                        <div class="stat-value" id="put-volume-clean">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RAW DATA - BOTTOM ROW -->
+        <h2 style="text-align: center; color: #ff8800; margin: 30px 0 15px 0; font-size: 1.3em;">
+            📦 RAW ORDER BOOK (With Market Maker Noise)
+        </h2>
+        <div class="charts-container">
+            <!-- CALL Chart - Raw -->
+            <div class="chart-wrapper">
+                <div class="chart-title call-title">15M CALL (Raw)</div>
+                <div class="chart" id="call-chart"></div>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-label">Best Bid</div>
+                        <div class="stat-value" style="color: #00ff88;" id="call-best-bid">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Best Ask</div>
+                        <div class="stat-value" style="color: #ff4444;" id="call-best-ask">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Spread</div>
+                        <div class="stat-value" id="call-spread">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Total Volume</div>
+                        <div class="stat-value" id="call-volume">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PUT Chart - Raw -->
+            <div class="chart-wrapper">
+                <div class="chart-title put-title">15M PUT (Raw)</div>
+                <div class="chart" id="put-chart"></div>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-label">Best Bid</div>
+                        <div class="stat-value" style="color: #00ff88;" id="put-best-bid">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Best Ask</div>
+                        <div class="stat-value" style="color: #ff4444;" id="put-best-ask">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Spread</div>
+                        <div class="stat-value" id="put-spread">-</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Total Volume</div>
+                        <div class="stat-value" id="put-volume">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="last-update" id="last-update">Loading...</div>
+    </div>
+
+    <script>
+        const DATA_DIR = '';
+        const REFRESH_INTERVAL = 500; // 0.5 seconds
+        const TOP_N = 20; // Top 20 bids and asks
+
+        function formatNumber(num) {
+            return parseFloat(num).toLocaleString('en-US', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+        }
+
+        function createBarChart(data, chartId) {
+            const chart = document.getElementById(chartId);
+            chart.innerHTML = '';
+
+            if (!data || !data.complete_book) {
+                chart.innerHTML = '<div style="text-align: center; padding: 50px;">No data available</div>';
+                return;
+            }
+
+            // Get top 20 bids (highest prices) and top 20 asks (lowest prices)
+            const bids = data.complete_book.bids
+                .map(b => ({ price: parseFloat(b.price), size: parseFloat(b.size) }))
+                .sort((a, b) => b.price - a.price)
+                .slice(0, TOP_N)
+                .reverse(); // Reverse to show lowest to highest
+
+            const asks = data.complete_book.asks
+                .map(a => ({ price: parseFloat(a.price), size: parseFloat(a.size) }))
+                .sort((a, b) => a.price - b.price)
+                .slice(0, TOP_N);
+
+            // Combine and sort by price
+            const combined = [...bids, ...asks].sort((a, b) => a.price - b.price);
+
+            // Find max size for scaling
+            const maxSize = Math.max(...combined.map(item => item.size));
+
+            // Create bars
+            combined.forEach(item => {
+                const isBid = bids.some(b => b.price === item.price);
+                const barContainer = document.createElement('div');
+                barContainer.className = 'bar-container';
+
+                const bar = document.createElement('div');
+                bar.className = `bar ${isBid ? 'bid' : 'ask'}`;
+                // Calculate height as percentage of max size (ensures bars scale properly)
+                const heightPercent = (item.size / maxSize) * 90; // Use 90% to leave some headroom
+                bar.style.height = `${heightPercent}%`;
+                bar.style.minHeight = '2px'; // Ensure very small sizes are still visible
+
+                const sizeLabel = document.createElement('div');
+                sizeLabel.className = 'size-label';
+                sizeLabel.textContent = formatNumber(item.size);
+
+                const priceLabel = document.createElement('div');
+                priceLabel.className = 'price-label';
+                priceLabel.textContent = `$${item.price.toFixed(2)}`;
+
+                bar.appendChild(sizeLabel);
+                barContainer.appendChild(bar);
+                barContainer.appendChild(priceLabel);
+                chart.appendChild(barContainer);
+            });
+        }
+
+        function updateStats(data, prefix, suffix) {
+            if (!data) return;
+
+            const idSuffix = suffix ? `-${suffix}` : '';
+
+            document.getElementById(`${prefix}-best-bid${idSuffix}`).textContent =
+                data.best_bid ? `$${data.best_bid.price.toFixed(2)} (${formatNumber(data.best_bid.size)})` : '-';
+
+            document.getElementById(`${prefix}-best-ask${idSuffix}`).textContent =
+                data.best_ask ? `$${data.best_ask.price.toFixed(2)} (${formatNumber(data.best_ask.size)})` : '-';
+
+            document.getElementById(`${prefix}-spread${idSuffix}`).textContent =
+                data.spread ? `$${data.spread.toFixed(4)}` : '-';
+
+            // Calculate total volume
+            const totalBids = data.complete_book?.bids?.reduce((sum, b) => sum + parseFloat(b.size), 0) || 0;
+            const totalAsks = data.complete_book?.asks?.reduce((sum, a) => sum + parseFloat(a.size), 0) || 0;
+            document.getElementById(`${prefix}-volume${idSuffix}`).textContent = formatNumber(totalBids + totalAsks);
+        }
+
+        async function loadData() {
+            try {
+                // Load DENOISED CALL data
+                const callCleanResponse = await fetch(`${DATA_DIR}15M_CALL_nonoise.json?t=${Date.now()}`);
+                const callCleanData = await callCleanResponse.json();
+                createBarChart(callCleanData, 'call-chart-clean');
+                updateStats(callCleanData, 'call', 'clean');
+
+                // Load DENOISED PUT data
+                const putCleanResponse = await fetch(`${DATA_DIR}15M_PUT_nonoise.json?t=${Date.now()}`);
+                const putCleanData = await putCleanResponse.json();
+                createBarChart(putCleanData, 'put-chart-clean');
+                updateStats(putCleanData, 'put', 'clean');
+
+                // Load RAW CALL data
+                const callResponse = await fetch(`${DATA_DIR}15M_CALL.json?t=${Date.now()}`);
+                const callData = await callResponse.json();
+                createBarChart(callData, 'call-chart');
+                updateStats(callData, 'call', '');
+
+                // Load RAW PUT data
+                const putResponse = await fetch(`${DATA_DIR}15M_PUT.json?t=${Date.now()}`);
+                const putData = await putResponse.json();
+                createBarChart(putData, 'put-chart');
+                updateStats(putData, 'put', '');
+
+                // Update timestamp
+                const now = new Date();
+                document.getElementById('last-update').textContent =
+                    `Last updated: ${now.toLocaleTimeString()}`;
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('last-update').textContent =
+                    `Error loading data: ${error.message}`;
+            }
+        }
+
+        // Initial load
+        loadData();
+
+        // Refresh every 0.5 seconds
+        setInterval(loadData, REFRESH_INTERVAL);
+    </script>
+</body>
+</html>

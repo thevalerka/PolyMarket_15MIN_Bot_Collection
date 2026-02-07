@@ -1,0 +1,86 @@
+{
+  "strategy": "strategy5A",
+  "strategy_config": {
+    "tp": 0.15,
+    "sl": null,
+    "max_buy_price": 0.99,
+    "min_entry_price": 0.6,
+    "description": "Enter when one side >$0.60, TP=$0.15, No SL"
+  },
+  "period_start": "2026-02-02T16:45:00",
+  "period_end": "2026-02-02T17:00:00",
+  "saved_at": "2026-02-02T17:00:00.025543",
+  "period_pnl": {
+    "CALL": 0.0,
+    "PUT": 0.30000000000000004,
+    "TOTAL": 0.30000000000000004
+  },
+  "overall_pnl": {
+    "CALL": 2.2400000000000007,
+    "PUT": 0.98,
+    "TOTAL": 3.2199999999999998
+  },
+  "statistics": {
+    "total_trades": 2,
+    "tp_trades": 2,
+    "sl_trades": 0,
+    "expiry_trades": 0,
+    "winning_trades": 2,
+    "losing_trades": 0,
+    "win_rate": 1.0,
+    "avg_win": 0.15000000000000002,
+    "avg_loss": 0
+  },
+  "trades": [
+    {
+      "timestamp": "2026-02-02T16:45:11.916390",
+      "option_type": "CALL",
+      "action": "BUY",
+      "price": 0.41,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:45:11.916469",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.6,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:46:16.961819",
+      "option_type": "PUT",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.6,
+      "close_price": 0.75,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 823.038176
+    },
+    {
+      "timestamp": "2026-02-02T16:46:16.961876",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.76,
+      "reason": "OPEN"
+    },
+    {
+      "timestamp": "2026-02-02T16:50:24.133672",
+      "option_type": "PUT",
+      "action": "SELL",
+      "quantity": 1,
+      "open_price": 0.76,
+      "close_price": 0.91,
+      "pnl": 0.15000000000000002,
+      "reason": "TP",
+      "seconds_to_expiry": 575.866324
+    },
+    {
+      "timestamp": "2026-02-02T16:50:24.133715",
+      "option_type": "PUT",
+      "action": "BUY",
+      "price": 0.92,
+      "reason": "OPEN"
+    }
+  ]
+}

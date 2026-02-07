@@ -1,0 +1,17 @@
+{
+  "timestamp": 1766220136559,
+  "datetime": "2025-12-20T08:42:16.559000",
+  "volatility": 0.15095368863026207,
+  "volatility_method": "EWMA",
+  "time_to_expiry_minutes": 2.722152178872918,
+  "ma_5min_crossings_last_15min": 2,
+  "max_swing_distance": 51.42600000000675,
+  "avg_last_3_swings_pct_atr": 182.15132178669555,
+  "data_freshness_pct": 100.0,
+  "oscillation_60min": {
+    "efficiency_ratio": 0.2712,
+    "choppiness_index": 27.88,
+    "zero_crossing_rate": 0.518,
+    "fractal_dimension": 1.449
+  }
+}
